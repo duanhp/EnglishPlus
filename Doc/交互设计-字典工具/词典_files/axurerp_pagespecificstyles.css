@@ -1,0 +1,1699 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../Top_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:10px;
+    top:0px;
+    width:700px;
+    height:30px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:706px;
+    height:36px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:696px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u3_normal {
+    background-image: url('../词典_files/u3_normal.png');
+}
+
+.u3_container {
+    position:absolute;
+    left:10px;
+    top:30px;
+    width:700px;
+    height:548px;
+}
+
+#u3_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:706px;
+    height:554px;
+}
+
+.u4 {
+    position:absolute;
+    left:2px;
+    top:266px;
+    width:696px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5 {
+    position:absolute;
+    left:593px;
+    top:38px;
+    width:100px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u5_text_sketch {
+    font-family: 'Applied Font';
+}
+
+.u6_normal {
+    background-image: url('../词典_files/u6_normal.png');
+}
+
+.u6_container {
+    position:absolute;
+    left:19px;
+    top:40px;
+    width:25px;
+    height:22px;
+}
+
+#u6_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:25px;
+    height:22px;
+}
+
+.u7 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:21px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8_normal {
+    background-image: url('../词典_files/u8_normal.png');
+}
+
+.u8_container {
+    position:absolute;
+    left:44px;
+    top:40px;
+    width:25px;
+    height:22px;
+}
+
+#u8_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:25px;
+    height:22px;
+}
+
+.u9 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:21px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u10 {
+    position:absolute;
+    left:26px;
+    top:226px;
+    width:644px;
+    height:353px;
+    overflow:hidden;
+}
+
+#pd3u10 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:644px;
+    height:353px;
+    
+}
+
+.u11_mouseOver {
+    background-image: url('../词典_files/u11_mouseOver.png');
+}
+
+.u11_normal {
+    background-image: url('../词典_files/u11_normal.png');
+}
+
+.u11_container {
+    position:absolute;
+    left:1px;
+    top:0px;
+    width:82px;
+    height:30px;
+}
+
+#u11_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:88px;
+    height:36px;
+}
+
+.u12 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:78px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13_mouseOver {
+    background-image: url('../词典_files/u11_mouseOver.png');
+}
+
+.u13_normal {
+    background-image: url('../词典_files/u11_normal.png');
+}
+
+.u13_container {
+    position:absolute;
+    left:84px;
+    top:0px;
+    width:82px;
+    height:30px;
+}
+
+#u13_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:88px;
+    height:36px;
+}
+
+.u14 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:78px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u15_mouseOver {
+    background-image: url('../词典_files/u11_mouseOver.png');
+}
+
+.u15_normal {
+    background-image: url('../词典_files/u11_normal.png');
+}
+
+.u15_container {
+    position:absolute;
+    left:167px;
+    top:0px;
+    width:82px;
+    height:30px;
+}
+
+#u15_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:88px;
+    height:36px;
+}
+
+.u16 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:78px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u17_mouseOver {
+    background-image: url('../词典_files/u11_mouseOver.png');
+}
+
+.u17_normal {
+    background-image: url('../词典_files/u17_normal.png');
+}
+
+.u17_container {
+    position:absolute;
+    left:249px;
+    top:0px;
+    width:82px;
+    height:30px;
+}
+
+#u17_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:88px;
+    height:36px;
+}
+
+.u18 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:78px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19_normal {
+    background-image: url('../词典_files/u19_normal.png');
+}
+
+.u19_container {
+    position:absolute;
+    left:42px;
+    top:66px;
+    width:583px;
+    height:103px;
+}
+
+#u19_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:583px;
+    height:103px;
+}
+
+.u20 {
+    position:absolute;
+    left:2px;
+    top:44px;
+    width:579px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u21 {
+    position:absolute;
+    left:27px;
+    top:40px;
+    width:200px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22_normal {
+    background-image: url('../词典_files/u19_normal.png');
+}
+
+.u22_container {
+    position:absolute;
+    left:42px;
+    top:212px;
+    width:583px;
+    height:103px;
+}
+
+#u22_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:583px;
+    height:103px;
+}
+
+.u23 {
+    position:absolute;
+    left:2px;
+    top:44px;
+    width:579px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24 {
+    position:absolute;
+    left:27px;
+    top:186px;
+    width:200px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd2u10 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:644px;
+    height:353px;
+    
+}
+
+.u25_mouseOver {
+    background-image: url('../词典_files/u11_mouseOver.png');
+}
+
+.u25_normal {
+    background-image: url('../词典_files/u11_normal.png');
+}
+
+.u25_container {
+    position:absolute;
+    left:1px;
+    top:0px;
+    width:82px;
+    height:30px;
+}
+
+#u25_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:88px;
+    height:36px;
+}
+
+.u26 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:78px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27_mouseOver {
+    background-image: url('../词典_files/u11_mouseOver.png');
+}
+
+.u27_normal {
+    background-image: url('../词典_files/u11_normal.png');
+}
+
+.u27_container {
+    position:absolute;
+    left:84px;
+    top:0px;
+    width:82px;
+    height:30px;
+}
+
+#u27_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:88px;
+    height:36px;
+}
+
+.u28 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:78px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u29_mouseOver {
+    background-image: url('../词典_files/u11_mouseOver.png');
+}
+
+.u29_normal {
+    background-image: url('../词典_files/u17_normal.png');
+}
+
+.u29_container {
+    position:absolute;
+    left:167px;
+    top:0px;
+    width:82px;
+    height:30px;
+}
+
+#u29_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:88px;
+    height:36px;
+}
+
+.u30 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:78px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u31_mouseOver {
+    background-image: url('../词典_files/u11_mouseOver.png');
+}
+
+.u31_normal {
+    background-image: url('../词典_files/u11_normal.png');
+}
+
+.u31_container {
+    position:absolute;
+    left:249px;
+    top:0px;
+    width:82px;
+    height:30px;
+}
+
+#u31_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:88px;
+    height:36px;
+}
+
+.u32 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:78px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u33_normal {
+    background-image: url('../词典_files/u19_normal.png');
+}
+
+.u33_container {
+    position:absolute;
+    left:42px;
+    top:66px;
+    width:583px;
+    height:103px;
+}
+
+#u33_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:583px;
+    height:103px;
+}
+
+.u34 {
+    position:absolute;
+    left:2px;
+    top:44px;
+    width:579px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u35 {
+    position:absolute;
+    left:27px;
+    top:40px;
+    width:200px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u36_normal {
+    background-image: url('../词典_files/u19_normal.png');
+}
+
+.u36_container {
+    position:absolute;
+    left:42px;
+    top:212px;
+    width:583px;
+    height:103px;
+}
+
+#u36_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:583px;
+    height:103px;
+}
+
+.u37 {
+    position:absolute;
+    left:2px;
+    top:44px;
+    width:579px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u38 {
+    position:absolute;
+    left:27px;
+    top:186px;
+    width:200px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd1u10 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:644px;
+    height:353px;
+    
+}
+
+.u39_mouseOver {
+    background-image: url('../词典_files/u11_mouseOver.png');
+}
+
+.u39_normal {
+    background-image: url('../词典_files/u11_normal.png');
+}
+
+.u39_container {
+    position:absolute;
+    left:1px;
+    top:0px;
+    width:82px;
+    height:30px;
+}
+
+#u39_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:88px;
+    height:36px;
+}
+
+.u40 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:78px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u41_mouseOver {
+    background-image: url('../词典_files/u11_mouseOver.png');
+}
+
+.u41_normal {
+    background-image: url('../词典_files/u17_normal.png');
+}
+
+.u41_container {
+    position:absolute;
+    left:84px;
+    top:0px;
+    width:82px;
+    height:30px;
+}
+
+#u41_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:88px;
+    height:36px;
+}
+
+.u42 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:78px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u43_mouseOver {
+    background-image: url('../词典_files/u11_mouseOver.png');
+}
+
+.u43_normal {
+    background-image: url('../词典_files/u11_normal.png');
+}
+
+.u43_container {
+    position:absolute;
+    left:167px;
+    top:0px;
+    width:82px;
+    height:30px;
+}
+
+#u43_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:88px;
+    height:36px;
+}
+
+.u44 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:78px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u45_mouseOver {
+    background-image: url('../词典_files/u11_mouseOver.png');
+}
+
+.u45_normal {
+    background-image: url('../词典_files/u11_normal.png');
+}
+
+.u45_container {
+    position:absolute;
+    left:249px;
+    top:0px;
+    width:82px;
+    height:30px;
+}
+
+#u45_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:88px;
+    height:36px;
+}
+
+.u46 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:78px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u47_normal {
+    background-image: url('../词典_files/u19_normal.png');
+}
+
+.u47_container {
+    position:absolute;
+    left:42px;
+    top:66px;
+    width:583px;
+    height:103px;
+}
+
+#u47_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:583px;
+    height:103px;
+}
+
+.u48 {
+    position:absolute;
+    left:2px;
+    top:44px;
+    width:579px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u49 {
+    position:absolute;
+    left:27px;
+    top:40px;
+    width:222px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u50_normal {
+    background-image: url('../词典_files/u19_normal.png');
+}
+
+.u50_container {
+    position:absolute;
+    left:42px;
+    top:212px;
+    width:583px;
+    height:103px;
+}
+
+#u50_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:583px;
+    height:103px;
+}
+
+.u51 {
+    position:absolute;
+    left:2px;
+    top:44px;
+    width:579px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u52 {
+    position:absolute;
+    left:27px;
+    top:186px;
+    width:222px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u10 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:644px;
+    height:353px;
+    
+}
+
+.u53_mouseOver {
+    background-image: url('../词典_files/u11_mouseOver.png');
+}
+
+.u53_normal {
+    background-image: url('../词典_files/u17_normal.png');
+}
+
+.u53_container {
+    position:absolute;
+    left:1px;
+    top:0px;
+    width:82px;
+    height:30px;
+}
+
+#u53_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:88px;
+    height:36px;
+}
+
+.u54 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:78px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u55_mouseOver {
+    background-image: url('../词典_files/u11_mouseOver.png');
+}
+
+.u55_normal {
+    background-image: url('../词典_files/u11_normal.png');
+}
+
+.u55_container {
+    position:absolute;
+    left:84px;
+    top:0px;
+    width:82px;
+    height:30px;
+}
+
+#u55_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:88px;
+    height:36px;
+}
+
+.u56 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:78px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u57_mouseOver {
+    background-image: url('../词典_files/u11_mouseOver.png');
+}
+
+.u57_normal {
+    background-image: url('../词典_files/u11_normal.png');
+}
+
+.u57_container {
+    position:absolute;
+    left:166px;
+    top:0px;
+    width:82px;
+    height:30px;
+}
+
+#u57_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:88px;
+    height:36px;
+}
+
+.u58 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:78px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u59_mouseOver {
+    background-image: url('../词典_files/u11_mouseOver.png');
+}
+
+.u59_normal {
+    background-image: url('../词典_files/u11_normal.png');
+}
+
+.u59_container {
+    position:absolute;
+    left:249px;
+    top:0px;
+    width:82px;
+    height:30px;
+}
+
+#u59_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:88px;
+    height:36px;
+}
+
+.u60 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:78px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u61 {
+    position:absolute;
+    left:22px;
+    top:40px;
+    width:606px;
+    height:192px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u62_normal {
+    background-image: url('../词典_files/u62_normal.png');
+}
+
+.u62_container {
+    position:absolute;
+    left:301px;
+    top:56px;
+    width:16px;
+    height:17px;
+}
+
+#u62_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:17px;
+}
+
+.u63 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u64_normal {
+    background-image: url('../词典_files/u62_normal.png');
+}
+
+.u64_container {
+    position:absolute;
+    left:274px;
+    top:91px;
+    width:16px;
+    height:17px;
+}
+
+#u64_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:17px;
+}
+
+.u65 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u66_normal {
+    background-image: url('../词典_files/u62_normal.png');
+}
+
+.u66_container {
+    position:absolute;
+    left:259px;
+    top:161px;
+    width:16px;
+    height:17px;
+}
+
+#u66_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:17px;
+}
+
+.u67 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u68_normal {
+    background-image: url('../词典_files/u62_normal.png');
+}
+
+.u68_container {
+    position:absolute;
+    left:431px;
+    top:194px;
+    width:16px;
+    height:17px;
+}
+
+#u68_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:17px;
+}
+
+.u69 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u70 {
+    position:absolute;
+    left:74px;
+    top:40px;
+    width:512px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u70_text_sketch {
+    font-family: 'Applied Font';
+}
+
+.u71_normal {
+    background-image: url('../词典_files/u71_normal.png');
+}
+
+.u71_container {
+    position:absolute;
+    left:618px;
+    top:43px;
+    width:15px;
+    height:14px;
+}
+
+#u71_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:15px;
+    height:14px;
+}
+
+.u72 {
+    position:absolute;
+    left:2px;
+    top:-1px;
+    width:11px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u73_normal {
+    background-image: url('../词典_files/u73_normal.png');
+}
+
+.u73_container {
+    position:absolute;
+    left:646px;
+    top:601px;
+    width:16px;
+    height:3px;
+}
+
+#u73_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:3px;
+}
+
+.u74 {
+    position:absolute;
+    left:2px;
+    top:-6px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u75_normal {
+    background-image: url('../词典_files/u75_normal.png');
+}
+
+.u75_container {
+    position:absolute;
+    left:10px;
+    top:579px;
+    width:700px;
+    height:30px;
+}
+
+#u75_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:706px;
+    height:36px;
+}
+
+.u76 {
+    position:absolute;
+    left:17px;
+    top:7px;
+    width:627px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u77_normal {
+    background-image: url('../词典_files/u77_normal.png');
+}
+
+.u77_container {
+    position:absolute;
+    left:10px;
+    top:580px;
+    width:60px;
+    height:30px;
+}
+
+#u77_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:60px;
+    height:30px;
+}
+
+.u78 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:56px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u79_normal {
+    background-image: url('../词典_files/u79_normal.png');
+}
+
+.u79_container {
+    position:absolute;
+    left:538px;
+    top:578px;
+    width:81px;
+    height:31px;
+}
+
+#u79_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:81px;
+    height:31px;
+}
+
+.u80 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:77px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u81 {
+    position:absolute;
+    left:26px;
+    top:75px;
+    width:150px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u82_normal {
+    background-image: url('../词典_files/u82_normal.png');
+}
+
+.u82_container {
+    position:absolute;
+    left:108px;
+    top:75px;
+    width:19px;
+    height:18px;
+}
+
+#u82_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:19px;
+    height:18px;
+}
+
+.u83 {
+    position:absolute;
+    left:2px;
+    top:1px;
+    width:15px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u84 {
+    position:absolute;
+    left:132px;
+    top:79px;
+    width:41px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u85 {
+    position:absolute;
+    left:26px;
+    top:174px;
+    width:332px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u86 {
+    position:absolute;
+    left:26px;
+    top:200px;
+    width:332px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u87 {
+    position:absolute;
+    left:26px;
+    top:106px;
+    width:92px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u88 {
+    position:absolute;
+    left:156px;
+    top:106px;
+    width:101px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u89_normal {
+    background-image: url('../词典_files/u62_normal.png');
+}
+
+.u89_container {
+    position:absolute;
+    left:110px;
+    top:106px;
+    width:16px;
+    height:17px;
+}
+
+#u89_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:17px;
+}
+
+.u90 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u91_normal {
+    background-image: url('../词典_files/u91_normal.png');
+}
+
+.u91_container {
+    position:absolute;
+    left:246px;
+    top:106px;
+    width:20px;
+    height:19px;
+}
+
+#u91_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:20px;
+    height:19px;
+}
+
+.u92 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:16px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u93 {
+    position:absolute;
+    left:26px;
+    top:132px;
+    width:658px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u94_normal {
+    background-image: url('../词典_files/u94_normal.png');
+}
+
+.u94_container {
+    position:absolute;
+    left:619px;
+    top:579px;
+    width:92px;
+    height:31px;
+}
+
+#u94_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:92px;
+    height:31px;
+}
+
+.u95 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:88px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

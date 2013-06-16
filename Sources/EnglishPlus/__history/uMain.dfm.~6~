@@ -22,6 +22,9 @@ object Form1: TForm1
     Align = alTop
     Caption = ' '
     TabOrder = 0
+    ExplicitLeft = 304
+    ExplicitTop = 112
+    ExplicitWidth = 185
   end
   object PlContent: TPanel
     Left = 0
@@ -31,6 +34,9 @@ object Form1: TForm1
     Align = alClient
     Caption = ' '
     TabOrder = 1
+    ExplicitTop = 35
+    ExplicitWidth = 854
+    ExplicitHeight = 380
     object PLSearch: TPanel
       Left = 1
       Top = 1
@@ -39,40 +45,8 @@ object Form1: TForm1
       Align = alTop
       Caption = ' '
       TabOrder = 0
-      DesignSize = (
-        648
-        41)
-      object SpeedButton1: TSpeedButton
-        Left = 14
-        Top = 5
-        Width = 52
-        Height = 22
-        Caption = '<-'
-      end
-      object SpeedButton2: TSpeedButton
-        Left = 72
-        Top = 5
-        Width = 47
-        Height = 22
-        Caption = '->'
-      end
-      object SpeedButton3: TSpeedButton
-        Left = 592
-        Top = 5
-        Width = 47
-        Height = 22
-        Anchors = [akTop, akRight]
-        Caption = 'GO'
-      end
-      object Edit1: TEdit
-        Left = 125
-        Top = 5
-        Width = 464
-        Height = 21
-        Anchors = [akLeft, akTop, akRight]
-        TabOrder = 0
-        Text = 'Edit1'
-      end
+      ExplicitLeft = 2
+      ExplicitTop = -5
     end
     object WBWdContent: TWebBrowser
       Left = 1
@@ -99,5 +73,7 @@ object Form1: TForm1
     Align = alBottom
     Caption = ' '
     TabOrder = 2
+    ExplicitTop = 49
+    ExplicitWidth = 854
   end
 end

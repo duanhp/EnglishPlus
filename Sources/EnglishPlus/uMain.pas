@@ -7,16 +7,12 @@ uses
   Dialogs, Vcl.ExtCtrls, Vcl.OleCtrls, SHDocVw, Vcl.StdCtrls, Vcl.Buttons;
 
 type
-  TForm1 = class(TForm)
+  TFmMain = class(TForm)
     PlCaption: TPanel;
     PlContent: TPanel;
-    PLbtmBar: TPanel;
     PLSearch: TPanel;
     WBWdContent: TWebBrowser;
-    SpeedButton1: TSpeedButton;
-    SpeedButton2: TSpeedButton;
-    Edit1: TEdit;
-    SpeedButton3: TSpeedButton;
+    procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
   public
@@ -24,10 +20,21 @@ type
   end;
 
 var
-  Form1: TForm1;
+  FmMain: TFmMain;
 
 implementation
 
 {$R *.dfm}
+
+uses
+  uSearchBar;
+
+procedure TFmMain.FormCreate(Sender: TObject);
+begin
+  FmSearchBar:=TFmSearchBar.Create(nil);
+  FmSearchBar.Align:=alClient;
+  FmSearchBar.Parent:=Self.PLSearch;
+  FmSearchBar.Show;
+end;
 
 end.

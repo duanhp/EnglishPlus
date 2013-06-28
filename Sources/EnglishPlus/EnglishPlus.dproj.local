@@ -1,2 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject/>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.032,E:\我的程序\项目\EnglishPlus\Sources\EnglishPlus\Unit2.pas=E:\我的程序\项目\EnglishPlus\Sources\EnglishPlus\uSearchList.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.791,E:\我的程序\项目\EnglishPlus\Sources\EnglishPlus\Unit2.dfm=E:\我的程序\项目\EnglishPlus\Sources\EnglishPlus\uSearchBar.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.032,E:\我的程序\项目\EnglishPlus\Sources\EnglishPlus\Unit2.dfm=E:\我的程序\项目\EnglishPlus\Sources\EnglishPlus\uSearchList.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.789,=E:\我的程序\项目\EnglishPlus\Sources\EnglishPlus\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.791,E:\我的程序\项目\EnglishPlus\Sources\EnglishPlus\Unit2.pas=E:\我的程序\项目\EnglishPlus\Sources\EnglishPlus\uSearchBar.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.207,=E:\我的程序\项目\EnglishPlus\Sources\EnglishPlus\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>

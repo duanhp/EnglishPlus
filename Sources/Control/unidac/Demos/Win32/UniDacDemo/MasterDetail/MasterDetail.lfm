@@ -1,0 +1,353 @@
+inherited MasterDetailFrame: TMasterDetailFrame
+  Height = 277
+  Width = 690
+  Align = alClient
+  object Splitter1: TSplitter
+    Cursor = crVSplit
+    Height = 1
+    Width = 690
+    Align = alTop
+    ResizeAnchor = akTop
+  end
+  object Splitter3: TSplitter
+    Cursor = crVSplit
+    Height = 1
+    Top = 143
+    Width = 690
+    Align = alTop
+    Color = clBlue
+    ParentColor = False
+    ResizeAnchor = akTop
+  end
+  object DBGrid: TDBGrid
+    Height = 116
+    Top = 27
+    Width = 690
+    Align = alTop
+    DataSource = dsMaster
+    FixedColor = clBtnFace
+    FixedHotColor = cl3DLight
+    Options = [dgEditing, dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
+    OptionsExtra = [dgeAutoColumns, dgeCheckboxColumn]
+    ParentColor = False
+    TabOrder = 0
+    TabStop = True
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+  end
+  object ToolBar: TPanel
+    Height = 26
+    Top = 1
+    Width = 690
+    Align = alTop
+    BevelOuter = bvNone
+    ClientHeight = 26
+    ClientWidth = 690
+    TabOrder = 1
+    object Panel2: TPanel
+      Height = 24
+      Width = 554
+      BevelOuter = bvNone
+      ClientHeight = 24
+      ClientWidth = 554
+      Color = clBlue
+      ParentColor = False
+      TabOrder = 0
+      object btOpen: TSpeedButton
+        Left = 1
+        Height = 22
+        Top = 1
+        Width = 82
+        Caption = 'Open'
+        Color = clBtnFace
+        Flat = True
+        NumGlyphs = 0
+        Transparent = False
+        OnClick = btOpenClick
+      end
+      object btClose: TSpeedButton
+        Left = 84
+        Height = 22
+        Top = 1
+        Width = 82
+        Caption = 'Close'
+        Color = clBtnFace
+        Flat = True
+        NumGlyphs = 0
+        Transparent = False
+        OnClick = btCloseClick
+      end
+      object DBNavigator: TDBNavigator
+        Left = 167
+        Height = 22
+        Top = 1
+        Width = 240
+        BevelOuter = bvNone
+        ClientHeight = 22
+        ClientWidth = 240
+        Color = clBtnFace
+        DataSource = dsMaster
+        Flat = True
+        ParentColor = False
+        TabOrder = 0
+      end
+      object Panel4: TPanel
+        Left = 408
+        Height = 22
+        Top = 1
+        Width = 145
+        BevelOuter = bvNone
+        ClientHeight = 22
+        ClientWidth = 145
+        ParentColor = False
+        TabOrder = 1
+        object cbLocalMasterDetail: TCheckBox
+          Left = 10
+          Height = 19
+          Top = 3
+          Width = 131
+          Caption = 'Use LocaMasterDetail'
+          OnClick = cbLocalMasterDetailClick
+          ParentFont = True
+          TabOrder = 0
+        end
+      end
+    end
+  end
+  object ToolBar1: TPanel
+    Height = 26
+    Top = 144
+    Width = 690
+    Align = alTop
+    BevelOuter = bvNone
+    ClientHeight = 26
+    ClientWidth = 690
+    TabOrder = 2
+    object Panel1: TPanel
+      Left = 1
+      Height = 24
+      Top = 1
+      Width = 650
+      BevelOuter = bvNone
+      ClientHeight = 24
+      ClientWidth = 650
+      Color = clBlue
+      ParentColor = False
+      TabOrder = 0
+      object DBNavigator1: TDBNavigator
+        Left = 1
+        Height = 22
+        Top = 1
+        Width = 240
+        BevelOuter = bvNone
+        ClientHeight = 22
+        ClientWidth = 240
+        Color = clBtnFace
+        DataSource = dsDetail
+        Flat = True
+        ParentColor = False
+        TabOrder = 0
+      end
+      object Panel6: TPanel
+        Left = 532
+        Height = 22
+        Top = 1
+        Width = 117
+        BevelOuter = bvNone
+        ClientHeight = 22
+        ClientWidth = 117
+        ParentColor = False
+        TabOrder = 1
+        object cbCacheCalcFields: TCheckBox
+          Left = 5
+          Height = 19
+          Top = 3
+          Width = 105
+          Caption = 'CacheCalcFields'
+          Enabled = False
+          OnClick = cbCacheCalcFieldsClick
+          ParentFont = True
+          TabOrder = 0
+        end
+      end
+      object Panel3: TPanel
+        Left = 242
+        Height = 22
+        Top = 1
+        Width = 289
+        BevelOuter = bvNone
+        ClientHeight = 22
+        ClientWidth = 289
+        ParentColor = False
+        TabOrder = 2
+        object rbSQL: TRadioButton
+          Left = 5
+          Height = 19
+          Top = 4
+          Width = 66
+          Caption = 'SQL link'
+          Checked = True
+          OnClick = rbClick
+          State = cbChecked
+          TabOrder = 0
+        end
+        object rbSimpleFields: TRadioButton
+          Left = 75
+          Height = 19
+          Top = 4
+          Width = 98
+          Caption = 'Simple field link'
+          OnClick = rbClick
+          TabOrder = 1
+        end
+        object rbCalcFields: TRadioButton
+          Left = 175
+          Height = 19
+          Top = 4
+          Width = 117
+          Caption = 'Calculated field link'
+          OnClick = rbClick
+          TabOrder = 2
+        end
+      end
+    end
+  end
+  object DBGrid1: TDBGrid
+    Height = 107
+    Top = 170
+    Width = 690
+    Align = alClient
+    DataSource = dsDetail
+    FixedColor = clBtnFace
+    FixedHotColor = cl3DLight
+    Options = [dgEditing, dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
+    OptionsExtra = [dgeAutoColumns, dgeCheckboxColumn]
+    ParentColor = False
+    TabOrder = 3
+    TabStop = True
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+  end
+  object quMaster: TUniQuery
+    SQL.Strings = (
+      'SELECT * FROM dept'
+    )
+    OnCalcFields = quCalcFields
+    left = 376
+    top = 32
+    object quMasterDEPTNO: TLongintField
+      AlignMent = taRightJustify
+      DisplayWidth = 10
+      FieldName = 'DEPTNO'
+      ProviderFlags = [pfInUpdate, pfInWhere]
+    end
+    object quMasterDNAME: TStringField
+      DisplayWidth = 14
+      FieldName = 'DNAME'
+      Index = 1
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      Size = 14
+    end
+    object quMasterLOC: TStringField
+      DisplayWidth = 13
+      FieldName = 'LOC'
+      Index = 2
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      Size = 13
+    end
+    object quMasterDEPTNO_CALCULATED: TLongintField
+      AlignMent = taRightJustify
+      DisplayWidth = 10
+      FieldKind = fkCalculated
+      FieldName = 'DEPTNO_CALCULATED'
+      Index = 3
+      ProviderFlags = [pfInUpdate, pfInWhere]
+    end
+  end
+  object quDetail: TUniQuery
+    SQL.Strings = (
+      'SELECT * FROM emp'
+      'WHERE deptno = :deptno'
+    )
+    MasterSource = dsMaster
+    OnCalcFields = quCalcFields
+    left = 376
+    top = 216
+    ParamData = <    
+      item
+        Name = 'deptno'
+      end>
+    object quDetailEMPNO: TLongintField
+      AlignMent = taRightJustify
+      DisplayWidth = 10
+      FieldName = 'EMPNO'
+      ProviderFlags = [pfInUpdate, pfInWhere]
+    end
+    object quDetailENAME: TStringField
+      DisplayWidth = 10
+      FieldName = 'ENAME'
+      Index = 1
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      Size = 10
+    end
+    object quDetailJOB: TStringField
+      DisplayWidth = 9
+      FieldName = 'JOB'
+      Index = 2
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      Size = 9
+    end
+    object quDetailMGR: TLongintField
+      AlignMent = taRightJustify
+      DisplayWidth = 10
+      FieldName = 'MGR'
+      Index = 3
+      ProviderFlags = [pfInUpdate, pfInWhere]
+    end
+    object quDetailHIREDATE: TDateTimeField
+      DisplayWidth = 10
+      FieldName = 'HIREDATE'
+      Index = 4
+      ProviderFlags = [pfInUpdate, pfInWhere]
+    end
+    object quDetailSAL: TFloatField
+      AlignMent = taRightJustify
+      DisplayWidth = 10
+      FieldName = 'SAL'
+      Index = 5
+      ProviderFlags = [pfInUpdate, pfInWhere]
+    end
+    object quDetailCOMM: TFloatField
+      AlignMent = taRightJustify
+      DisplayWidth = 10
+      FieldName = 'COMM'
+      Index = 6
+      ProviderFlags = [pfInUpdate, pfInWhere]
+    end
+    object quDetailDEPTNO: TLongintField
+      AlignMent = taRightJustify
+      DisplayWidth = 10
+      FieldName = 'DEPTNO'
+      Index = 7
+      ProviderFlags = [pfInUpdate, pfInWhere]
+    end
+    object quDetailDEPTNO_CALCULATED: TLongintField
+      AlignMent = taRightJustify
+      DisplayWidth = 10
+      FieldKind = fkCalculated
+      FieldName = 'DEPTNO_CALCULATED'
+      Index = 8
+      ProviderFlags = [pfInUpdate, pfInWhere]
+    end
+  end
+  object dsDetail: TDatasource
+    DataSet = quDetail
+    left = 408
+    top = 216
+  end
+  object dsMaster: TDatasource
+    DataSet = quMaster
+    left = 408
+    top = 32
+  end
+end

@@ -1,0 +1,39 @@
+LazarusResources.Add('TUniSPCallFrame','FORMDATA',[
+  'TPF0'#241#15'TUniSPCallFrame'#14'UniSPCallFrame'#6'Height'#3'H'#1#5'Width'#3
+  +')'#2#12'ClientHeight'#3'H'#1#11'ClientWidth'#3')'#2#8'TabOrder'#2#0#10'Desi'
+  +'gnLeft'#2'B'#9'DesignTop'#2'W'#0#241#6'TPanel'#6'Panel1'#6'Height'#3#182#0#3
+  +'Top'#3#146#0#5'Width'#3')'#2#12'ClientHeight'#3#182#0#11'ClientWidth'#3')'#2
+  +#0#241#5'TMemo'#5'meSQL'#6'Height'#3#166#0#5'Width'#3#25#2#8'OnChange'#7#11
+  +'meSQLChange'#6'OnExit'#7#9'meSQLExit'#0#0#0#241#6'TPanel'#6'pnlTop'#6'Heigh'
+  +'t'#2'*'#5'Width'#3')'#2#12'ClientHeight'#2'*'#11'ClientWidth'#3')'#2#0#241
+  +#12'TSpeedButton'#7'btClear'#4'Left'#3'!'#2#5'Width'#2#7#7'OnClick'#7#12'btC'
+  +'learClick'#0#0#241#9'TGroupBox'#15'gbStatementType'#6'Height'#2'%'#5'Width'
+  +#3#26#2#0#0#0#241#6'TPanel'#5'pnSQL'#5'Width'#3')'#2#11'ClientWidth'#3')'#2#0
+  +#241#6'TLabel'#7'Label14'#0#0#241#9'TComboBox'#16'cbStoredProcName'#5'Width'
+  +#3#145#1#9'MaxLength'#2#0#8'OnChange'#7#22'cbStoredProcNameChange'#10'OnDrop'
+  +'Down'#7#24'cbStoredProcNameDropDown'#0#0#241#7'TButton'#10'btGenerate'#4'Le'
+  +'ft'#3#168#1#7'OnClick'#7#15'btGenerateClick'#0#0#0#241#6'TPanel'#7'pnSQLSP'
+  +#3'Top'#2'b'#5'Width'#3')'#2#11'ClientWidth'#3')'#2#0#241#6'TLabel'#6'Label2'
+  +#0#0#242#2#1#12'TSpeedButton'#11'btCreateSQL'#4'Left'#3#11#2#6'Height'#2#24#4
+  +'Hint'#6#10'Create SQL'#3'Top'#2#15#5'Width'#2#21#7'Anchors'#11#5'akTop'#7'a'
+  +'kRight'#0#5'Color'#7#9'clBtnFace'#4'Flat'#9#10'Glyph.Data'#10'z'#1#0#0'v'#1
+  +#0#0'BMv'#1#0#0#0#0#0#0'v'#0#0#0'('#0#0#0' '#0#0#0#16#0#0#0#1#0#4#0#0#0#0#0#0
+  +#1#0#0#19#11#0#0#19#11#0#0#16#0#0#0#0#0#0#0#0#0#0#0#0#0#128#0#0#128#0#0#0#128
+  +#128#0#128#0#0#0#128#0#128#0#128#128#0#0''#0#191#191#191#0#0#0#255#0#0#255
+  +#0#0#0#255#255#0#255#0#0#0#255#0#255#0#255#255#0#0#255#255#255#0'3333'#179'3'
+  +'3;3'#255'3333'#247';'#179'w{'#183'w{'#179'7'#255#247''#255#247's3'#176#0
+  +#0#0#0#11'33wwwwww330'#255#255#255#255#7'337'#243'333330'#255#255#255#255#7
+  +'337'#243#255'?'#255'330'#240#15#0#15#7'337'#247'sws330'#255#255#255#255#7
+  +'3?'#247#243#255#255'?'#255#187#176#240#0#15#15#11#179'ww'#247'wssw;'#176
+  +#255#255#255#255#11#187'7w'#243#255'?'#255'ww30'#240#15#0#0#3'337'#247'swws3'
+  +'30'#255#255#15#240'3337'#243#255'7'#243'330'#240#143#15#11'3337'#247'sw'
+  +#255'330'#255#255#0';'#179'337'#255#255'w7'#243'3'#176#0#0#3'3'#187'33www3'
+  +'w'#255';'#179'3;'#179'3;'#179'7s37s37s'#179'33;333;s3373337'#9'NumGlyphs'#2
+  +#2#7'OnClick'#7#16'btCreateSQLClick'#8'ShowHint'#9#14'ParentShowHint'#8#0#0
+  +#243#2#2#9'TComboBox'#18'cbStoredProcNameSP'#4'Left'#2'x'#5'Width'#3'Y'#1#9
+  +'MaxLength'#2#0#10'OnDropDown'#7#24'cbStoredProcNameDropDown'#6'OnExit'#7#22
+  +'cbStoredProcNameSPExit'#0#0#242#2#3#9'TCheckBox'#10'cbAllProcs'#4'Left'#3
+  +#224#1#6'Height'#2#19#3'Top'#2#18#5'Width'#2'%'#7'Anchors'#11#5'akTop'#7'akR'
+  +'ight'#0#7'Caption'#6#3'All'#7'OnClick'#7#15'cbAllProcsClick'#8'TabOrder'#2#1
+  +#0#0#0#0
+]);

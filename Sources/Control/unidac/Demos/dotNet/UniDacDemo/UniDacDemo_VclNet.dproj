@@ -1,0 +1,187 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{97c0d8bd-ac65-4908-a8b4-af508050fe8a}</ProjectGuid>
+    <MainSource>UniDacDemo_VclNet.dpr</MainSource>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_EnabledPackages>true</DCC_EnabledPackages>
+    <DCC_DCCCompiler>DCCIL</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>UniDacDemo_VclNet.exe</DCC_DependencyCheckOutputName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_NameSpace>Borland.Vcl</DCC_NameSpace>
+    <DCC_DebugInfoInExe>True</DCC_DebugInfoInExe>
+    <DCC_DebugVN>True</DCC_DebugVN>
+    <DCC_UnitSearchPath>Base;ConnectDialog</DCC_UnitSearchPath>
+    <DCC_ResourcePath>Base;ConnectDialog</DCC_ResourcePath>
+    <DCC_IncludePath>Base;ConnectDialog</DCC_IncludePath>
+    <DCC_Define>RELEASE</DCC_Define>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_NameSpace>Borland.Vcl</DCC_NameSpace>
+    <DCC_DebugInfoInExe>True</DCC_DebugInfoInExe>
+    <DCC_DebugVN>True</DCC_DebugVN>
+    <DCC_UnitSearchPath>Base;ConnectDialog</DCC_UnitSearchPath>
+    <DCC_ResourcePath>Base;ConnectDialog</DCC_ResourcePath>
+    <DCC_IncludePath>Base;ConnectDialog</DCC_IncludePath>
+    <DCC_Define>DEBUG</DCC_Define>
+    <DCC_Platform>x86</DCC_Platform>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>DelphiDotNet.Personality</Borland.Personality>
+    <Borland.ProjectType>VCLApplication</Borland.ProjectType>
+    <BorlandProject>
+<BorlandProject xmlns=""> <DelphiDotNet.Personality>   <Parameters>
+      <Parameters Name="UseLauncher">False</Parameters>
+      <Parameters Name="LoadAllSymbols">True</Parameters>
+      <Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+    </Parameters>
+    <VersionInfo>
+      <VersionInfo Name="IncludeVerInfo">False</VersionInfo>
+      <VersionInfo Name="AutoIncBuild">False</VersionInfo>
+      <VersionInfo Name="MajorVer">1</VersionInfo>
+      <VersionInfo Name="MinorVer">0</VersionInfo>
+      <VersionInfo Name="Release">0</VersionInfo>
+      <VersionInfo Name="Build">0</VersionInfo>
+      <VersionInfo Name="Debug">False</VersionInfo>
+      <VersionInfo Name="PreRelease">False</VersionInfo>
+      <VersionInfo Name="Special">False</VersionInfo>
+      <VersionInfo Name="Private">False</VersionInfo>
+      <VersionInfo Name="DLL">False</VersionInfo>
+      <VersionInfo Name="Locale">1049</VersionInfo>
+      <VersionInfo Name="CodePage">1251</VersionInfo>
+    </VersionInfo>
+    <VersionInfoKeys>
+      <VersionInfoKeys Name="CompanyName"></VersionInfoKeys>
+      <VersionInfoKeys Name="FileDescription"></VersionInfoKeys>
+      <VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+      <VersionInfoKeys Name="InternalName"></VersionInfoKeys>
+      <VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys>
+      <VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys>
+      <VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys>
+      <VersionInfoKeys Name="ProductName"></VersionInfoKeys>
+      <VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+      <VersionInfoKeys Name="Comments"></VersionInfoKeys>
+    </VersionInfoKeys>
+    <Source>
+      <Source Name="MainSource">UniDacDemo_VclNet.dpr</Source>
+    </Source>
+  </DelphiDotNet.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <ItemGroup>
+    <Reference Include="Borland.Delphi.dll">
+      <HintPath>Borland.Delphi.dll</HintPath>
+      <AssemblyTag>Borland.Delphi</AssemblyTag>
+      <LinkUnits>False</LinkUnits>
+    </Reference>
+    <Reference Include="Borland.Vcl.dll">
+      <HintPath>Borland.Vcl.dll</HintPath>
+      <AssemblyTag>Borland.Vcl</AssemblyTag>
+      <LinkUnits>False</LinkUnits>
+    </Reference>
+    <Reference Include="Borland.VclDbRtl.dll">
+      <HintPath>Borland.VclDbRtl.dll</HintPath>
+      <AssemblyTag>Borland.VclDbRtl</AssemblyTag>
+      <LinkUnits>False</LinkUnits>
+    </Reference>
+    <Reference Include="Borland.VclRtl.dll">
+      <HintPath>Borland.VclRtl.dll</HintPath>
+      <AssemblyTag>Borland.VclRtl</AssemblyTag>
+      <LinkUnits>False</LinkUnits>
+    </Reference>
+    <Reference Include="Devart.Dac.dll">
+      <HintPath>Devart.Dac.dll</HintPath>
+      <AssemblyTag>Devart.Dac</AssemblyTag>
+      <LinkUnits>False</LinkUnits>
+    </Reference>
+    <Reference Include="Devart.UniDac.dll">
+      <HintPath>Devart.UniDac.dll</HintPath>
+      <AssemblyTag>Devart.UniDac</AssemblyTag>
+      <LinkUnits>False</LinkUnits>
+    </Reference>
+    <Reference Include="System.Drawing.dll">
+      <HintPath>System.Drawing.dll</HintPath>
+      <AssemblyTag>System.Drawing</AssemblyTag>
+      <LinkUnits>False</LinkUnits>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <DelphiCompile Include="UniDacDemo_VclNet.dpr">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="..\..\..\..\Common\Demos\Win32\DacDemo\Base\CategoryFrame.pas">
+      <Form>CategoryFrame</Form>
+    </DCCReference>
+    <DCCReference Include="..\..\..\..\Common\Demos\Win32\DacDemo\Base\DemoBase.pas" />
+    <DCCReference Include="..\..\..\..\Common\Demos\Win32\DacDemo\Base\DemoForm.pas">
+      <Form>DemoForm</Form>
+    </DCCReference>
+    <DCCReference Include="..\..\..\..\Common\Demos\Win32\DacDemo\Base\DemoFrame.pas">
+      <Form>DemoFrame</Form>
+    </DCCReference>
+    <DCCReference Include="..\..\..\..\Common\Demos\Win32\DacDemo\Base\HtmlConsts.pas" />
+    <DCCReference Include="..\..\..\..\Common\Demos\Win32\DacDemo\VirtualTable\VTable.pas" />
+    <DCCReference Include="Base\ParamType.pas">
+      <Form>ParamTypeForm</Form>
+    </DCCReference>
+    <DCCReference Include="Base\UniDacDemoForm.pas">
+      <Form>UniDACForm</Form>
+    </DCCReference>
+    <DCCReference Include="Base\UniDacAbout.pas">
+      <Form>UniDacAboutForm</Form>
+    </DCCReference>
+    <DCCReference Include="CachedUpdates\CachedUpdates.pas">
+      <Form>CachedUpdatesFrame</Form>
+      <DesignClass>TFrame</DesignClass>
+    </DCCReference>
+    <DCCReference Include="CachedUpdates\UpdateAction.pas">
+      <Form>UpdateActionForm</Form>
+    </DCCReference>
+    <DCCReference Include="CRDBGrid\CRDBGrid.pas">
+      <Form>CRDBGridFrame</Form>
+      <DesignClass>TFrame</DesignClass>
+    </DCCReference>
+    <DCCReference Include="FilterAndIndex\FilterAndIndex.pas">
+      <Form>FilterAndIndexFrame</Form>
+      <DesignClass>TFrame</DesignClass>
+    </DCCReference>
+    <DCCReference Include="MasterDetail\MasterDetail.pas">
+      <Form>MasterDetailFrame</Form>
+      <DesignClass>TFrame</DesignClass>
+    </DCCReference>
+    <DCCReference Include="Pictures\Pictures.pas">
+      <Form>PicturesFrame</Form>
+      <DesignClass>TFrame</DesignClass>
+    </DCCReference>
+    <DCCReference Include="Query\Query.pas">
+      <Form>QueryFrame</Form>
+      <DesignClass>TFrame</DesignClass>
+    </DCCReference>
+    <DCCReference Include="Sql\Sql.pas">
+      <Form>SqlFrame</Form>
+      <DesignClass>TFrame</DesignClass>
+    </DCCReference>
+    <DCCReference Include="StoredProc\StoredProc.pas">
+      <Form>StoredProcFrame</Form>
+      <DesignClass>TFrame</DesignClass>
+    </DCCReference>
+    <DCCReference Include="Table\Table.pas">
+      <Form>TableFrame</Form>
+      <DesignClass>TFrame</DesignClass>
+    </DCCReference>
+    <DCCReference Include="Text\Text.pas">
+      <Form>TextFrame</Form>
+      <DesignClass>TFrame</DesignClass>
+    </DCCReference>
+    <DCCReference Include="UpdateSQL\UpdateSQL.pas">
+      <Form>UpdateSQLFrame</Form>
+      <DesignClass>TFrame</DesignClass>
+    </DCCReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+</Project>

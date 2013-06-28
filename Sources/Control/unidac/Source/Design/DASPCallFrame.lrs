@@ -1,0 +1,29 @@
+LazarusResources.Add('TDASPCallFrame','FORMDATA',[
+  'TPF0'#241#14'TDASPCallFrame'#13'DASPCallFrame'#0#241#6'TPanel'#6'Panel1'#6'H'
+  +'eight'#2'K'#3'Top'#3#154#0#12'ClientHeight'#2'K'#8'TabOrder'#2#3#0#241#5'TM'
+  +'emo'#5'meSQL'#6'Height'#2';'#5'Color'#7#9'clBtnFace'#8'ReadOnly'#9#0#0#0#241
+  +#6'TPanel'#6'pnlTop'#3'Top'#2'8'#8'TabOrder'#2#1#7'Visible'#8#0#241#12'TSpee'
+  +'dButton'#7'btClear'#4'Left'#3#216#1#7'Visible'#8#0#0#241#9'TGroupBox'#15'gb'
+  +'StatementType'#5'Width'#3#209#1#0#0#0#6'TPanel'#5'pnSQL'#6'Height'#2'8'#5'W'
+  +'idth'#3#225#1#5'Align'#7#5'alTop'#10'BevelOuter'#7#6'bvNone'#12'ClientHeigh'
+  +'t'#2'8'#11'ClientWidth'#3#225#1#8'TabOrder'#2#0#7'Visible'#8#0#6'TLabel'#7
+  +'Label14'#4'Left'#2#8#6'Height'#2#14#3'Top'#2#8#5'Width'#2's'#7'Caption'#6#21
+  +'Stored Procedure Name'#11'ParentColor'#8#0#0#9'TComboBox'#16'cbStoredProcNa'
+  +'me'#4'Left'#2#8#6'Height'#2#21#3'Top'#2#24#5'Width'#3'I'#1#7'Anchors'#11#5
+  +'akTop'#6'akLeft'#7'akRight'#0#16'AutoCompleteText'#11#22'cbactEndOfLineComp'
+  +'lete'#20'cbactSearchAscending'#0#13'DropDownCount'#2#16#10'ItemHeight'#2#13
+  +#8'OnChange'#7#22'cbStoredProcNameChange'#10'OnDropDown'#7#24'cbStoredProcNa'
+  +'meDropDown'#8'TabOrder'#2#0#0#0#7'TButton'#10'btGenerate'#4'Left'#3'`'#1#6
+  +'Height'#2#25#3'Top'#2#22#5'Width'#2'y'#7'Anchors'#11#5'akTop'#7'akRight'#0#7
+  +'Caption'#6#8'Generate'#7'Enabled'#8#7'OnClick'#7#15'btGenerateClick'#8'TabO'
+  +'rder'#2#1#0#0#0#6'TPanel'#7'pnSQLSP'#6'Height'#2'0'#3'Top'#2'j'#5'Width'#3
+  +#225#1#5'Align'#7#5'alTop'#10'BevelOuter'#7#6'bvNone'#12'ClientHeight'#2'0'
+  +#11'ClientWidth'#3#225#1#8'TabOrder'#2#2#7'Visible'#8#0#6'TLabel'#6'Label2'#4
+  +'Left'#2#7#6'Height'#2#14#3'Top'#2#20#5'Width'#2'T'#7'Caption'#6#15'StoredPr'
+  +'oc Name'#11'ParentColor'#8#0#0#9'TComboBox'#18'cbStoredProcNameSP'#4'Left'#2
+  +'a'#6'Height'#2#21#3'Top'#2#16#5'Width'#3'x'#1#7'Anchors'#11#5'akTop'#6'akLe'
+  +'ft'#7'akRight'#0#16'AutoCompleteText'#11#22'cbactEndOfLineComplete'#20'cbac'
+  +'tSearchAscending'#0#13'DropDownCount'#2#16#10'ItemHeight'#2#13#10'OnDropDow'
+  +'n'#7#24'cbStoredProcNameDropDown'#6'OnExit'#7#22'cbStoredProcNameSPExit'#8
+  +'TabOrder'#2#0#0#0#0#0
+]);

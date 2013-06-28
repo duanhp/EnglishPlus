@@ -1,0 +1,40 @@
+LazarusResources.Add('TDASQLGeneratorFrame','FORMDATA',[
+  'TPF0'#241#20'TDASQLGeneratorFrame'#19'DASQLGeneratorFrame'#0#6'TPanel'#14'pn'
+  +'SQLGenerator'#4'Left'#2#8#6'Height'#3#213#0#3'Top'#2#8#5'Width'#3#209#1#7'A'
+  +'nchors'#11#5'akTop'#6'akLeft'#7'akRight'#0#12'ClientHeight'#3#213#0#11'Clie'
+  +'ntWidth'#3#209#1#8'TabOrder'#2#0#8'OnResize'#7#20'pnSQLGeneratorResize'#0#6
+  +'TLabel'#11'lbTableName'#4'Left'#2#9#6'Height'#2#14#3'Top'#2#6#5'Width'#2'='
+  +#7'Caption'#6#11'Table Name:'#11'ParentColor'#8#0#0#6'TLabel'#16'lbKeyFields'
+  +'Label'#4'Left'#3#178#0#6'Height'#2#14#3'Top'#2#5#5'Width'#2'5'#7'Caption'#6
+  +#11'Key Fields:'#11'ParentColor'#8#0#0#6'TLabel'#19'lbUpdateFieldsLabel'#4'L'
+  +'eft'#3'@'#1#6'Height'#2#14#3'Top'#2#6#5'Width'#2'F'#7'Anchors'#11#5'akTop'#7
+  +'akRight'#0#7'Caption'#6#14'Update Fields:'#11'ParentColor'#8#0#0#9'TComboBo'
+  +'x'#8'cbTables'#4'Left'#2#9#6'Height'#2#21#3'Top'#2#22#5'Width'#3#156#0#16'A'
+  +'utoCompleteText'#11#22'cbactEndOfLineComplete'#20'cbactSearchAscending'#0#10
+  +'ItemHeight'#2#13#8'OnChange'#7#14'cbTablesChange'#10'OnDropDown'#7#16'cbTab'
+  +'lesDropDown'#8'TabOrder'#2#0#0#0#7'TButton'#10'btGenerate'#4'Left'#2#9#6'He'
+  +'ight'#2#22#3'Top'#2'K'#5'Width'#3#155#0#7'Caption'#6#12'Generate SQL'#7'OnC'
+  +'lick'#7#15'btGenerateClick'#8'TabOrder'#2#2#0#0#8'TListBox'#11'lbKeyFields'
+  +#4'Left'#3#176#0#6'Height'#3#188#0#3'Top'#2#19#5'Width'#3#136#0#10'ItemHeigh'
+  +'t'#2#13#11'MultiSelect'#9#7'OnClick'#7#19'lbUpdateFieldsClick'#8'TabOrder'#2
+  +#9#0#0#8'TListBox'#14'lbUpdateFields'#4'Left'#3'@'#1#6'Height'#3#188#0#3'Top'
+  +#2#19#5'Width'#3#136#0#7'Anchors'#11#5'akTop'#7'akRight'#0#10'ItemHeight'#2
+  +#13#11'MultiSelect'#9#7'OnClick'#7#19'lbUpdateFieldsClick'#8'TabOrder'#2#10#0
+  +#0#7'TButton'#11'btGetFields'#4'Left'#2#9#6'Height'#2#22#3'Top'#2'1'#5'Width'
+  +#3#155#0#7'Caption'#6#10'Get Fields'#7'Enabled'#8#7'OnClick'#7#16'btGetField'
+  +'sClick'#8'TabOrder'#2#1#0#0#9'TCheckBox'#8'cbInsert'#4'Left'#2#11#6'Height'
+  +#2#19#3'Top'#2'f'#5'Width'#2'4'#7'Caption'#6#6'Insert'#7'Checked'#9#7'OnClic'
+  +'k'#7#11'cbIUDRClick'#5'State'#7#9'cbChecked'#8'TabOrder'#2#3#0#0#9'TCheckBo'
+  +'x'#8'cbUpdate'#4'Left'#2#11#6'Height'#2#19#3'Top'#2'v'#5'Width'#2'='#7'Capt'
+  +'ion'#6#6'Update'#7'Checked'#9#7'OnClick'#7#11'cbIUDRClick'#5'State'#7#9'cbC'
+  +'hecked'#8'TabOrder'#2#4#0#0#9'TCheckBox'#8'cbDelete'#4'Left'#2#11#6'Height'
+  +#2#19#3'Top'#3#134#0#5'Width'#2'9'#7'Caption'#6#6'Delete'#7'Checked'#9#7'OnC'
+  +'lick'#7#11'cbIUDRClick'#5'State'#7#9'cbChecked'#8'TabOrder'#2#5#0#0#9'TChec'
+  +'kBox'#9'cbRefresh'#4'Left'#2#11#6'Height'#2#19#3'Top'#3#166#0#5'Width'#2'?'
+  +#7'Caption'#6#7'Refresh'#7'Checked'#9#7'OnClick'#7#11'cbIUDRClick'#5'State'#7
+  +#9'cbChecked'#8'TabOrder'#2#7#0#0#9'TCheckBox'#13'cbQuoteFields'#4'Left'#2#11
+  +#6'Height'#2#19#3'Top'#3#182#0#5'Width'#2'Y'#7'Caption'#6#11'Quote names'#8
+  +'TabOrder'#2#8#0#0#9'TCheckBox'#6'cbLock'#4'Left'#2#11#6'Height'#2#19#3'Top'
+  +#3#150#0#5'Width'#2'2'#7'Caption'#6#4'Lock'#7'Checked'#9#7'OnClick'#7#11'cbI'
+  +'UDRClick'#5'State'#7#9'cbChecked'#8'TabOrder'#2#6#0#0#0#0
+]);

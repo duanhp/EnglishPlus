@@ -1,0 +1,15 @@
+program EnglishPlus;
+
+uses
+  Forms,
+  uMain in 'uMain.pas' {Form1},
+  uSearchBar in 'uSearchBar.pas' {FmSearchBar};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TFmSearchBar, FmSearchBar);
+  Application.Run;
+end.

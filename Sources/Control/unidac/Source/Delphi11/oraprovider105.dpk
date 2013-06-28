@@ -1,0 +1,45 @@
+package oraprovider105;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$IMPLICITBUILD OFF}
+{$DEFINE UNIDACPRO}
+
+requires
+  rtl,
+  dac105,
+  unidac105;
+
+contains
+  OraCallUni in '..\UniProviders\Oracle\OraCallUni.pas',
+  OraParserUni in '..\UniProviders\Oracle\OraParserUni.pas',
+  OraClassesUni in '..\UniProviders\Oracle\OraClassesUni.pas',
+  OraConnectionPoolUni in '..\UniProviders\Oracle\OraConnectionPoolUni.pas',
+  OraObjectsUni in '..\UniProviders\Oracle\OraObjectsUni.pas',
+  OraConstsUni in '..\UniProviders\Oracle\OraConstsUni.pas',
+  OraErrorUni in '..\UniProviders\Oracle\OraErrorUni.pas',
+  OraServicesUni in '..\UniProviders\Oracle\OraServicesUni.pas',
+  OraScriptProcessorUni in '..\UniProviders\Oracle\OraScriptProcessorUni.pas',
+  OracleUniProvider in '..\UniProviders\Oracle\OracleUniProvider.pas';
+
+end.

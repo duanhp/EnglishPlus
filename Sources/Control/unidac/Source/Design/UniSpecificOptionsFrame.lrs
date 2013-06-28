@@ -1,0 +1,10 @@
+LazarusResources.Add('TUniSpecificOptionsFrame','FORMDATA',[
+  'TPF0'#24'TUniSpecificOptionsFrame'#23'UniSpecificOptionsFrame'#4'Left'#2#0#3
+  +'Top'#2#0#5'Width'#3#187#1#6'Height'#3#21#1#5'Align'#7#8'alClient'#8'TabOrde'
+  +'r'#2#0#0#6'TPanel'#6'Panel1'#4'Left'#2#0#3'Top'#2#0#5'Width'#3#187#1#6'Heig'
+  +'ht'#2'1'#5'Align'#7#5'alTop'#10'BevelOuter'#7#6'bvNone'#8'TabOrder'#2#0#0#6
+  +'TLabel'#6'Label1'#4'Left'#2#0#3'Top'#2#0#5'Width'#2'P'#6'Height'#2#13#7'Cap'
+  +'tion'#6#20'Options for provider'#0#0#9'TComboBox'#10'edProvider'#4'Left'#2#0
+  +#3'Top'#2#16#5'Width'#3#153#0#6'Height'#2#21#10'ItemHeight'#2#13#8'TabOrder'
+  +#2#0#8'OnChange'#7#16'edProviderChange'#0#0#0#0
+]);

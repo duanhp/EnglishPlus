@@ -1,0 +1,5 @@
+LazarusResources.Add('TCategoryFrame','FORMDATA',[
+  'TPF0'#241#14'TCategoryFrame'#13'CategoryFrame'#6'Height'#3'0'#1#5'Width'#3
+  +#195#1#18'HorzScrollBar.Page'#3#194#1#18'VertScrollBar.Page'#3'/'#1#5'Align'
+  +#7#8'alClient'#0#0
+]);

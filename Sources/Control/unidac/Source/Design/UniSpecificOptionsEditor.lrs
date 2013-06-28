@@ -1,0 +1,12 @@
+LazarusResources.Add('TUniSpecificOptionsEditorForm','FORMDATA',[
+  'TPF0'#241#29'TUniSpecificOptionsEditorForm'#28'UniSpecificOptionsEditorForm'
+  +#4'Left'#3#2#1#3'Top'#3#184#0#7'Caption'#6#28'UniSpecificOptionsEditorForm'
+  +#12'OnCloseQuery'#7#14'FormCloseQuery'#9'OnDestroy'#7#11'FormDestroy'#6'OnHi'
+  +'de'#7#8'FormHide'#10'OnKeyPress'#7#12'FormKeyPress'#6'OnShow'#7#8'FormShow'
+  +#0#241#6'TPanel'#8'BtnPanel'#0#241#6'TImage'#8'imCorner'#0#0#241#7'TBitBtn'#4
+  +'btOk'#7'OnClick'#7#9'SaveClick'#0#0#241#7'TBitBtn'#8'btCancel'#7'OnClick'#7
+  +#10'CloseClick'#0#0#0#241#12'TPageControl'#11'PageControl'#10'ActivePage'#7#9
+  +'shOptions'#8'TabIndex'#2#0#8'OnChange'#7#17'PageControlChange'#10'OnChangin'
+  +'g'#7#19'PageControlChanging'#13'OnPageChanged'#7#17'PageControlChange'#0#242
+  +#2#0#9'TTabSheet'#9'shOptions'#7'Caption'#6#8'&Options'#0#0#0#0
+]);

@@ -1,0 +1,5 @@
+LazarusResources.Add('TUniStoredProcEditorForm','FORMDATA',[
+  'TPF0'#241#24'TUniStoredProcEditorForm'#23'UniStoredProcEditorForm'#7'Caption'
+  +#6#23'UniStoredProcEditorForm'#0#241#12'TPageControl'#11'PageControl'#0#9'TT'
+  +'abSheet'#9'shOptions'#7'Caption'#6#8'&Options'#10'ImageIndex'#2#6#0#0#0#0
+]);

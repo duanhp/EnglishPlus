@@ -1,0 +1,72 @@
+inherited fmInheritedConnect: TfmInheritedConnect
+  Left = 412
+  Top = 296
+  Caption = 'Inherited Connect'
+  inherited Panel: TPanel
+    inherited lbUsername: TLabel
+      Width = 58
+      AutoSize = True
+      Font.Color = clNavy
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    inherited lbPassword: TLabel
+      Width = 54
+      AutoSize = True
+      Font.Color = clNavy
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    inherited lbServer: TLabel
+      Width = 38
+      AutoSize = True
+      Font.Color = clNavy
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    inherited lbPort: TLabel
+      Width = 24
+      AutoSize = True
+      Font.Color = clNavy
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    inherited lbProvider: TLabel
+      Width = 48
+      AutoSize = True
+      Font.Color = clNavy
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    inherited lbDatabase: TLabel
+      Width = 54
+      AutoSize = True
+      Font.Color = clNavy
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    inherited edUserName: TEdit
+    end
+    inherited edPassword: TEdit
+    end
+    inherited edServer: TComboBox
+      MaxLength = 0
+      OnDropDown = edServerDropDown
+    end
+    inherited edProvider: TComboBox
+      MaxLength = 0
+      OnChange = edProviderChange
+    end
+    inherited edDatabase: TComboBox
+      MaxLength = 0
+      OnDropDown = edDatabaseDropDown
+    end
+    inherited edPort: TEdit
+    end
+  end
+  inherited btConnect: TButton
+    OnClick = btConnectClick
+  end
+  inherited btCancel: TButton
+  end
+end

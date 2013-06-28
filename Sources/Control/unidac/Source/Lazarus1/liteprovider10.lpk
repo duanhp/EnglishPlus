@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Package Version="3">
+    <Name Value="liteprovider10"/>
+    <CompilerOptions>
+      <Version Value="8"/>
+      <SearchPaths>
+        <IncludeFiles Value="../;../../lib/$(TargetOS)/;../../../;../../../../../Common/Source/"/>
+        <OtherUnitFiles Value="../;../../lib/$(TargetOS)/;../../../;../../../../../Common/Source/;../../;../UniProviders/SQLite/"/>
+        <UnitOutputDirectory Value="../../Lib/Lazarus1/$(TargetOS)/"/>
+        <ObjectPath Value="../;../../lib/$(TargetOS)/"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <SyntaxMode Value="Delphi"/>
+          <IncludeAssertionCode Value="True"/>
+        </SyntaxOptions>
+      </Parsing>
+      <CodeGeneration>
+        <Checks>
+          <IOChecks Value="True"/>
+        </Checks>
+        <Optimizations>
+          <OptimizationLevel Value="2"/>
+        </Optimizations>
+      </CodeGeneration>
+      <Linking>
+        <Debugging>
+          <UseLineInfoUnit Value="False"/>
+        </Debugging>
+      </Linking>
+      <Other>
+        <CustomOptions Value="-dUNIDACPRO"/>
+        <CompilerPath Value="$(CompPath)"/>
+      </Other>
+    </CompilerOptions>
+    <Description Value="SQLite UniDAC Provider"/>
+    <Version Major="4" Minor="0" Release="1" Build="0"/>
+    <Files Count="7">
+      <Item1>
+        <Filename Value="../UniProviders/SQLiteUniProvider.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="SQLiteUniProvider"/>
+      </Item1>
+      <Item2>
+        <Filename Value="../UniProviders/SQLite/LiteCallUni.pas"/>
+        <UnitName Value="LiteCallUni"/>
+      </Item2>
+      <Item3>
+        <Filename Value="../UniProviders/SQLite/LiteClassesUni.pas"/>
+        <UnitName Value="LiteClassesUni"/>
+      </Item3>
+      <Item4>
+        <Filename Value="../UniProviders/SQLite/LiteConstsUni.pas"/>
+        <UnitName Value="LiteConstsUni"/>
+      </Item4>
+      <Item5>
+        <Filename Value="../UniProviders/SQLite/LiteErrorUni.pas"/>
+        <UnitName Value="LiteErrorUni"/>
+      </Item5>
+      <Item6>
+        <Filename Value="../UniProviders/SQLite/LiteParserUni.pas"/>
+        <UnitName Value="LiteParserUni"/>
+      </Item6>
+      <Item7>
+        <Filename Value="../UniProviders/SQLite/LiteServicesUni.pas"/>
+        <UnitName Value="LiteServicesUni"/>
+      </Item7>
+      <Item8>
+        <Filename Value="../UniProviders/SQLite/LiteCollationUni.pas"/>
+        <UnitName Value="LiteCollationUni"/>
+      </Item8>
+      <Item9>
+        <Filename Value="../UniProviders/SQLite/LiteFunctionUni.pas"/>
+        <UnitName Value="LiteFunctionUni"/>
+      </Item9>
+    </Files>
+    <Type Value="RunAndDesignTime"/>
+    <RequiredPkgs Count="4">
+      <Item1>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="dac10"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="unidac10"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="LCL"/>
+      </Item4>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

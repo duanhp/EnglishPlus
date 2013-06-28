@@ -1,0 +1,62 @@
+package dclunidac160;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$DEFINE UNIDAC}
+{$DEFINE UNIBUILDER}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'Uni Access Components'}
+{$DESIGNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  dcldb,
+  designide,
+  dcldac160,
+  unidac160,
+  unidacvcl160;
+
+contains
+  UniAbout in '..\Design\UniAbout.pas',
+  UniMenu in '..\Design\UniMenu.pas',
+  UniDesignUtils in '..\Design\UniDesignUtils.pas',
+  UniUpdateSQLEditor in '..\Design\UniUpdateSQLEditor.pas',
+  UniScriptEditor in '..\Design\UniScriptEditor.pas',
+  UniStoredProcEditor in '..\Design\UniStoredProcEditor.pas',
+  UniTableEditor in '..\Design\UniTableEditor.pas',
+  UniTableSQLFrame in '..\Design\UniTableSQLFrame.pas',
+  UniSQLEditor in '..\Design\UniSQLEditor.pas',
+  UniQueryOptionsFrame in '..\Design\UniQueryOptionsFrame.pas',
+  UniQueryEditor in '..\Design\UniQueryEditor.pas',
+  UniSPCallFrame in '..\Design\UniSPCallFrame.pas',
+  UniParamsFrame in '..\Design\UniParamsFrame.pas',
+  UniSQLOptionsFrame in '..\Design\UniSQLOptionsFrame.pas',
+  UniConnectionEditor in '..\Design\UniConnectionEditor.pas',
+  UniSpecificOptionsFrame in '..\Design\UniSpecificOptionsFrame.pas',
+  UniSpecificOptionsEditor in '..\Design\UniSpecificOptionsEditor.pas',
+  UniReg in '..\Design\UniReg.pas',
+  UniDesign in '..\Design\UniDesign.pas';
+
+end.

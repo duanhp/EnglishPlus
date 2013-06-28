@@ -1,0 +1,5 @@
+LazarusResources.Add('TUniTableEditorForm','FORMDATA',[
+  'TPF0'#241#19'TUniTableEditorForm'#18'UniTableEditorForm'#0#241#12'TPageContr'
+  +'ol'#11'PageControl'#0#9'TTabSheet'#9'shOptions'#7'Caption'#6#8'&Options'#10
+  +'ImageIndex'#2#1#0#0#0#0
+]);

@@ -1,0 +1,42 @@
+package accessprovider160;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'UniDAC Access Provider'}
+{$IMPLICITBUILD OFF}
+{$DEFINE UNIDACPRO}
+
+requires
+  rtl,
+  dac160,
+  unidac160,
+  odbcprovider160;
+
+contains
+  AccessClassesUni in '..\UniProviders\Access\AccessClassesUni.pas',
+  AccessParserUni in '..\UniProviders\Access\AccessParserUni.pas',
+  AccessServicesUni in '..\UniProviders\Access\AccessServicesUni.pas',
+  AccessUniProvider in '..\UniProviders\Access\AccessUniProvider.pas';
+
+end.
+

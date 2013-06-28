@@ -1,0 +1,50 @@
+package pgprovider70;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'UniDAC PostgreSQL Provider'}
+{$IMPLICITBUILD OFF}
+{$DEFINE UNIDACPRO}
+
+requires
+  rtl,
+  dac70,
+  unidac70;
+
+contains
+  PostgreSQLUniProvider in '..\UniProviders\PostgreSQL\PostgreSQLUniProvider.pas',
+  PgCallUni in '..\UniProviders\PostgreSQL\PgCallUni.pas',
+  PgClassesUni in '..\UniProviders\PostgreSQL\PgClassesUni.pas',
+  PgConnectionPoolUni in '..\UniProviders\PostgreSQL\PgConnectionPoolUni.pas',
+  PgConstsUni in '..\UniProviders\PostgreSQL\PgConstsUni.pas',
+  PgCryptUni in '..\UniProviders\PostgreSQL\PgCryptUni.pas',
+  PgErrorUni in '..\UniProviders\PostgreSQL\PgErrorUni.pas',
+  PgObjectsUni in '..\UniProviders\PostgreSQL\PgObjectsUni.pas',
+  PgParserUni in '..\UniProviders\PostgreSQL\PgParserUni.pas',
+  PgScriptProcessorUni in '..\UniProviders\PostgreSQL\PgScriptProcessorUni.pas',
+  PgServicesUni in '..\UniProviders\PostgreSQL\PgServicesUni.pas',
+  PgSQLNetUni in '..\UniProviders\PostgreSQL\PgSQLNetUni.pas',
+  PgSQLProtocolUni in '..\UniProviders\PostgreSQL\PgSQLProtocolUni.pas';
+
+end.
+

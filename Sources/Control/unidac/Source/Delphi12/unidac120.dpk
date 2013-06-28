@@ -1,0 +1,44 @@
+package unidac120;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Universal Data Access Components'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+{$DEFINE UNIDAC}
+
+requires
+  rtl,
+  dac120;
+
+contains
+  UniProvider in '..\UniProvider.pas',
+  Uni in '..\Uni.pas',
+  UniConsts in '..\UniConsts.pas',
+  UniScript in '..\UniScript.pas',
+  UniLoader in '..\UniLoader.pas',
+  UniDump in '..\UniDump.pas',
+  UniAlerter in '..\UniAlerter.pas',
+  UniSQLMonitor in '..\UniSQLMonitor.pas';
+
+end.

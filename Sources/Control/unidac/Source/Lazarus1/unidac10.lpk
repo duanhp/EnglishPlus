@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Package Version="3">
+    <Name Value="unidac10"/>
+    <CompilerOptions>
+      <Version Value="5"/>
+      <SearchPaths>
+        <IncludeFiles Value="../;../lib/$(TargetOS)/;../../../Common/Source/"/>
+        <OtherUnitFiles Value="../;../lib/$(TargetOS)/;../../../Common/Source/"/>
+        <UnitOutputDirectory Value="../../Lib/Lazarus1/$(TargetOS)/"/>
+        <ObjectPath Value="../;../lib/$(TargetOS)/"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <IncludeAssertionCode Value="True"/>
+          <DelphiCompat Value="True"/>
+        </SyntaxOptions>
+      </Parsing>
+      <CodeGeneration>
+        <Checks>
+          <IOChecks Value="True"/>
+        </Checks>
+        <Optimizations>
+          <OptimizationLevel Value="2"/>
+        </Optimizations>
+      </CodeGeneration>
+      <Linking>
+        <Debugging>
+          <UseLineInfoUnit Value="False"/>
+        </Debugging>
+      </Linking>
+      <Other>
+        <CompilerPath Value="$(CompPath)"/>
+      </Other>
+    </CompilerOptions>
+    <Description Value="Universal Data Access Components"/>
+    <Version Major="4" Minor="0" Release="1" Build="0"/>
+    <Files Count="8">
+      <Item1>
+        <Filename Value="../UniProvider.pas"/>
+        <UnitName Value="UniProvider"/>
+      </Item1>
+      <Item2>
+        <Filename Value="../Uni.pas"/>
+        <UnitName Value="Uni"/>
+      </Item2>
+      <Item3>
+        <Filename Value="../UniConsts.pas"/>
+        <UnitName Value="UniConsts"/>
+      </Item3>
+      <Item4>
+        <Filename Value="../UniScript.pas"/>
+        <UnitName Value="UniScript"/>
+      </Item4>
+      <Item5>
+        <Filename Value="../UniSQLMonitor.pas"/>
+        <UnitName Value="UniSQLMonitor"/>
+      </Item5>
+      <Item6>
+        <Filename Value="../UniLoader.pas"/>
+        <UnitName Value="UniLoader"/>
+      </Item6>
+      <Item7>
+        <Filename Value="../UniDump.pas"/>
+        <UnitName Value="UniDump"/>
+      </Item7>
+      <Item8>
+        <Filename Value="../UniAlerter.pas"/>
+        <UnitName Value="UniAlerter"/>
+      </Item8>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="dac10"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

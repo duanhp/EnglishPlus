@@ -1,0 +1,21 @@
+LazarusResources.Add('TDADataEditorForm','FORMDATA',[
+  'TPF0'#241#17'TDADataEditorForm'#16'DADataEditorForm'#4'Left'#2','#3'Top'#2':'
+  +#7'Caption'#6#16'DADataEditorForm'#0#241#6'TPanel'#8'BtnPanel'#0#241#6'TImag'
+  +'e'#8'imCorner'#0#0#241#7'TBitBtn'#4'btOk'#0#0#241#7'TBitBtn'#8'btCancel'#0#0
+  +#0#241#10'TStatusBar'#9'StatusBar'#6'Panels'#14#1#5'Width'#2'x'#0#1#5'Width'
+  +#2'x'#0#1#5'Width'#2'2'#0#0#0#0#241#6'TPanel'#10'pnlToolBar'#0#241#12'TSpeed'
+  +'Button'#7'btClose'#7'OnClick'#7#12'btCloseClick'#0#0#242#2#1#12'TSpeedButto'
+  +'n'#6'btOpen'#6'Height'#2#23#5'Width'#2'K'#7'Caption'#6#5'&Open'#5'Color'#7#9
+  +'clBtnFace'#9'NumGlyphs'#2#0#7'OnClick'#7#11'btOpenClick'#0#0#242#2#2#12'TSp'
+  +'eedButton'#7'btnExit'#4'Left'#3#233#0#6'Height'#2#23#5'Width'#2'K'#7'Captio'
+  +'n'#6#4'Exit'#5'Color'#7#9'clBtnFace'#9'NumGlyphs'#2#0#7'OnClick'#7#10'Close'
+  +'Click'#0#0#242#2#3#12'TSpeedButton'#12'btSaveToFile'#4'Left'#3#154#0#6'Heig'
+  +'ht'#2#23#5'Width'#2'K'#7'Caption'#6#13'&Save to file'#5'Color'#7#9'clBtnFac'
+  +'e'#9'NumGlyphs'#2#0#7'OnClick'#7#17'btSaveToFileClick'#0#0#241#12'TDBNaviga'
+  +'tor'#11'DBNavigator'#4'Left'#3'P'#1#13'Hints.Strings'#1#0#0#0#0#241#7'TDBGr'
+  +'id'#6'DBGrid'#0#0#241#11'TDatasource'#10'DataSource'#0#0#11'TSaveDialog'#10
+  +'SaveDialog'#5'Title'#6#18#209#238#245#240#224#237#232#242#252' '#244#224#233
+  +#235' '#234#224#234#10'DefaultExt'#6#4'.xml'#8'FileName'#6#9'Data1.xml'#6'Fi'
+  +'lter'#6'$XML (*.xml)|*.xml|Any File (*.*)|*.*'#4'left'#3#128#1#3'top'#2'"'#0
+  +#0#0
+]);

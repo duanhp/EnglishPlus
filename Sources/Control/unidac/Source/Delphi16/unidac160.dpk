@@ -1,0 +1,47 @@
+package unidac160;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$DEFINE UNIDAC}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'Universal Data Access Components'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  dac160;
+
+contains
+  UniProvider in '..\UniProvider.pas',
+  Uni in '..\Uni.pas',
+  UniConsts in '..\UniConsts.pas',
+  UniScript in '..\UniScript.pas',
+  UniLoader in '..\UniLoader.pas',
+  UniDump in '..\UniDump.pas',
+  UniAlerter in '..\UniAlerter.pas',
+  UniSQLMonitor in '..\UniSQLMonitor.pas';
+
+end.

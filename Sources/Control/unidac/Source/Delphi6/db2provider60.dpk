@@ -1,0 +1,43 @@
+package db2provider60;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'UniDAC DB2 Provider'}
+{$IMPLICITBUILD OFF}
+{$DEFINE UNIDACPRO}
+
+requires
+  rtl,
+  dac60,
+  unidac60,
+  odbcprovider60;
+
+contains
+  DB2UniProvider in '..\UniProviders\DB2\DB2UniProvider.pas',
+  DB2CallUni in '..\UniProviders\DB2\DB2CallUni.pas',
+  DB2ClassesUni in '..\UniProviders\DB2\DB2ClassesUni.pas',
+  DB2ConnectionPoolUni in '..\UniProviders\DB2\DB2ConnectionPoolUni.pas',
+  DB2ServicesUni in '..\UniProviders\DB2\DB2ServicesUni.pas';
+
+end.
+

@@ -1,0 +1,4 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Borland\BDS\3.0\Known Packages]
+"[IDEPATH]bin\\CRControls90.bpl"="Devart controls"

@@ -1,0 +1,6 @@
+LazarusResources.Add('TDAStoredProcEditorForm','FORMDATA',[
+  'TPF0'#241#23'TDAStoredProcEditorForm'#22'DAStoredProcEditorForm'#4'Left'#2'X'
+  +#3'Top'#2't'#0#241#6'TPanel'#8'BtnPanel'#0#241#6'TImage'#8'imCorner'#0#0#241
+  +#7'TBitBtn'#4'btOk'#0#0#241#7'TBitBtn'#8'btCancel'#0#0#241#7'TButton'#9'btEx'
+  +'ecute'#0#0#241#7'TBitBtn'#13'btnDataEditor'#0#0#0#0
+]);

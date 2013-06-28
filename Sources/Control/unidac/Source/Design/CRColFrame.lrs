@@ -1,0 +1,8 @@
+LazarusResources.Add('TCRColFrame','FORMDATA',[
+  'TPF0'#241#11'TCRColFrame'#10'CRColFrame'#0#8'TListBox'#10'lbItemName'#4'Left'
+  +#2#8#6'Height'#3#195#0#3'Top'#2#24#5'Width'#3#153#0#7'Anchors'#11#5'akTop'#6
+  +'akLeft'#8'akBottom'#0#10'ItemHeight'#2#13#7'OnClick'#7#15'lbItemNameClick'#8
+  +'TabOrder'#2#0#0#0#6'TPanel'#9'PanelItem'#4'Left'#3#176#0#6'Height'#3#211#0#3
+  +'Top'#2#8#5'Width'#3'%'#1#7'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'#8'akBo'
+  +'ttom'#0#8'TabOrder'#2#1#0#0#0
+]);

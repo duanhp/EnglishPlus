@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value=".\oraprovider60.bpl"/>
+    <OBJFILES value="oraprovider60.obj OraCallUni.obj OraClassesUni.obj 
+      OraConnectionPoolUni.obj OraConstsUni.obj OraErrorUni.obj OraObjectsUni.obj 
+      OraParserUni.obj OraScriptProcessorUni.obj OraServicesUni.obj 
+      OracleUniProvider.obj"/>
+    <RESFILES value="oraprovider60.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES)"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value="dbrtl.lib rtl.lib"/>
+    <PACKAGES value="rtl.bpi dac60.bpi dbrtl.bpi unidac60.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;..;..\..\Uni;..\..;..\..\..;..\UniProviders\Oracle"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="UNIDACPRO"/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="oraprovider60.cpp"/>
+    <INCLUDEPATH value="..;..\..\Uni;..\..\Lib\CBuilder6;..\..;..\..\..;..\..\..\..\..\Common\Source;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="..;..\..\Uni;..\..\Lib\CBuilder6;..\..;..\..\..;..\..\..\..\..\Common\Source\CBuilder6;..\..\..\..\Net\cb6;..\..\..\..\..\Common\Source;..\..\..\..\..\UniDac\Source\CBuilder6;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\projects\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I.. -I..\..\Uni -I..\.. -I..\..\.. -I..\..\..\..\..\Common\Source -I..\..\Lib\CBuilder6 
+      -I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp -DUNIDACPRO -boa"/>
+    <CFLAG1 value="-O2 -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -a8 -b- -k- -vi -c -tWM"/>
+    <PFLAGS value="-E. -N2. -N0. -$Y- -$L- -$D- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-l. -I. -D&quot;Universal Data Access Components&quot; -aa -Tpp -Gpr -x -Gn -Gl -Gi"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0pkg32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="oraprovider60.res" FORMNAME="" UNITNAME="oraprovider60.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="oraprovider60.cpp" FORMNAME="" UNITNAME="oraprovider60" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\..\..\..\UniDac\Source\CBuilder6\rtl.bpi" FORMNAME="" UNITNAME="rtl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\..\..\..\Common\Source\CBuilder6\dac60.bpi" FORMNAME="" UNITNAME="dac60" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="D:\Program Files\Borland\CBuilder6\Lib\Release\dbrtl.bpi" FORMNAME="" UNITNAME="dbrtl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\UniProviders\Oracle\OraCallUni.pas" FORMNAME="" UNITNAME="OraCallUni" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\UniProviders\Oracle\OraClassesUni.pas" FORMNAME="" UNITNAME="OraClassesUni" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\UniProviders\Oracle\OraConnectionPoolUni.pas" FORMNAME="" UNITNAME="OraConnectionPoolUni" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\UniProviders\Oracle\OraConstsUni.pas" FORMNAME="" UNITNAME="OraConstsUni" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\UniProviders\Oracle\OraErrorUni.pas" FORMNAME="" UNITNAME="OraErrorUni" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\UniProviders\Oracle\OraObjectsUni.pas" FORMNAME="" UNITNAME="OraObjectsUni" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\UniProviders\Oracle\OraParserUni.pas" FORMNAME="" UNITNAME="OraParserUni" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\UniProviders\Oracle\OraScriptProcessorUni.pas" FORMNAME="" UNITNAME="OraScriptProcessorUni" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\UniProviders\Oracle\OraServicesUni.pas" FORMNAME="" UNITNAME="OraServicesUni" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\OracleUniProvider.pas" FORMNAME="" UNITNAME="OracleUniProvider" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\..\..\..\UniDac\Source\CBuilder6\unidac60.bpi" FORMNAME="" UNITNAME="unidac60" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=4
+MinorVer=0
+Release=1
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+
+[Version Info Keys]
+CompanyName=Devart
+FileDescription=
+FileVersion=4.0.1.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=4.0.1.0
+Comments=
+
+  </IDEOPTIONS>
+</PROJECT>

@@ -1,0 +1,4 @@
+LazarusResources.Add('TDemoFrame','FORMDATA',[
+  'TPF0'#241#10'TDemoFrame'#9'DemoFrame'#6'Height'#3#228#0#5'Width'#3'4'#1#18'H'
+  +'orzScrollBar.Page'#3'3'#1#18'VertScrollBar.Page'#3#227#0#0#0
+]);

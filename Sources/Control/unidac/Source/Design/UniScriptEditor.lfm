@@ -1,0 +1,9 @@
+inherited UniScriptEditorForm: TUniScriptEditorForm
+  Caption = 'UniScriptEditorForm'
+  inherited PageControl: TPageControl
+    object shOptions: TTabSheet
+      Caption = '&Options'
+      ImageIndex = 2
+    end
+  end
+end

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality" Type="String">DelphiDotNet.Personality</Option>
+			<Option Name="ProjectType" Type="String"></Option>
+			<Option Name="Version" Type="String">2.0</Option>
+			<Option Name="GUID" Type="String">{90F92537-A5EA-4E18-9C2B-BA191E1242E5}</Option>
+		</Option>
+	</PersonalityInfo>
+	<DelphiDotNet.Personality>
+		<Source>
+			<Source Name="MainSource" Type="String">Devart.UniDac.dpk</Source>
+		</Source>
+		<FileVersion>
+			<FileVersion Name="Version" Type="String">7.0</FileVersion>
+		</FileVersion>
+		<Compiler>
+			<Compiler Name="A" Type="Integer">0</Compiler>
+			<Compiler Name="B" Type="Integer">0</Compiler>
+			<Compiler Name="C" Type="Integer">1</Compiler>
+			<Compiler Name="D" Type="Integer">0</Compiler>
+			<Compiler Name="E" Type="Integer">0</Compiler>
+			<Compiler Name="F" Type="Integer">0</Compiler>
+			<Compiler Name="G" Type="Integer">1</Compiler>
+			<Compiler Name="H" Type="Integer">1</Compiler>
+			<Compiler Name="I" Type="Integer">1</Compiler>
+			<Compiler Name="J" Type="Integer">1</Compiler>
+			<Compiler Name="K" Type="Integer">0</Compiler>
+			<Compiler Name="L" Type="Integer">0</Compiler>
+			<Compiler Name="M" Type="Integer">0</Compiler>
+			<Compiler Name="N" Type="Integer">1</Compiler>
+			<Compiler Name="O" Type="Integer">1</Compiler>
+			<Compiler Name="P" Type="Integer">1</Compiler>
+			<Compiler Name="Q" Type="Integer">0</Compiler>
+			<Compiler Name="R" Type="Integer">0</Compiler>
+			<Compiler Name="S" Type="Integer">0</Compiler>
+			<Compiler Name="T" Type="Integer">0</Compiler>
+			<Compiler Name="U" Type="Integer">0</Compiler>
+			<Compiler Name="V" Type="Integer">1</Compiler>
+			<Compiler Name="W" Type="Integer">0</Compiler>
+			<Compiler Name="X" Type="Integer">1</Compiler>
+			<Compiler Name="Y" Type="Integer">0</Compiler>
+			<Compiler Name="Z" Type="Integer">1</Compiler>
+			<Compiler Name="ShowHints" Type="Boolean">True</Compiler>
+			<Compiler Name="ShowWarnings" Type="Boolean">True</Compiler>
+			<Compiler Name="UnitAliases" Type="String">WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;</Compiler>
+			<Compiler Name="NamespacePrefix" Type="String">Devart.UniDac;Devart.Dac;Borland.Vcl</Compiler>
+			<Compiler Name="SymbolDeprecated" Type="Boolean">True</Compiler>
+			<Compiler Name="SymbolLibrary" Type="Boolean">True</Compiler>
+			<Compiler Name="SymbolPlatform" Type="Boolean">True</Compiler>
+			<Compiler Name="SymbolExperimental" Type="Boolean">True</Compiler>
+			<Compiler Name="UnitLibrary" Type="Boolean">True</Compiler>
+			<Compiler Name="UnitPlatform" Type="Boolean">True</Compiler>
+			<Compiler Name="UnitDeprecated" Type="Boolean">True</Compiler>
+			<Compiler Name="UnitExperimental" Type="Boolean">True</Compiler>
+			<Compiler Name="HResultCompat" Type="Boolean">True</Compiler>
+			<Compiler Name="HidingMember" Type="Boolean">True</Compiler>
+			<Compiler Name="HiddenVirtual" Type="Boolean">True</Compiler>
+			<Compiler Name="Garbage" Type="Boolean">True</Compiler>
+			<Compiler Name="BoundsError" Type="Boolean">True</Compiler>
+			<Compiler Name="ZeroNilCompat" Type="Boolean">True</Compiler>
+			<Compiler Name="StringConstTruncated" Type="Boolean">True</Compiler>
+			<Compiler Name="ForLoopVarVarPar" Type="Boolean">True</Compiler>
+			<Compiler Name="TypedConstVarPar" Type="Boolean">True</Compiler>
+			<Compiler Name="AsgToTypedConst" Type="Boolean">True</Compiler>
+			<Compiler Name="CaseLabelRange" Type="Boolean">True</Compiler>
+			<Compiler Name="ForVariable" Type="Boolean">True</Compiler>
+			<Compiler Name="ConstructingAbstract" Type="Boolean">True</Compiler>
+			<Compiler Name="ComparisonFalse" Type="Boolean">True</Compiler>
+			<Compiler Name="ComparisonTrue" Type="Boolean">True</Compiler>
+			<Compiler Name="ComparingSignedUnsigned" Type="Boolean">True</Compiler>
+			<Compiler Name="CombiningSignedUnsigned" Type="Boolean">True</Compiler>
+			<Compiler Name="UnsupportedConstruct" Type="Boolean">True</Compiler>
+			<Compiler Name="FileOpen" Type="Boolean">True</Compiler>
+			<Compiler Name="FileOpenUnitSrc" Type="Boolean">True</Compiler>
+			<Compiler Name="BadGlobalSymbol" Type="Boolean">True</Compiler>
+			<Compiler Name="DuplicateConstructorDestructor" Type="Boolean">True</Compiler>
+			<Compiler Name="InvalidDirective" Type="Boolean">True</Compiler>
+			<Compiler Name="PackageNoLink" Type="Boolean">True</Compiler>
+			<Compiler Name="PackageThreadVar" Type="Boolean">True</Compiler>
+			<Compiler Name="ImplicitImport" Type="Boolean">True</Compiler>
+			<Compiler Name="HPPEMITIgnored" Type="Boolean">True</Compiler>
+			<Compiler Name="NoRetVal" Type="Boolean">True</Compiler>
+			<Compiler Name="UseBeforeDef" Type="Boolean">True</Compiler>
+			<Compiler Name="ForLoopVarUndef" Type="Boolean">True</Compiler>
+			<Compiler Name="UnitNameMismatch" Type="Boolean">True</Compiler>
+			<Compiler Name="NoCFGFileFound" Type="Boolean">True</Compiler>
+			<Compiler Name="MessageDirective" Type="Boolean">True</Compiler>
+			<Compiler Name="ImplicitVariants" Type="Boolean">True</Compiler>
+			<Compiler Name="UnicodeToLocale" Type="Boolean">True</Compiler>
+			<Compiler Name="LocaleToUnicode" Type="Boolean">True</Compiler>
+			<Compiler Name="ImagebaseMultiple" Type="Boolean">True</Compiler>
+			<Compiler Name="SuspiciousTypecast" Type="Boolean">True</Compiler>
+			<Compiler Name="PrivatePropAccessor" Type="Boolean">True</Compiler>
+			<Compiler Name="UnsafeType" Type="Boolean">True</Compiler>
+			<Compiler Name="UnsafeCode" Type="Boolean">True</Compiler>
+			<Compiler Name="UnsafeCast" Type="Boolean">True</Compiler>
+			<Compiler Name="OptionTruncated" Type="Boolean">True</Compiler>
+			<Compiler Name="WideCharReduced" Type="Boolean">True</Compiler>
+			<Compiler Name="GenerateDocumentation" Type="Boolean">False</Compiler>
+			<Compiler Name="DefaultNamespace" Type="String"></Compiler>
+			<Compiler Name="DuplicatesIgnored" Type="Boolean">True</Compiler>
+			<Compiler Name="UnitInitSeq">True</Compiler>
+			<Compiler Name="LocalPInvoke">True</Compiler>
+			<Compiler Name="CodePage"></Compiler>
+		</Compiler>
+		<Linker>
+			<Linker Name="MapFile" Type="Integer">0</Linker>
+			<Linker Name="OutputObjs" Type="Integer">0</Linker>
+			<Linker Name="ConsoleApp" Type="Integer">1</Linker>
+			<Linker Name="DebugInfo" Type="Boolean">False</Linker>
+			<Linker Name="RemoteSymbols" Type="Boolean">False</Linker>
+			<Linker Name="MinStackSize" Type="Integer">4096</Linker>
+			<Linker Name="MaxStackSize" Type="Integer">1048576</Linker>
+			<Linker Name="ImageBase" Type="Integer">4194304</Linker>
+			<Linker Name="ExeDescription" Type="String">Uni Access Components</Linker>
+			<Linker Name="GenerateDRC" Type="Boolean">False</Linker>
+			<Linker Name="GenerateHpps">False</Linker>
+		</Linker>
+		<Directories>
+			<Directories Name="OutputDir" Type="String"></Directories>
+			<Directories Name="UnitOutputDir" Type="String">.</Directories>
+			<Directories Name="PackageDLLOutputDir" Type="String"></Directories>
+			<Directories Name="PackageDCPOutputDir" Type="String">.</Directories>
+			<Directories Name="SearchPath" Type="String">..\Net;..;..\..\..\Common\Source\Net;..\..\..\Common\Source;..\..\..\Common\Source\Delphi9;d:\program files\common files\borland shared\bds\shared assemblies\4.0</Directories>
+			<Directories Name="Packages" Type="String">Devart.Dac;Borland.VclRtl;Borland.VclDbRtl;Borland.Vcl;Borland.Delphi</Directories>
+			<Directories Name="Conditionals" Type="String">UniDAC</Directories>
+			<Directories Name="DebugSourceDirs" Type="String"></Directories>
+			<Directories Name="UsePackages" Type="Boolean">True</Directories>
+		</Directories>
+		<Parameters>
+			<Parameters Name="RunParams" Type="String"></Parameters>
+			<Parameters Name="HostApplication" Type="String"></Parameters>
+			<Parameters Name="Launcher" Type="String"></Parameters>
+			<Parameters Name="UseLauncher" Type="Boolean">False</Parameters>
+			<Parameters Name="DebugCWD" Type="String"></Parameters>
+			<Parameters Name="RemoteHost" Type="String"></Parameters>
+			<Parameters Name="RemotePath" Type="String"></Parameters>
+			<Parameters Name="RemoteLauncher" Type="String"></Parameters>
+			<Parameters Name="RemoteCWD" Type="String"></Parameters>
+			<Parameters Name="RemoteDebug" Type="Boolean">False</Parameters>
+			<Parameters Name="Debug Symbols Search Path"></Parameters>
+			<Parameters Name="LoadAllSymbols">True</Parameters>
+			<Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+		</Parameters>
+		<VersionInfo>
+			<VersionInfo Name="IncludeVerInfo" Type="Boolean">True</VersionInfo>
+			<VersionInfo Name="AutoIncBuild" Type="Boolean">False</VersionInfo>
+			<VersionInfo Name="MajorVer" Type="Integer">4</VersionInfo>
+			<VersionInfo Name="MinorVer" Type="Integer">0</VersionInfo>
+			<VersionInfo Name="Release" Type="Integer">1</VersionInfo>
+			<VersionInfo Name="Build" Type="Integer">3000</VersionInfo>
+			<VersionInfo Name="Debug" Type="Boolean">False</VersionInfo>
+			<VersionInfo Name="PreRelease" Type="Boolean">False</VersionInfo>
+			<VersionInfo Name="Special" Type="Boolean">False</VersionInfo>
+			<VersionInfo Name="Private" Type="Boolean">False</VersionInfo>
+			<VersionInfo Name="DLL" Type="Boolean">False</VersionInfo>
+		</VersionInfo>
+		<VersionInfoKeys>
+			<VersionInfoKeys Name="CompanyName" Type="String">Devart</VersionInfoKeys>
+			<VersionInfoKeys Name="FileDescription" Type="String"></VersionInfoKeys>
+			<VersionInfoKeys Name="FileVersion" Type="String">4.0.1.0</VersionInfoKeys>
+			<VersionInfoKeys Name="InternalName" Type="String"></VersionInfoKeys>
+			<VersionInfoKeys Name="LegalCopyright" Type="String"></VersionInfoKeys>
+			<VersionInfoKeys Name="LegalTrademarks" Type="String"></VersionInfoKeys>
+			<VersionInfoKeys Name="OriginalFilename" Type="String"></VersionInfoKeys>
+			<VersionInfoKeys Name="ProductName" Type="String">DAC</VersionInfoKeys>
+			<VersionInfoKeys Name="ProductVersion" Type="String">4.0.1.0</VersionInfoKeys>
+			<VersionInfoKeys Name="Comments" Type="String"></VersionInfoKeys>
+		</VersionInfoKeys>
+		<Language>
+			<Language Name="ActiveLang" Type="String"></Language>
+			<Language Name="ProjectLang" Type="String">$00000000</Language>
+			<Language Name="RootDir" Type="String"></Language>
+		</Language>
+		<FileList>
+			<File FileName="$(CommonProgramFiles)\borland shared\bds\shared assemblies\4.0\Borland.Delphi.dll" ContainerId="DelphiDotNetAssemblyCompiler" ModuleName="Borland.Delphi" AssemblyName="Borland.Delphi" Version="10.0.4143.0" LinkUnits="False"/>
+			<File FileName="$(CommonProgramFiles)\borland shared\bds\shared assemblies\4.0\Borland.Vcl.dll" ContainerId="DelphiDotNetAssemblyCompiler" ModuleName="Borland.Vcl" AssemblyName="Borland.Vcl" Version="10.0.4143.0" LinkUnits="False"/>
+			<File FileName="$(CommonProgramFiles)\borland shared\bds\shared assemblies\4.0\Borland.VclDbRtl.dll" ContainerId="DelphiDotNetAssemblyCompiler" ModuleName="Borland.VclDbRtl" AssemblyName="Borland.VclDbRtl" Version="10.0.4143.0" LinkUnits="False"/>
+			<File FileName="$(CommonProgramFiles)\borland shared\bds\shared assemblies\4.0\Borland.VclRtl.dll" ContainerId="DelphiDotNetAssemblyCompiler" ModuleName="Borland.VclRtl" AssemblyName="Borland.VclRtl" Version="10.0.4143.0" LinkUnits="False"/>
+			<File FileName="..\..\..\Common\source\Delphi9\Devart.Dac.dll" ContainerId="DelphiDotNetAssemblyCompiler" ModuleName="Devart.Dac" AssemblyName="Devart.Dac" LinkUnits="False"/>
+			<File FileName="..\Net\Devart.UniDac.Uni.pas" ContainerId="PascalCompiler" ModuleName="Devart.UniDac.Uni"/>
+			<File FileName="..\Net\Devart.UniDac.UniAlerter.pas" ContainerId="PascalCompiler" ModuleName="Devart.UniDac.UniAlerter"/>
+			<File FileName="..\Net\Devart.UniDac.UniConnectForm.pas" ContainerId="PascalCompiler" ModuleName="Devart.UniDac.UniConnectForm"/>
+			<File FileName="..\Net\Devart.UniDac.UniConsts.pas" ContainerId="PascalCompiler" ModuleName="Devart.UniDac.UniConsts"/>
+			<File FileName="..\Net\Devart.UniDac.UniDacVcl.pas" ContainerId="PascalCompiler" ModuleName="Devart.UniDac.UniDacVcl"/>
+			<File FileName="..\Net\Devart.UniDac.UniDump.pas" ContainerId="PascalCompiler" ModuleName="Devart.UniDac.UniDump"/>
+			<File FileName="..\Net\Devart.UniDac.UniLoader.pas" ContainerId="PascalCompiler" ModuleName="Devart.UniDac.UniLoader"/>
+			<File FileName="..\Net\Devart.UniDac.UniScript.pas" ContainerId="PascalCompiler" ModuleName="Devart.UniDac.UniScript"/>
+			<File FileName="..\Net\Devart.UniDac.UniSQLMonitor.pas" ContainerId="PascalCompiler" ModuleName="Devart.UniDac.UniSQLMonitor"/>
+			<File FileName="..\Net\Devart.UniDac.UniProvider.pas" ContainerId="PascalCompiler" ModuleName="Devart.UniDac.UniProvider"/>
+		</FileList>
+	</DelphiDotNet.Personality>
+	<ModelSupport>True</ModelSupport>
+</BorlandProject>

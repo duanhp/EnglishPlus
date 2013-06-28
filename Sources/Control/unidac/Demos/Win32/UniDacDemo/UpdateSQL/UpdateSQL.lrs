@@ -1,0 +1,83 @@
+LazarusResources.Add('TUpdateSQLFrame','FORMDATA',[
+  'TPF0'#241#15'TUpdateSQLFrame'#14'UpdateSQLFrame'#6'Height'#3#21#1#5'Width'#3
+  +#187#1#5'Align'#7#8'alClient'#0#9'TSplitter'#9'Splitter1'#6'Cursor'#7#8'crVS'
+  +'plit'#6'Height'#2#3#3'Top'#2'y'#5'Width'#3#187#1#5'Align'#7#5'alTop'#7'Beve'
+  +'led'#9#5'Color'#7#6'clBlue'#11'ParentColor'#8#12'ResizeAnchor'#7#5'akTop'#0
+  +#0#7'TDBGrid'#6'DBGrid'#6'Height'#2''#3'Top'#3#150#0#5'Width'#3#187#1#5'Ali'
+  +'gn'#7#8'alClient'#10'DataSource'#7#10'DataSource'#10'FixedColor'#7#9'clBtnF'
+  +'ace'#13'FixedHotColor'#7#9'cl3DLight'#7'Options'#11#9'dgEditing'#8'dgTitles'
+  +#11'dgIndicator'#14'dgColumnResize'#12'dgColumnMove'#10'dgColLines'#10'dgRow'
+  +'Lines'#6'dgTabs'#21'dgAlwaysShowSelection'#15'dgConfirmDelete'#14'dgCancelO'
+  +'nExit'#0#12'OptionsExtra'#11#14'dgeAutoColumns'#17'dgeCheckboxColumn'#0#11
+  +'ParentColor'#8#8'TabOrder'#2#0#7'TabStop'#9#16'TitleFont.Height'#2#245#14'T'
+  +'itleFont.Name'#6#6'Tahoma'#0#0#5'TMemo'#5'meSQL'#6'Height'#2'H'#3'Top'#2'1'
+  +#5'Width'#3#187#1#5'Align'#7#5'alTop'#21'Constraints.MinHeight'#2'2'#6'OnExi'
+  +'t'#7#9'meSQLExit'#10'ScrollBars'#7#10'ssVertical'#8'TabOrder'#2#1#0#0#6'TPa'
+  +'nel'#6'Panel3'#6'Height'#2#26#3'Top'#2'|'#5'Width'#3#187#1#5'Align'#7#5'alT'
+  +'op'#10'BevelOuter'#7#6'bvNone'#12'ClientHeight'#2#26#11'ClientWidth'#3#187#1
+  +#8'TabOrder'#2#2#0#6'TPanel'#6'Panel1'#6'Height'#2#26#5'Width'#3'H'#1#10'Bev'
+  +'elOuter'#7#6'bvNone'#12'ClientHeight'#2#26#11'ClientWidth'#3'H'#1#5'Color'#7
+  +#6'clBlue'#11'ParentColor'#8#8'TabOrder'#2#0#0#12'TSpeedButton'#15'btRefresh'
+  +'Record'#4'Left'#3#242#0#6'Height'#2#24#3'Top'#2#1#5'Width'#2'U'#7'Caption'#6
+  +#13'RefreshRecord'#5'Color'#7#9'clBtnFace'#4'Flat'#9#9'NumGlyphs'#2#0#11'Tra'
+  +'nsparent'#8#7'OnClick'#7#20'btRefreshRecordClick'#0#0#12'TDBNavigator'#12'D'
+  +'BNavigator1'#4'Left'#2#1#6'Height'#2#24#3'Top'#2#1#5'Width'#3#240#0#10'Beve'
+  +'lOuter'#7#6'bvNone'#12'ClientHeight'#2#24#11'ClientWidth'#3#240#0#5'Color'#7
+  +#9'clBtnFace'#10'DataSource'#7#10'DataSource'#4'Flat'#9#11'ParentColor'#8#8
+  +'TabOrder'#2#0#0#0#0#0#6'TPanel'#6'Panel6'#6'Height'#2'1'#5'Width'#3#187#1#5
+  +'Align'#7#5'alTop'#10'BevelOuter'#7#6'bvNone'#12'ClientHeight'#2'1'#11'Clien'
+  +'tWidth'#3#187#1#8'TabOrder'#2#3#0#6'TPanel'#7'ToolBar'#6'Height'#2'1'#5'Wid'
+  +'th'#3#175#1#5'Align'#7#6'alLeft'#10'BevelOuter'#7#6'bvNone'#12'ClientHeight'
+  +#2'1'#11'ClientWidth'#3#175#1#5'Color'#7#6'clBlue'#11'ParentColor'#8#8'TabOr'
+  +'der'#2#0#0#12'TSpeedButton'#11'btUnPrepare'#4'Left'#3#3#1#6'Height'#2#22#3
+  +'Top'#2#1#5'Width'#2'U'#7'Caption'#6#9'UnPrepare'#5'Color'#7#9'clBtnFace'#4
+  +'Flat'#9#9'NumGlyphs'#2#0#11'Transparent'#8#7'OnClick'#7#16'btUnPrepareClick'
+  +#0#0#12'TSpeedButton'#9'btPrepare'#4'Left'#3#173#0#6'Height'#2#22#3'Top'#2#1
+  +#5'Width'#2'U'#7'Caption'#6#7'Prepare'#5'Color'#7#9'clBtnFace'#4'Flat'#9#9'N'
+  +'umGlyphs'#2#0#11'Transparent'#8#7'OnClick'#7#14'btPrepareClick'#0#0#12'TSpe'
+  +'edButton'#6'btOpen'#4'Left'#2#1#6'Height'#2#22#3'Top'#2#1#5'Width'#2'U'#7'C'
+  +'aption'#6#4'Open'#5'Color'#7#9'clBtnFace'#4'Flat'#9#9'NumGlyphs'#2#0#11'Tra'
+  +'nsparent'#8#7'OnClick'#7#11'btOpenClick'#0#0#12'TSpeedButton'#9'btExecute'#4
+  +'Left'#3'Y'#1#6'Height'#2#22#3'Top'#2#1#5'Width'#2'U'#7'Caption'#6#7'Execute'
+  +#5'Color'#7#9'clBtnFace'#4'Flat'#9#9'NumGlyphs'#2#0#11'Transparent'#8#7'OnCl'
+  +'ick'#7#14'btExecuteClick'#0#0#12'TSpeedButton'#7'btClose'#4'Left'#2'W'#6'He'
+  +'ight'#2#22#3'Top'#2#1#5'Width'#2'U'#7'Caption'#6#5'Close'#5'Color'#7#9'clBt'
+  +'nFace'#4'Flat'#9#9'NumGlyphs'#2#0#11'Transparent'#8#7'OnClick'#7#12'btClose'
+  +'Click'#0#0#6'TPanel'#6'Panel4'#4'Left'#2#2#6'Height'#2#24#3'Top'#2#24#5'Wid'
+  +'th'#3#172#1#10'BevelOuter'#7#6'bvNone'#12'ClientHeight'#2#24#11'ClientWidth'
+  +#3#172#1#11'ParentColor'#8#8'TabOrder'#2#0#0#9'TCheckBox'#14'cbDeleteObject'
+  +#4'Left'#2#14#6'Height'#2#19#3'Top'#2#5#5'Width'#2'X'#7'Caption'#6#12'Delete'
+  +'Object'#7'OnClick'#7#13'cbObjectClick'#11'ParentColor'#8#8'TabOrder'#2#0#0#0
+  +#9'TCheckBox'#14'cbInsertObject'#4'Left'#2'p'#6'Height'#2#19#3'Top'#2#5#5'Wi'
+  +'dth'#2'S'#7'Caption'#6#12'InsertObject'#7'OnClick'#7#13'cbObjectClick'#11'P'
+  +'arentColor'#8#8'TabOrder'#2#1#0#0#9'TCheckBox'#14'cbModifyObject'#4'Left'#3
+  +#210#0#6'Height'#2#19#3'Top'#2#5#5'Width'#2'X'#7'Caption'#6#12'ModifyObject'
+  +#7'OnClick'#7#13'cbObjectClick'#11'ParentColor'#8#8'TabOrder'#2#2#0#0#9'TChe'
+  +'ckBox'#15'cbRefreshObject'#4'Left'#3':'#1#6'Height'#2#19#3'Top'#2#5#5'Width'
+  +#2'^'#7'Caption'#6#13'RefreshObject'#7'OnClick'#7#13'cbObjectClick'#11'Paren'
+  +'tColor'#8#8'TabOrder'#2#3#0#0#0#0#0#9'TUniQuery'#8'UniQuery'#11'SQL.Strings'
+  +#1#6#18'SELECT * FROM dept'#6#0#0#5'Debug'#9#14'RefreshOptions'#11#13'roAfte'
+  +'rInsert'#13'roAfterUpdate'#0#12'UpdateObject'#7#12'UniUpdateSQL'#4'left'#2
+  +#24#3'top'#3#200#0#0#0#11'TDatasource'#10'DataSource'#7'DataSet'#7#8'UniQuer'
+  +'y'#4'left'#2#24#3'top'#3#232#0#0#0#13'TUniUpdateSQL'#12'UniUpdateSQL'#17'In'
+  +'sertSQL.Strings'#1#6#16'INSERT INTO dept'#6#22'  (deptno, dname, loc)'#6#6
+  +'VALUES'#6#25'  (:deptno, :dname, :loc)'#0#17'DeleteSQL.Strings'#1#6#16'DELE'
+  +'TE FROM dept'#6#5'WHERE'#6#18'  deptno = :deptno'#0#17'ModifySQL.Strings'#1
+  ,#6#11'UPDATE dept'#6#3'SET'#6#19'  deptno = :deptno,'#6#17'  dname = :dname,'
+  +#6#12'  loc = :loc'#6#5'WHERE'#6#22'  deptno = :old_deptno'#0#18'RefreshSQL.'
+  +'Strings'#1#6#18'SELECT * FROM dept'#6#5'WHERE'#6#18'  deptno = :deptno'#0#4
+  +'left'#2'8'#3'top'#3#200#0#0#0#9'TUniQuery'#12'RefreshQuery'#11'SQL.Strings'
+  +#1#6#18'SELECT * FROM dept'#6#5'WHERE'#6#18'  deptno = :deptno'#0#4'left'#2
+  +'`'#3'top'#3#0#1#9'ParamData'#14#1#4'Name'#6#6'deptno'#0#0#0#0#9'TUniQuery'
+  +#11'ModifyQuery'#11'SQL.Strings'#1#6#11'UPDATE dept'#6#3'SET'#6#19'  deptno '
+  +'= :deptno,'#6#17'  dname = :dname,'#6#12'  loc = :loc'#6#5'WHERE'#6#22'  de'
+  +'ptno = :old_deptno'#0#4'left'#2'`'#3'top'#3#224#0#9'ParamData'#14#1#4'Name'
+  +#6#6'deptno'#0#1#4'Name'#6#5'DNAME'#0#1#4'Name'#6#3'loc'#0#1#4'Name'#6#10'ol'
+  +'d_deptno'#0#0#0#0#9'TUniQuery'#11'DeleteQuery'#11'SQL.Strings'#1#6#16'DELET'
+  +'E FROM dept'#6#5'WHERE'#6#18'  deptno = :deptno'#0#4'left'#2'`'#3'top'#3#160
+  +#0#9'ParamData'#14#1#4'Name'#6#6'deptno'#0#0#0#0#9'TUniQuery'#11'InsertQuery'
+  +#11'SQL.Strings'#1#6#16'INSERT INTO dept'#6#22'  (deptno, dname, loc)'#6#6'V'
+  +'ALUES'#6#25'  (:deptno, :dname, :loc)'#0#4'left'#2'`'#3'top'#3#192#0#9'Para'
+  +'mData'#14#1#4'Name'#6#6'deptno'#0#1#4'Name'#6#5'dname'#0#1#4'Name'#6#3'loc'
+  +#0#0#0#0#0
+]);

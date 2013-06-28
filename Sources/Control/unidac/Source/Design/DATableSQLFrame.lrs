@@ -1,0 +1,22 @@
+LazarusResources.Add('TDATableSQLFrame','FORMDATA',[
+  'TPF0'#241#16'TDATableSQLFrame'#15'DATableSQLFrame'#0#6'TLabel'#6'Label2'#4'L'
+  +'eft'#2#8#6'Height'#2#14#3'Top'#2#20#5'Width'#2'9'#7'Caption'#6#10'Table Nam'
+  +'e'#11'ParentColor'#8#0#0#6'TLabel'#6'Label4'#4'Left'#2#8#6'Height'#2#14#3'T'
+  +'op'#2','#5'Width'#2';'#7'Caption'#6#12'Order Fields'#11'ParentColor'#8#0#0#6
+  +'TLabel'#6'Label1'#4'Left'#2#8#6'Height'#2#14#3'Top'#2'C'#5'Width'#2','#7'Ca'
+  +'ption'#6#9'FilterSQL'#11'ParentColor'#8#0#0#9'TComboBox'#11'cbTableName'#4
+  +'Left'#2'`'#6'Height'#2#21#3'Top'#2#16#5'Width'#3'x'#1#7'Anchors'#11#5'akTop'
+  +#6'akLeft'#7'akRight'#0#16'AutoCompleteText'#11#22'cbactEndOfLineComplete'#20
+  +'cbactSearchAscending'#0#13'DropDownCount'#2#16#10'ItemHeight'#2#13#10'OnDro'
+  +'pDown'#7#19'cbTableNameDropDown'#6'OnExit'#7#15'cbTableNameExit'#8'TabOrder'
+  +#2#0#0#0#5'TEdit'#13'edOrderFields'#4'Left'#2'`'#6'Height'#2#21#3'Top'#2'('#5
+  +'Width'#3'x'#1#7'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'#0#6'OnExit'#7#17
+  +'edOrderFieldsExit'#8'TabOrder'#2#1#0#0#5'TEdit'#8'edFilter'#4'Left'#2'`'#6
+  +'Height'#2#21#3'Top'#2'@'#5'Width'#3'x'#1#7'Anchors'#11#5'akTop'#6'akLeft'#7
+  +'akRight'#0#6'OnExit'#7#12'edFilterExit'#8'TabOrder'#2#2#0#0#5'TMemo'#5'meSQ'
+  +'L'#4'Left'#2#7#6'Height'#3#132#0#3'Top'#2'X'#5'Width'#3#209#1#7'Anchors'#11
+  +#5'akTop'#6'akLeft'#7'akRight'#8'akBottom'#0#5'Color'#7#9'clBtnFace'#11'Font'
+  +'.Height'#2#244#9'Font.Name'#6#11'Courier New'#10'Font.Pitch'#7#10'fpVariabl'
+  +'e'#13'Lines.Strings'#1#6#0#0#8'ReadOnly'#9#10'ScrollBars'#7#6'ssBoth'#8'Tab'
+  +'Order'#2#3#8'WordWrap'#8#0#0#0
+]);

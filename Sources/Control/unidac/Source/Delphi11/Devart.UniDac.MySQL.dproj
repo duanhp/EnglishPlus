@@ -1,0 +1,138 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup>
+		<ProjectGuid>{7ce65c66-84d9-4168-ba74-a8b255e582df}</ProjectGuid>
+		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+		<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+		<DCC_EnabledPackages>true</DCC_EnabledPackages>
+		<DCC_UsePackage>Devart.Dac;Devart.UniDac;Borland.VclRtl;Borland.VclDbRtl;Borland.Vcl;Borland.Delphi</DCC_UsePackage>
+		<DCC_DCCCompiler>DCCIL</DCC_DCCCompiler>
+		<DCC_DependencyCheckOutputName>Devart.UniDac.MySQL.dll</DCC_DependencyCheckOutputName>
+		<MainSource>Devart.UniDac.MySQL.dpk</MainSource>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+		<Version>7.0</Version>
+		<DCC_DebugInformation>False</DCC_DebugInformation>
+		<DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+		<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+		<DCC_Define>UNIDACPRO;RELEASE</DCC_Define>
+		<DCC_DcuOutput>.</DCC_DcuOutput>
+		<DCC_ObjOutput>.</DCC_ObjOutput>
+		<DCC_HppOutput>.</DCC_HppOutput>
+		<DCC_BplOutput>.</DCC_BplOutput>
+		<DCC_DcpOutput>.</DCC_DcpOutput>
+		<DCC_UnitSearchPath>..\..;..\..\UniNet;..\..\..\..\..\MyDac\Source;..\..\..\..\..\MyDac\Source\Net;..\..\..\..\..\Common\Source;..\..\..\..\..\Common\Source\Net;..\..\..\..\..\Common\Source\Delphi11</DCC_UnitSearchPath>
+		<DCC_ResourcePath>..\..;..\..\UniNet;..\..\..\..\..\MyDac\Source;..\..\..\..\..\MyDac\Source\Net;..\..\..\..\..\Common\Source;..\..\..\..\..\Common\Source\Net;..\..\..\..\..\Common\Source\Delphi11</DCC_ResourcePath>
+		<DCC_IncludePath>..\..;..\..\UniNet;..\..\..\..\..\MyDac\Source;..\..\..\..\..\MyDac\Source\Net;..\..\..\..\..\Common\Source;..\..\..\..\..\Common\Source\Net;..\..\..\..\..\Common\Source\Delphi11</DCC_IncludePath>
+		<DCC_NameSpace>Devart.UniDac.MySQL;Devart.MyDac;Devart.Dac;Devart.UniDac;Borland.Vcl</DCC_NameSpace>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+		<Version>7.0</Version>
+		<DCC_DebugInfoInExe>True</DCC_DebugInfoInExe>
+		<DCC_DebugVN>True</DCC_DebugVN>
+		<DCC_Define>UNIDACPRO;DEBUG</DCC_Define>
+		<DCC_Platform>x86</DCC_Platform>
+		<DCC_DebugInformation>False</DCC_DebugInformation>
+		<DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+		<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+		<DCC_DcuOutput>.</DCC_DcuOutput>
+		<DCC_ObjOutput>.</DCC_ObjOutput>
+		<DCC_HppOutput>.</DCC_HppOutput>
+		<DCC_BplOutput>.</DCC_BplOutput>
+		<DCC_DcpOutput>.</DCC_DcpOutput>
+		<DCC_UnitSearchPath>..\..;..\..\UniNet;..\..\..\..\..\MyDac\Source;..\..\..\..\..\MyDac\Source\Net;..\..\..\..\..\Common\Source;..\..\..\..\..\Common\Source\Net;..\..\..\..\..\Common\Source\Delphi11</DCC_UnitSearchPath>
+		<DCC_ResourcePath>..\..;..\..\UniNet;..\..\..\..\..\MyDac\Source;..\..\..\..\..\MyDac\Source\Net;..\..\..\..\..\Common\Source;..\..\..\..\..\Common\Source\Net;..\..\..\..\..\Common\Source\Delphi11</DCC_ResourcePath>
+		<DCC_IncludePath>..\..;..\..\UniNet;..\..\..\..\..\MyDac\Source;..\..\..\..\..\MyDac\Source\Net;..\..\..\..\..\Common\Source;..\..\..\..\..\Common\Source\Net;..\..\..\..\..\Common\Source\Delphi11</DCC_IncludePath>
+		<DCC_NameSpace>Devart.UniDac.MySQL;Devart.MyDac;Devart.Dac;Devart.UniDac;Borland.Vcl</DCC_NameSpace>
+	</PropertyGroup>
+	<ProjectExtensions>
+		<Borland.Personality>DelphiDotNet.Personality</Borland.Personality>
+		<Borland.ProjectType/>
+		<BorlandProject>
+			<BorlandProject xmlns="">
+				<DelphiDotNet.Personality>
+					<Parameters>
+						<Parameters Name="UseLauncher">False</Parameters>
+						<Parameters Name="LoadAllSymbols">True</Parameters>
+						<Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+					</Parameters>
+					<Package_Options>
+						<Package_Options Name="ImplicitBuild">False</Package_Options>
+						<Package_Options Name="DesigntimeOnly">False</Package_Options>
+						<Package_Options Name="RuntimeOnly">False</Package_Options>
+					</Package_Options>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">False</VersionInfo>
+						<VersionInfo Name="MajorVer">4</VersionInfo>
+						<VersionInfo Name="MinorVer">0</VersionInfo>
+						<VersionInfo Name="Release">1</VersionInfo>
+						<VersionInfo Name="Build">5000</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName"></VersionInfoKeys>
+						<VersionInfoKeys Name="FileDescription"></VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">4.0.1.0</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName"></VersionInfoKeys>
+						<VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys>
+						<VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys>
+						<VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys>
+						<VersionInfoKeys Name="ProductName"></VersionInfoKeys>
+						<VersionInfoKeys Name="ProductVersion">4.0.1.0</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments"></VersionInfoKeys>
+					</VersionInfoKeys>
+					<Source>
+						<Source Name="MainSource">Devart.UniDac.MySQL.dpk</Source>
+					</Source>
+				</DelphiDotNet.Personality>
+			</BorlandProject></BorlandProject>
+	</ProjectExtensions>
+	<ItemGroup>
+		<Reference Include="Borland.Delphi.dll">
+			<AssemblyName>Borland.Delphi</AssemblyName>
+			<HintPath>Borland.Delphi.dll</HintPath>
+			<AssemblyTag>Borland.Delphi</AssemblyTag>
+			<LinkUnits>False</LinkUnits>
+		</Reference>
+		<Reference Include="..\..\..\..\..\Common\Source\Delphi11\Devart.Dac.dll">
+			<AssemblyName>Devart.Dac</AssemblyName>
+			<CopyLocal>False</CopyLocal>
+			<AssemblyTag>..\..\..\..\..\Common\Source\Delphi11\Devart.Dac.dll</AssemblyTag>
+			<LinkUnits>False</LinkUnits>
+		</Reference>
+		<Reference Include="..\..\..\..\..\UniDac\Source\Delphi11\Devart.UniDac.dll">
+			<AssemblyName>Devart.UniDac</AssemblyName>
+			<CopyLocal>False</CopyLocal>
+			<AssemblyTag>..\..\..\..\..\UniDac\Source\Delphi11\Devart.UniDac.dll</AssemblyTag>
+			<LinkUnits>False</LinkUnits>
+		</Reference>
+	</ItemGroup>
+	<ItemGroup>
+		<DelphiCompile Include="Devart.UniDac.MySQL.dpk">
+			<MainSource>MainSource</MainSource>
+		</DelphiCompile>
+		<DCCReference Include="..\UniProviders\MySQL\Net\Devart.MyDac.MyCallUni.pas"/>
+		<DCCReference Include="..\UniProviders\MySQL\Net\Devart.MyDac.MyClassesUni.pas"/>
+		<DCCReference Include="..\UniProviders\MySQL\Net\Devart.MyDac.MyConnectionPoolUni.pas"/>
+		<DCCReference Include="..\UniProviders\MySQL\Net\Devart.MyDac.MyConstsUni.pas"/>
+		<DCCReference Include="..\UniProviders\MySQL\Net\Devart.MyDac.MyParserUni.pas"/>
+		<DCCReference Include="..\UniProviders\MySQL\Net\Devart.MyDac.MyScriptProcessorUni.pas"/>
+		<DCCReference Include="..\UniProviders\MySQL\Net\Devart.MyDac.MyServicesUni.pas"/>
+		<DCCReference Include="..\UniProviders\MySQL\Net\Devart.MyDac.MySqlApiDirectUni.pas"/>
+		<DCCReference Include="..\UniProviders\MySQL\Net\Devart.MyDac.MySqlApiUni.pas"/>
+		<DCCReference Include="..\UniProviders\MySQL\Net\Devart.MyDac.MySqlBindUni.pas"/>
+		<DCCReference Include="..\UniProviders\MySQL\Net\Devart.MyDac.MySqlErrorsUni.pas"/>
+		<DCCReference Include="..\UniProviders\MySQL\Net\Devart.MyDac.MySqlNetUni.pas"/>
+		<DCCReference Include="..\UniProviders\MySQL\Net\Devart.MyDac.MySqlResultSetUni.pas"/>
+		<DCCReference Include="..\UniProviders\MySQL\Net\Devart.MyDac.MySqlSessionUni.pas"/>
+		<DCCReference Include="..\UniProviders\MySQL\Net\Devart.MyDac.MySqlStmtUni.pas"/>
+		<DCCReference Include="..\UniProviders\MySQL\Net\Devart.MyDac.MySqlTypeUni.pas"/>
+		<DCCReference Include="..\UniProviders\MySQL\Net\Devart.MyDac.MySqlVioPipeUni.pas"/>
+		<DCCReference Include="..\UniProviders\MySQL\Net\Devart.UniDac.MySQL.MySQLUniProvider.pas"/>
+	</ItemGroup>
+	<Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets"/>
+</Project>

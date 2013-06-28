@@ -1,0 +1,118 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup>
+		<ProjectGuid>{2d37fd8f-b808-43ba-90d7-f070295b616c}</ProjectGuid>
+		<MainSource>Devart.UniDac.SQLite.dpk</MainSource>
+		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+		<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+		<DCC_DCCCompiler>DCCIL</DCC_DCCCompiler>
+		<DCC_DependencyCheckOutputName>Devart.UniDac.SQLite.dll</DCC_DependencyCheckOutputName>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+		<Version>7.0</Version>
+		<DCC_DebugInformation>False</DCC_DebugInformation>
+		<DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+		<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+		<DCC_NameSpace>Devart.UniDac.SQLite;Devart.SQLiteDac;Devart.Dac;Devart.UniDac;Borland.Vcl</DCC_NameSpace>
+		<DCC_DebugInfoInExe>True</DCC_DebugInfoInExe>
+		<DCC_DebugVN>True</DCC_DebugVN>
+		<DCC_DcpOutput>.</DCC_DcpOutput>
+		<DCC_UnitSearchPath>..\..\..;..\..\..\..\..\Common\Source;..\..\..\..\..\Common\Source\Delphi11;..\..\..\..\..\UniDac\Source\Delphi11</DCC_UnitSearchPath>
+		<DCC_ResourcePath>..\..\..;..\..\..\..\..\Common\Source;..\..\..\..\..\Common\Source\Delphi11;..\..\..\..\..\UniDac\Source\Delphi11</DCC_ResourcePath>
+		<DCC_IncludePath>..\..\..;..\..\..\..\..\Common\Source;..\..\..\..\..\Common\Source\Delphi11;..\..\..\..\..\UniDac\Source\Delphi11</DCC_IncludePath>
+		<DCC_Define>UNIDACPRO;RELEASE</DCC_Define>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+		<Version>7.0</Version>
+		<DCC_DebugInformation>False</DCC_DebugInformation>
+		<DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+		<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+		<DCC_NameSpace>Devart.UniDac.SQLite;Devart.SQLiteDac;Devart.Dac;Devart.UniDac;Borland.Vcl</DCC_NameSpace>
+		<DCC_DebugInfoInExe>True</DCC_DebugInfoInExe>
+		<DCC_DebugVN>True</DCC_DebugVN>
+		<DCC_DcpOutput>.</DCC_DcpOutput>
+		<DCC_UnitSearchPath>..\..\..;..\..\..\..\..\Common\Source;..\..\..\..\..\Common\Source\Delphi11;..\..\..\..\..\UniDac\Source\Delphi11</DCC_UnitSearchPath>
+		<DCC_ResourcePath>..\..\..;..\..\..\..\..\Common\Source;..\..\..\..\..\Common\Source\Delphi11;..\..\..\..\..\UniDac\Source\Delphi11</DCC_ResourcePath>
+		<DCC_IncludePath>..\..\..;..\..\..\..\..\Common\Source;..\..\..\..\..\Common\Source\Delphi11;..\..\..\..\..\UniDac\Source\Delphi11</DCC_IncludePath>
+		<DCC_Define>UNIDACPRO;DEBUG</DCC_Define>
+		<DCC_Platform>x86</DCC_Platform>
+	</PropertyGroup>
+	<ProjectExtensions>
+		<Borland.Personality>DelphiDotNet.Personality</Borland.Personality>
+		<Borland.ProjectType>Package</Borland.ProjectType>
+		<BorlandProject>
+			<BorlandProject xmlns="">
+				<DelphiDotNet.Personality>
+					<Parameters>
+						<Parameters Name="UseLauncher">False</Parameters>
+						<Parameters Name="LoadAllSymbols">True</Parameters>
+						<Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+					</Parameters>
+					<Package_Options>
+						<Package_Options Name="ImplicitBuild">False</Package_Options>
+						<Package_Options Name="DesigntimeOnly">False</Package_Options>
+						<Package_Options Name="RuntimeOnly">False</Package_Options>
+					</Package_Options>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">False</VersionInfo>
+						<VersionInfo Name="MajorVer">4</VersionInfo>
+						<VersionInfo Name="MinorVer">0</VersionInfo>
+						<VersionInfo Name="Release">1</VersionInfo>
+						<VersionInfo Name="Build">5000</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName"></VersionInfoKeys>
+						<VersionInfoKeys Name="FileDescription"></VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">4.0.1.0</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName"></VersionInfoKeys>
+						<VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys>
+						<VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys>
+						<VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys>
+						<VersionInfoKeys Name="ProductName"></VersionInfoKeys>
+						<VersionInfoKeys Name="ProductVersion">4.0.1.0</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments"></VersionInfoKeys>
+					</VersionInfoKeys>
+					<Source>
+						<Source Name="MainSource">Devart.UniDac.SQLite.dpk</Source>
+					</Source>
+				</DelphiDotNet.Personality>
+			</BorlandProject></BorlandProject>
+	</ProjectExtensions>
+	<ItemGroup>
+		<Reference Include="Borland.Delphi.dll">
+			<HintPath>Borland.Delphi.dll</HintPath>
+			<AssemblyTag>Borland.Delphi</AssemblyTag>
+			<LinkUnits>False</LinkUnits>
+		</Reference>
+		<Reference Include="Devart.Dac.dll">
+			<HintPath>Devart.Dac.dll</HintPath>
+			<AssemblyTag>Devart.Dac</AssemblyTag>
+			<LinkUnits>False</LinkUnits>
+		</Reference>
+		<Reference Include="Devart.UniDac.dll">
+			<HintPath>Devart.UniDac.dll</HintPath>
+			<AssemblyTag>Devart.UniDac</AssemblyTag>
+			<LinkUnits>False</LinkUnits>
+		</Reference>
+	</ItemGroup>
+	<ItemGroup>
+		<DelphiCompile Include="Devart.UniDac.SQLite.dpk">
+			<MainSource>MainSource</MainSource>
+		</DelphiCompile>
+		<DCCReference Include="..\UniProviders\SQLite\Net\Devart.SQLiteDac.LiteCallUni.pas"/>
+		<DCCReference Include="..\UniProviders\SQLite\Net\Devart.SQLiteDac.LiteClassesUni.pas"/>
+		<DCCReference Include="..\UniProviders\SQLite\Net\Devart.SQLiteDac.LiteConstsUni.pas"/>
+		<DCCReference Include="..\UniProviders\SQLite\Net\Devart.SQLiteDac.LiteErrorUni.pas"/>
+		<DCCReference Include="..\UniProviders\SQLite\Net\Devart.SQLiteDac.LiteParserUni.pas"/>
+		<DCCReference Include="..\UniProviders\SQLite\Net\Devart.SQLiteDac.LiteServicesUni.pas"/>
+		<DCCReference Include="..\UniProviders\SQLite\Net\Devart.SQLiteDac.LiteCollationUni.pas"/>
+		<DCCReference Include="..\UniProviders\SQLite\Net\Devart.SQLiteDac.LiteFunctionUni.pas"/>
+		<DCCReference Include="..\UniProviders\SQLite\Net\Devart.UniDac.SQLite.SQLiteUniProvider.pas"/>
+	</ItemGroup>
+	<Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets"/>
+</Project>

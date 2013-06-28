@@ -1,0 +1,424 @@
+inherited QueryFrame: TQueryFrame
+  Height = 277
+  Width = 675
+  Align = alClient
+  object Splitter1: TSplitter
+    Cursor = crVSplit
+    Height = 1
+    Top = 160
+    Width = 675
+    Align = alTop
+    Color = clBlue
+    ParentColor = False
+    ResizeAnchor = akTop
+  end
+  object DBGrid: TDBGrid
+    Height = 90
+    Top = 187
+    Width = 675
+    Align = alClient
+    Constraints.MinWidth = 50
+    DataSource = DataSource
+    FixedColor = clBtnFace
+    FixedHotColor = cl3DLight
+    Options = [dgEditing, dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
+    OptionsExtra = [dgeAutoColumns, dgeCheckboxColumn]
+    ParentColor = False
+    TabOrder = 0
+    TabStop = True
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+  end
+  object TPanel
+    Height = 26
+    Top = 161
+    Width = 675
+    Align = alTop
+    BevelOuter = bvNone
+    ClientHeight = 26
+    ClientWidth = 675
+    TabOrder = 1
+    object Panel9: TPanel
+      Left = 1
+      Height = 24
+      Top = 1
+      Width = 564
+      BevelOuter = bvNone
+      ClientHeight = 24
+      ClientWidth = 564
+      Color = clBlue
+      ParentColor = False
+      TabOrder = 0
+      object btRefreshRecord: TSpeedButton
+        Left = 232
+        Height = 22
+        Top = 1
+        Width = 82
+        Caption = 'RefreshRecord'
+        Color = clBtnFace
+        Flat = True
+        NumGlyphs = 0
+        Transparent = False
+        OnClick = btRefreshRecordClick
+      end
+      object btSaveToXML: TSpeedButton
+        Left = 481
+        Height = 22
+        Top = 1
+        Width = 82
+        Caption = 'SaveToXML'
+        Color = clBtnFace
+        Flat = True
+        NumGlyphs = 0
+        Transparent = False
+        OnClick = btSaveToXMLClick
+      end
+      object btLockRecord: TSpeedButton
+        Left = 315
+        Height = 22
+        Top = 1
+        Width = 82
+        Caption = 'Lock'
+        Color = clBtnFace
+        Flat = True
+        NumGlyphs = 0
+        Transparent = False
+        OnClick = btLockRecordClick
+      end
+      object btUnLock: TSpeedButton
+        Left = 398
+        Height = 22
+        Top = 1
+        Width = 82
+        Caption = 'Unlock'
+        Color = clBtnFace
+        Flat = True
+        NumGlyphs = 0
+        Transparent = False
+        OnClick = btUnLockClick
+      end
+      object DBNavigator: TDBNavigator
+        Left = 1
+        Height = 22
+        Top = 1
+        Width = 230
+        BevelOuter = bvNone
+        ClientHeight = 22
+        ClientWidth = 230
+        Color = clBtnFace
+        DataSource = DataSource
+        Flat = True
+        ParentColor = False
+        TabOrder = 0
+      end
+    end
+  end
+  object ToolBar: TPanel
+    Height = 80
+    Width = 675
+    Align = alTop
+    BevelOuter = bvNone
+    ClientHeight = 80
+    ClientWidth = 675
+    TabOrder = 2
+    object Panel1: TPanel
+      Left = -8
+      Height = 78
+      Width = 642
+      BevelOuter = bvNone
+      ClientHeight = 78
+      ClientWidth = 642
+      Color = clBlue
+      ParentColor = False
+      TabOrder = 0
+      object btClose: TSpeedButton
+        Left = 92
+        Height = 22
+        Top = 1
+        Width = 82
+        Caption = 'Close'
+        Color = clBtnFace
+        Flat = True
+        NumGlyphs = 0
+        Transparent = False
+        OnClick = btCloseClick
+      end
+      object btOpen: TSpeedButton
+        Left = 9
+        Height = 22
+        Top = 1
+        Width = 82
+        Caption = 'Open'
+        Color = clBtnFace
+        Flat = True
+        NumGlyphs = 0
+        Transparent = False
+        OnClick = btOpenClick
+      end
+      object btPrepare: TSpeedButton
+        Left = 175
+        Height = 22
+        Top = 1
+        Width = 82
+        Caption = 'Prepare'
+        Color = clBtnFace
+        Flat = True
+        NumGlyphs = 0
+        Transparent = False
+        OnClick = btPrepareClick
+      end
+      object btUnPrepare: TSpeedButton
+        Left = 258
+        Height = 22
+        Top = 1
+        Width = 82
+        Caption = 'UnPrepare'
+        Color = clBtnFace
+        Flat = True
+        NumGlyphs = 0
+        Transparent = False
+        OnClick = btUnPrepareClick
+      end
+      object btExecute: TSpeedButton
+        Left = 341
+        Height = 22
+        Top = 1
+        Width = 82
+        Caption = 'Execute'
+        Color = clBtnFace
+        Flat = True
+        NumGlyphs = 0
+        Transparent = False
+        OnClick = btExecuteClick
+      end
+      object Panel2: TPanel
+        Left = 503
+        Height = 76
+        Top = 1
+        Width = 138
+        BevelOuter = bvNone
+        ClientHeight = 76
+        ClientWidth = 138
+        ParentColor = False
+        TabOrder = 0
+        object cbRefreshBeforeEdit: TCheckBox
+          Left = 11
+          Height = 19
+          Top = 4
+          Width = 115
+          Caption = 'Refresh BeforeEdit'
+          OnClick = cbRefreshOptionsClick
+          TabOrder = 0
+        end
+        object cbRefreshAfterInsert: TCheckBox
+          Left = 11
+          Height = 19
+          Top = 21
+          Width = 114
+          Caption = 'Refresh AfterInsert'
+          OnClick = cbRefreshOptionsClick
+          TabOrder = 1
+        end
+        object cbRefreshAfterUpdate: TCheckBox
+          Left = 11
+          Height = 19
+          Top = 38
+          Width = 123
+          Caption = 'Refresh AfterUpdate'
+          OnClick = cbRefreshOptionsClick
+          TabOrder = 2
+        end
+        object cbDMLRefresh: TCheckBox
+          Left = 11
+          Height = 19
+          Top = 55
+          Width = 89
+          Caption = 'DML Refresh'
+          OnClick = cbDMLRefreshClick
+          TabOrder = 3
+        end
+      end
+      object Panel5: TPanel
+        Left = 282
+        Height = 26
+        Top = 51
+        Width = 220
+        BevelOuter = bvNone
+        ClientHeight = 26
+        ClientWidth = 220
+        ParentColor = False
+        TabOrder = 1
+        object StaticText1: TLabel
+          Left = 6
+          Height = 14
+          Top = 7
+          Width = 54
+          Caption = 'FetchRows'
+          ParentColor = False
+        end
+        object edFetchRows: TEdit
+          Left = 67
+          Height = 21
+          Top = 2
+          Width = 70
+          OnExit = edFetchRowsExit
+          TabOrder = 0
+        end
+        object cbFetchAll: TCheckBox
+          Left = 147
+          Height = 19
+          Top = 5
+          Width = 64
+          Caption = 'FetchAll'
+          Checked = True
+          OnClick = cbFetchAllClick
+          State = cbChecked
+          TabOrder = 1
+        end
+      end
+      object Panel6: TPanel
+        Left = 9
+        Height = 26
+        Top = 51
+        Width = 272
+        BevelOuter = bvNone
+        ClientHeight = 26
+        ClientWidth = 272
+        ParentColor = False
+        TabOrder = 2
+        object Label5: TLabel
+          Left = 7
+          Height = 14
+          Top = 8
+          Width = 25
+          Caption = 'Filter'
+          ParentColor = False
+        end
+        object edFilter: TEdit
+          Left = 37
+          Height = 21
+          Top = 3
+          Width = 164
+          OnExit = edFilterExit
+          TabOrder = 0
+        end
+        object cbFiltered: TCheckBox
+          Left = 208
+          Height = 19
+          Top = 5
+          Width = 60
+          Caption = 'Filtered'
+          OnClick = cbFilteredClick
+          TabOrder = 1
+        end
+      end
+      object Panel7: TPanel
+        Left = 9
+        Height = 26
+        Top = 24
+        Width = 272
+        BevelOuter = bvNone
+        ClientHeight = 26
+        ClientWidth = 272
+        ParentColor = False
+        TabOrder = 3
+        object Label2: TLabel
+          Left = 5
+          Height = 13
+          Top = 7
+          Width = 73
+          Caption = 'Updating Table'
+          ParentColor = False
+        end
+        object edUpdatingTable: TEdit
+          Left = 87
+          Height = 21
+          Top = 3
+          Width = 179
+          OnExit = edUpdatingTableExit
+          TabOrder = 0
+        end
+      end
+      object Panel3: TPanel
+        Left = 282
+        Height = 26
+        Top = 24
+        Width = 220
+        BevelOuter = bvNone
+        ClientHeight = 26
+        ClientWidth = 220
+        ParentColor = False
+        TabOrder = 4
+        object Label1: TLabel
+          Left = 5
+          Height = 13
+          Top = 7
+          Width = 53
+          Caption = 'Lock mode'
+          ParentColor = False
+        end
+        object cmbLockMode: TComboBox
+          Left = 70
+          Height = 21
+          Top = 3
+          Width = 145
+          AutoCompleteText = [cbactEndOfLineComplete, cbactSearchAscending]
+          ItemHeight = 13
+          ItemIndex = 0
+          Items.Strings = (
+            'None'
+            'Optimistic'
+            'Pessimistic'
+          )
+          OnChange = cmbLockModeChange
+          Style = csDropDownList
+          TabOrder = 0
+          Text = 'None'
+        end
+      end
+    end
+  end
+  object Memo: TMemo
+    Height = 80
+    Top = 80
+    Width = 675
+    Align = alTop
+    OnExit = edFetchRowsExit
+    ScrollBars = ssVertical
+    TabOrder = 3
+  end
+  object Panel4: TPanel
+    Left = 416
+    Height = 22
+    Top = 1
+    Width = 78
+    BevelOuter = bvNone
+    TabOrder = 4
+  end
+  object DataSource: TDatasource
+    DataSet = UniQuery
+    OnStateChange = DataSourceStateChange
+    OnDataChange = DataSourceDataChange
+    left = 108
+    top = 105
+  end
+  object UniQuery: TUniQuery
+    SQL.Strings = (
+      'SELECT emp.empno, emp.ename, emp.job, dept.deptno, dept.dname'
+      'FROM emp, dept'
+      'WHERE dept.deptno = emp.deptno'
+    )
+    Debug = True
+    AfterOpen = UniQueryAfterOpen
+    left = 76
+    top = 105
+  end
+  object SaveDialog: TSaveDialog
+    Title = 'Сохранить файл как'
+    DefaultExt = '.xml'
+    Filter = 'XML (*.xml)|*.xml'
+    Options = [ofOverwritePrompt, ofHideReadOnly, ofEnableSizing]
+    left = 140
+    top = 105
+  end
+end

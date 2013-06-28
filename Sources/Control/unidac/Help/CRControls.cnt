@@ -1,0 +1,41 @@
+:TITLE TCRDBGrid Component
+:BASE CRControls.hlp
+1 Compatibility=Compatibility_CRControls@CRControls.hlp>Main
+1 Support=Compatibility_CRControls_2@CRControls.hlp>Main
+1 TCRColumn
+2 Description=TCRColumn@CRControls.hlp>Main
+2 Properties
+3 FilterExpression=TCRColumn_FilterExpression@CRControls.hlp>Main
+3 FloatDigits=TCRColumn_FloatDigits@CRControls.hlp>Main
+3 FloatFormat=TCRColumn_FloatFormat@CRControls.hlp>Main
+3 FloatPrecision=TCRColumn_FloatPrecision@CRControls.hlp>Main
+3 SortOrder=TCRColumn_SortOrder@CRControls.hlp>Main
+3 SortSequence=TCRColumn_SortSequence@CRControls.hlp>Main
+3 SummaryMode=TCRColumn_SummaryMode1@CRControls.hlp>Main
+3 TotalString=TCRColumn_TotalString@CRControls.hlp>Main
+3 TotalValue=TCRColumn_TotalValue@CRControls.hlp>Main
+1 TCRDBGrid
+2 Description=TCRDBGrid@CRControls.hlp>Main
+2 Properties
+3 Filtered=TCRDBGrid_Filtered@CRControls.hlp>Main
+3 LevelDelimiterChar=TCRDBGrid_LevelDelimiterChar@CRControls.hlp>Main
+3 Columns=TCRDBGrid_Columns@CRControls.hlp>Main
+3 OptionsMenu=TCRDBGrid_OptionsMenu@CRControls.hlp>Main
+3 OptionsEx=TCRDBGrid_OptionsEx@CRControls.hlp>Main
+2 Methods
+3 ActivateFilterEdit=TCRDBGrid_ActivateFilterEdit@CRControls.hlp>Main
+3 ActivateSearchEdit=TCRDBGrid_ActivateSearchEdit@CRControls.hlp>Main
+3 AdjustColumns=TCRDBGrid_AdjustColumns@CRControls.hlp>Main
+3 ApplyFilter=TCRDBGrid_ApplyFilter@CRControls.hlp>Main
+3 CalcTitleLevel=TCRDBGrid_CalcTitleLevel@CRControls.hlp>Main
+3 ClearFilters=TCRDBGrid_ClearFilters1@CRControls.hlp>Main
+3 ClearSorting=TCRDBGrid_ClearSorting@CRControls.hlp>Main
+3 DataChanged=TCRDBGrid_DataChanged@CRControls.hlp>Main
+3 GetGridSize=TCRDBGrid_GetGridSize@CRControls.hlp>Main
+3 GetTitleLevel=TCRDBGrid_GetTitleLevel@CRControls.hlp>Main
+2 Events
+3 OnGetCellParams=TCRDBGrid_OnGetCellParams@CRControls.hlp>Main
+3 OnMemoClick=TCRDBGrid_OnMemoClick@CRControls.hlp>Main
+2 Working with TCRDBGrid component
+3 Using Filter Bar=TCRDBGrid_usingfilterbar@CRControls.hlp>Main
+3 Using Search Bar=TCRDBGrid_usingsearchbar@CRControls.hlp>Main

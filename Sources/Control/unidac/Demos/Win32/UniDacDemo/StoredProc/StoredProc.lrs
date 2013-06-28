@@ -1,0 +1,53 @@
+LazarusResources.Add('TStoredProcFrame','FORMDATA',[
+  'TPF0'#241#16'TStoredProcFrame'#15'StoredProcFrame'#6'Height'#3#21#1#5'Width'
+  +#3#187#1#5'Align'#7#8'alClient'#0#9'TSplitter'#9'Splitter1'#6'Cursor'#7#8'cr'
+  +'VSplit'#6'Height'#2#3#3'Top'#3#220#0#5'Width'#3#187#1#5'Align'#7#5'alTop'#8
+  +'AutoSnap'#8#12'ResizeAnchor'#7#5'akTop'#0#0#7'TDBGrid'#6'DBGrid'#6'Height'#2
+  +'6'#3'Top'#3#223#0#5'Width'#3#187#1#5'Align'#7#8'alClient'#10'DataSource'#7
+  +#10'DataSource'#10'FixedColor'#7#9'clBtnFace'#13'FixedHotColor'#7#9'cl3DLigh'
+  +'t'#7'Options'#11#9'dgEditing'#8'dgTitles'#11'dgIndicator'#14'dgColumnResize'
+  +#12'dgColumnMove'#10'dgColLines'#10'dgRowLines'#6'dgTabs'#21'dgAlwaysShowSel'
+  +'ection'#15'dgConfirmDelete'#14'dgCancelOnExit'#0#12'OptionsExtra'#11#14'dge'
+  +'AutoColumns'#17'dgeCheckboxColumn'#0#11'ParentColor'#8#8'TabOrder'#2#1#7'Ta'
+  +'bStop'#9#16'TitleFont.Height'#2#245#14'TitleFont.Name'#6#6'Tahoma'#0#0#6'TP'
+  +'anel'#7'ToolBar'#6'Height'#2'2'#5'Width'#3#187#1#5'Align'#7#5'alTop'#10'Bev'
+  +'elOuter'#7#6'bvNone'#12'ClientHeight'#2'2'#11'ClientWidth'#3#187#1#8'TabOrd'
+  +'er'#2#0#0#6'TPanel'#6'Panel1'#6'Height'#2#25#5'Width'#3#175#1#10'BevelOuter'
+  +#7#6'bvNone'#12'ClientHeight'#2#25#11'ClientWidth'#3#175#1#5'Color'#7#6'clBl'
+  +'ue'#11'ParentColor'#8#8'TabOrder'#2#0#0#12'TSpeedButton'#7'btClose'#4'Left'
+  +#2'W'#6'Height'#2#24#3'Top'#2#1#5'Width'#2'U'#7'Caption'#6#5'Close'#5'Color'
+  +#7#9'clBtnFace'#4'Flat'#9#9'NumGlyphs'#2#0#11'Transparent'#8#7'OnClick'#7#12
+  +'btCloseClick'#0#0#12'TSpeedButton'#6'btOpen'#4'Left'#2#1#6'Height'#2#24#3'T'
+  +'op'#2#1#5'Width'#2'U'#7'Caption'#6#4'Open'#5'Color'#7#9'clBtnFace'#4'Flat'#9
+  +#9'NumGlyphs'#2#0#11'Transparent'#8#7'OnClick'#7#11'btOpenClick'#0#0#12'TSpe'
+  +'edButton'#9'btExecute'#4'Left'#3#173#0#6'Height'#2#24#3'Top'#2#1#5'Width'#2
+  +'U'#7'Caption'#6#7'Execute'#5'Color'#7#9'clBtnFace'#4'Flat'#9#9'NumGlyphs'#2
+  +#0#11'Transparent'#8#7'OnClick'#7#14'btExecuteClick'#0#0#12'TSpeedButton'#9
+  +'btPrepare'#4'Left'#3#3#1#6'Height'#2#24#3'Top'#2#1#5'Width'#2'U'#7'Caption'
+  +#6#7'Prepare'#5'Color'#7#9'clBtnFace'#4'Flat'#9#9'NumGlyphs'#2#0#11'Transpar'
+  +'ent'#8#7'OnClick'#7#14'btPrepareClick'#0#0#12'TSpeedButton'#11'btUnPrepare'
+  +#4'Left'#3'Y'#1#6'Height'#2#24#3'Top'#2#1#5'Width'#2'U'#7'Caption'#6#9'UnPre'
+  +'pare'#5'Color'#7#9'clBtnFace'#4'Flat'#9#9'NumGlyphs'#2#0#11'Transparent'#8#7
+  +'OnClick'#7#16'btUnPrepareClick'#0#0#0#6'TPanel'#6'Panel2'#6'Height'#2#26#3
+  +'Top'#2#24#5'Width'#3#175#1#10'BevelOuter'#7#6'bvNone'#12'ClientHeight'#2#26
+  +#11'ClientWidth'#3#175#1#5'Color'#7#6'clBlue'#11'ParentColor'#8#8'TabOrder'#2
+  +#1#0#12'TSpeedButton'#12'btParameters'#4'Left'#3#3#1#6'Height'#2#24#3'Top'#2
+  +#1#5'Width'#2'U'#7'Caption'#6#10'Parameters'#5'Color'#7#9'clBtnFace'#4'Flat'
+  +#9#9'NumGlyphs'#2#0#11'Transparent'#8#7'OnClick'#7#17'btParametersClick'#0#0
+  +#12'TSpeedButton'#12'btPrepareSQL'#4'Left'#3'Y'#1#6'Height'#2#24#3'Top'#2#1#5
+  +'Width'#2'U'#7'Caption'#6#11'Prepare SQL'#5'Color'#7#9'clBtnFace'#4'Flat'#9#9
+  +'NumGlyphs'#2#0#11'Transparent'#8#7'OnClick'#7#17'btPrepareSQLClick'#0#0#6'T'
+  +'Panel'#6'Panel3'#4'Left'#2#1#6'Height'#2#24#3'Top'#2#1#5'Width'#3#1#1#10'Be'
+  +'velOuter'#7#6'bvNone'#12'ClientHeight'#2#24#11'ClientWidth'#3#1#1#11'Parent'
+  +'Color'#8#8'TabOrder'#2#0#0#6'TLabel'#16'lbStoredProcName'#4'Left'#2#2#6'Hei'
+  +'ght'#2#13#3'Top'#2#5#5'Width'#2'o'#7'Caption'#6#21'Stored procedure name'#11
+  +'ParentColor'#8#0#0#9'TComboBox'#17'edStoredProcNames'#4'Left'#2'u'#6'Height'
+  +#2#21#3'Top'#2#1#5'Width'#3#136#0#16'AutoCompleteText'#11#22'cbactEndOfLineC'
+  +'omplete'#20'cbactSearchAscending'#0#10'ItemHeight'#2#13#8'OnChange'#7#23'ed'
+  +'StoredProcNamesChange'#10'OnDropDown'#7#25'edStoredProcNamesDropDown'#5'Sty'
+  +'le'#7#14'csDropDownList'#8'TabOrder'#2#0#0#0#0#0#0#5'TMemo'#5'meSQL'#6'Heig'
+  +'ht'#3#170#0#3'Top'#2'2'#5'Width'#3#187#1#5'Align'#7#5'alTop'#8'ReadOnly'#9
+  +#10'ScrollBars'#7#10'ssVertical'#8'TabOrder'#2#2#0#0#11'TDatasource'#10'Data'
+  +'Source'#7'DataSet'#7#13'UniStoredProc'#4'left'#3'='#1#3'top'#2'C'#0#0#14'TU'
+  +'niStoredProc'#13'UniStoredProc'#4'left'#3#24#1#3'top'#2'A'#0#0#0
+]);

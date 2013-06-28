@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Package Version="3">
+    <Name Value="dcldac10"/>
+    <CompilerOptions>
+      <Version Value="8"/>
+      <SearchPaths>
+        <IncludeFiles Value="../;../Design/;../lib/$(TargetOS)/"/>
+        <OtherUnitFiles Value="../;../Design/;../lib/$(TargetOS)/"/>
+        <UnitOutputDirectory Value="../../Lib/Lazarus1/$(TargetOS)/"/>
+        <ObjectPath Value="../;../lib/$(TargetOS)/"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <SyntaxMode Value="Delphi"/>
+          <IncludeAssertionCode Value="True"/>
+        </SyntaxOptions>
+      </Parsing>
+      <CodeGeneration>
+        <Checks>
+          <IOChecks Value="True"/>
+        </Checks>
+        <Optimizations>
+          <OptimizationLevel Value="2"/>
+        </Optimizations>
+      </CodeGeneration>
+      <Linking>
+        <Debugging>
+          <UseLineInfoUnit Value="False"/>
+        </Debugging>
+      </Linking>
+      <Other>
+        <CompilerPath Value="$(CompPath)"/>
+      </Other>
+    </CompilerOptions>
+    <Description Value="Devart Data Access Components&#xA;"/>
+    <Version Major="8" Minor="0" Release="1" Build="0"/>
+    <Files Count="34">
+      <Item1>
+        <Filename Value="../Design/DacReg.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="DacReg"/>
+      </Item1>
+      <Item2>
+        <Filename Value="../Design/VTDesign.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="VTDesign"/>
+      </Item2>
+      <Item3>
+        <Filename Value="../Design/DADesign.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="DADesign"/>
+      </Item3>
+      <Item4>
+        <Filename Value="../Design/VTDataEditor.pas"/>
+        <UnitName Value="VTDataEditor"/>
+      </Item4>
+      <Item5>
+        <Filename Value="../Design/DAConnectionEditor.pas"/>
+        <UnitName Value="DAConnectionEditor"/>
+      </Item5>
+      <Item6>
+        <Filename Value="../Design/DATableEditor.pas"/>
+        <UnitName Value="DATableEditor"/>
+      </Item6>
+      <Item7>
+        <Filename Value="../Design/DAStoredProcEditor.pas"/>
+        <UnitName Value="DAStoredProcEditor"/>
+      </Item7>
+      <Item8>
+        <Filename Value="../Design/DAScriptEditor.pas"/>
+        <UnitName Value="DAScriptEditor"/>
+      </Item8>
+      <Item9>
+        <Filename Value="../Design/DADumpEditor.pas"/>
+        <UnitName Value="DADumpEditor"/>
+      </Item9>
+      <Item10>
+        <Filename Value="../Design/DADumpProgress.pas"/>
+        <UnitName Value="DADumpProgress"/>
+      </Item10>
+      <Item11>
+        <Filename Value="../Design/DADualListEditor.pas"/>
+        <UnitName Value="DADualListEditor"/>
+      </Item11>
+      <Item12>
+        <Filename Value="../Design/DAMacrosFrame.pas"/>
+        <UnitName Value="DAMacrosFrame"/>
+      </Item12>
+      <Item13>
+        <Filename Value="../Design/CRColFrame.pas"/>
+        <UnitName Value="CRColFrame"/>
+      </Item13>
+      <Item14>
+        <Filename Value="../Design/DASQLComponentEditor.pas"/>
+        <UnitName Value="DASQLComponentEditor"/>
+      </Item14>
+      <Item15>
+        <Filename Value="../Design/DASPCallFrame.pas"/>
+        <UnitName Value="DASPCallFrame"/>
+      </Item15>
+      <Item16>
+        <Filename Value="../Design/DAUpdateSQLFrame.pas"/>
+        <UnitName Value="DAUpdateSQLFrame"/>
+      </Item16>
+      <Item17>
+        <Filename Value="../Design/DAUpdateSQLEditor.pas"/>
+        <UnitName Value="DAUpdateSQLEditor"/>
+      </Item17>
+      <Item18>
+        <Filename Value="../Design/DASQLGeneratorFrame.pas"/>
+        <UnitName Value="DASQLGeneratorFrame"/>
+      </Item18>
+      <Item19>
+        <Filename Value="../Design/DAQueryEditor.pas"/>
+        <UnitName Value="DAQueryEditor"/>
+      </Item19>
+      <Item20>
+        <Filename Value="../Design/DADataEditor.pas"/>
+        <UnitName Value="DADataEditor"/>
+      </Item20>
+      <Item21>
+        <Filename Value="../Design/CRDataEditor.pas"/>
+        <UnitName Value="CRDataEditor"/>
+      </Item21>
+      <Item22>
+        <Filename Value="../Design/DAParamsFrame.pas"/>
+        <UnitName Value="DAParamsFrame"/>
+      </Item22>
+      <Item23>
+        <Filename Value="../Design/DASQLFrame.pas"/>
+        <UnitName Value="DASQLFrame"/>
+      </Item23>
+      <Item24>
+        <Filename Value="../Design/CRTabEditor.pas"/>
+        <UnitName Value="CRTabEditor"/>
+      </Item24>
+      <Item25>
+        <Filename Value="../Design/CRFrame.pas"/>
+        <UnitName Value="CRFrame"/>
+      </Item25>
+      <Item26>
+        <Filename Value="../Design/CREditor.pas"/>
+        <UnitName Value="CREditor"/>
+      </Item26>
+      <Item27>
+        <Filename Value="../Design/CRDesign.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="CRDesign"/>
+      </Item27>
+      <Item28>
+        <Filename Value="../Design/CRDesignUtils.pas"/>
+        <UnitName Value="CRDesignUtils"/>
+      </Item28>
+      <Item29>
+        <Filename Value="../Design/DAEditor.pas"/>
+        <UnitName Value="DAEditor"/>
+      </Item29>
+      <Item30>
+        <Filename Value="../Design/DAParamValueEditor.pas"/>
+        <UnitName Value="DAParamValueEditor"/>
+      </Item30>
+      <Item31>
+        <Filename Value="../Design/DATableSQLFrame.pas"/>
+        <UnitName Value="DATableSQLFrame"/>
+      </Item31>
+      <Item32>
+        <Filename Value="../Design/DADesignUtils.pas"/>
+        <UnitName Value="DADesignUtils"/>
+      </Item32>
+      <Item33>
+        <Filename Value="../Design/CRValueEdit.pas"/>
+        <UnitName Value="CRValueEdit"/>
+      </Item33>
+      <Item34>
+        <Filename Value="../Design/CRFldLinks.pas"/>
+        <UnitName Value="CRFldLinks"/>
+      </Item34>
+    </Files>
+    <Type Value="DesignTime"/>
+    <RequiredPkgs Count="5">
+      <Item1>
+        <PackageName Value="dac10"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="dacvcl10"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="LCL"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="IDEIntf"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item5>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)/"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

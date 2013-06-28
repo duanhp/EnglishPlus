@@ -1,0 +1,84 @@
+{$I ..\Dac.inc}
+
+package dcldac150;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Devart Data Access Components'}
+{$DESIGNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  dac150,
+  dcldb,
+  dacvcl150,
+  vcl,
+  dbrtl,
+  vcldb,
+  vclactnband;
+
+contains
+  DacReg in '..\Design\DacReg.pas',
+  VTDesign in '..\Design\VTDesign.pas',
+  DAMenu in '..\Design\DAMenu.pas',
+  DADesign in '..\Design\DADesign.pas',
+  Download in '..\Design\Download.pas',
+  VTDataEditor in '..\Design\VTDataEditor.pas',
+  DAConnectionEditor in '..\Design\DAConnectionEditor.pas',
+  HelpUtils in '..\Design\HelpUtils.pas',
+  DATableEditor in '..\Design\DATableEditor.pas',
+  DAStoredProcEditor in '..\Design\DAStoredProcEditor.pas',
+  DAScriptEditor in '..\Design\DAScriptEditor.pas',
+  DADumpEditor in '..\Design\DADumpEditor.pas',
+  DADumpProgress in '..\Design\DADumpProgress.pas',
+  DADualListEditor in '..\Design\DADualListEditor.pas',
+  DAMacrosFrame in '..\Design\DAMacrosFrame.pas',
+  CRColFrame in '..\Design\CRColFrame.pas',
+  DASQLComponentEditor in '..\Design\DASQLComponentEditor.pas',
+  DASPCallFrame in '..\Design\DASPCallFrame.pas',
+  DAUpdateSQLFrame in '..\Design\DAUpdateSQLFrame.pas',
+  DAUpdateSQLEditor in '..\Design\DAUpdateSQLEditor.pas',
+  DASQLGeneratorFrame in '..\Design\DASQLGeneratorFrame.pas',
+  DAQueryEditor in '..\Design\DAQueryEditor.pas',
+  DADataEditor in '..\Design\DADataEditor.pas',
+  CRDataEditor in '..\Design\CRDataEditor.pas',
+  DAParamsFrame in '..\Design\DAParamsFrame.pas',
+  DASQLFrame in '..\Design\DASQLFrame.pas',
+  CRTabEditor in '..\Design\CRTabEditor.pas',
+  CRFrame in '..\Design\CRFrame.pas',
+  CREditor in '..\Design\CREditor.pas',
+  DAParamValueEditor in '..\Design\DAParamValueEditor.pas',
+  DATableSQLFrame in '..\Design\DATableSQLFrame.pas',
+{$IFDEF DBTOOLS}
+  DBToolsClient in '..\Design\DBToolsClient.pas',
+  DBToolsClientImp in '..\Design\DBToolsClientImp.pas',
+  DBForgeClientImp in '..\Design\DBForgeClientImp.pas',
+  DBToolsIntf in '..\Design\DBToolsIntf.pas',
+{$ENDIF}
+  DADesignUtils in '..\Design\DADesignUtils.pas',
+  DAEditor in '..\Design\DAEditor.pas',
+  CRDesign in '..\Design\CRDesign.pas',
+  CRDesignUtils in '..\Design\CRDesignUtils.pas';
+
+end.

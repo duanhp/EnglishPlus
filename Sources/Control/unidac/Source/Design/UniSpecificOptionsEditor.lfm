@@ -1,0 +1,30 @@
+inherited UniSpecificOptionsEditorForm: TUniSpecificOptionsEditorForm
+  Left = 258
+  Top = 184
+  Caption = 'UniSpecificOptionsEditorForm'
+  OnCloseQuery = FormCloseQuery
+  OnDestroy = FormDestroy
+  OnHide = FormHide
+  OnKeyPress = FormKeyPress
+  OnShow = FormShow
+  inherited BtnPanel: TPanel
+    inherited imCorner: TImage
+    end
+    inherited btOk: TBitBtn
+      OnClick = SaveClick
+    end
+    inherited btCancel: TBitBtn
+      OnClick = CloseClick
+    end
+  end
+  inherited PageControl: TPageControl
+    ActivePage = shOptions
+    TabIndex = 0
+    OnChange = PageControlChange
+    OnChanging = PageControlChanging
+    OnPageChanged = PageControlChange
+    object shOptions: TTabSheet[0]
+      Caption = '&Options'
+    end
+  end
+end

@@ -1,0 +1,45 @@
+package ibprovider160;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$IMPLICITBUILD OFF}
+{$DEFINE UNIDACPRO}
+
+requires
+  rtl,
+  dac160,
+  unidac160;
+
+contains
+  IBCServicesUni in '..\UniProviders\InterBase\IBCServicesUni.pas',
+  IBCArrayUni in '..\UniProviders\InterBase\IBCArrayUni.pas',
+  IBCCallUni in '..\UniProviders\InterBase\IBCCallUni.pas',
+  IBCClassesUni in '..\UniProviders\InterBase\IBCClassesUni.pas',
+  IBCConnectionPoolUni in '..\UniProviders\InterBase\IBCConnectionPoolUni.pas',
+  IBCConstsUni in '..\UniProviders\InterBase\IBCConstsUni.pas',
+  IBCErrorUni in '..\UniProviders\InterBase\IBCErrorUni.pas',
+  IBCParserUni in '..\UniProviders\InterBase\IBCParserUni.pas',
+  IBCScriptProcessorUni in '..\UniProviders\InterBase\IBCScriptProcessorUni.pas',
+  InterBaseUniProvider in '..\UniProviders\InterBase\InterBaseUniProvider.pas';
+
+end.

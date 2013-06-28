@@ -1,0 +1,45 @@
+package accessprovider160;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$DEFINE UNIDACPRO}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'UniDAC Access Provider'}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  dac160,
+  unidac160,
+  odbcprovider160;
+
+contains
+  AccessClassesUni in '..\UniProviders\Access\AccessClassesUni.pas',
+  AccessParserUni in '..\UniProviders\Access\AccessParserUni.pas',
+  AccessServicesUni in '..\UniProviders\Access\AccessServicesUni.pas',
+  AccessUniProvider in '..\UniProviders\Access\AccessUniProvider.pas';
+
+end.
+

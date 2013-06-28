@@ -1,0 +1,8 @@
+LazarusResources.Add('TUniQueryEditorForm','FORMDATA',[
+  'TPF0'#241#19'TUniQueryEditorForm'#18'UniQueryEditorForm'#7'Caption'#6#15'Uni'
+  +'Query Editor'#0#241#6'TPanel'#8'BtnPanel'#0#7'TButton'#8'btMacros'#4'Left'#3
+  +#180#0#3'Top'#2#8#5'Width'#2'u'#6'Height'#2#25#7'Caption'#6#20'Connection Ma'
+  +'cros...'#8'TabOrder'#2#4#7'OnClick'#7#13'btMacrosClick'#0#0#0#241#12'TPageC'
+  +'ontrol'#11'PageControl'#0#9'TTabSheet'#9'shOptions'#7'Caption'#6#8'&Options'
+  +#10'ImageIndex'#2#6#0#0#0#0
+]);

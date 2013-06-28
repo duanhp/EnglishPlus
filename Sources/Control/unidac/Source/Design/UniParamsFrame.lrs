@@ -1,0 +1,15 @@
+LazarusResources.Add('TUniParamsFrame','FORMDATA',[
+  'TPF0'#241#15'TUniParamsFrame'#14'UniParamsFrame'#0#241#6'TLabel'#7'lbPName'#0
+  +#0#241#6'TLabel'#10'lbParamLog'#0#0#241#8'TListBox'#10'lbItemName'#0#0#241#6
+  +'TPanel'#9'PanelItem'#0#241#6'TLabel'#7'lbPType'#0#0#241#6'TLabel'#11'lbPara'
+  +'mType'#0#0#241#6'TLabel'#8'lbPValue'#0#0#241#6'TLabel'#6'lbSize'#7'Visible'
+  +#8#0#0#241#6'TLabel'#11'lbNullValue'#4'Left'#2','#3'Top'#2'}'#0#0#242#2#5#6
+  +'TLabel'#10'lbNational'#4'Left'#2','#6'Height'#2#14#3'Top'#3#148#0#5'Width'#2
+  +'('#7'Caption'#6#8'National'#12'FocusControl'#7#10'cbNational'#11'ParentColo'
+  +'r'#8#0#0#241#9'TCheckBox'#11'cbNullValue'#3'Top'#2'z'#0#0#241#9'TComboBox'
+  +#10'cbDataType'#0#0#241#9'TComboBox'#11'cbParamType'#0#0#241#5'TEdit'#7'edVa'
+  +'lue'#0#0#241#7'TButton'#8'bEdValue'#3'Top'#2'O'#0#0#241#5'TEdit'#6'edSize'#7
+  +'Visible'#8#0#0#9'TCheckBox'#10'cbNational'#4'Left'#2#16#6'Height'#2#19#3'To'
+  +'p'#3#146#0#5'Width'#2#26#7'OnClick'#7#16'cbNullValueClick'#8'TabOrder'#2#6#0
+  +#0#0#0
+]);

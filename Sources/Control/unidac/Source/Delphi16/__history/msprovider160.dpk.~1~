@@ -1,0 +1,55 @@
+
+//////////////////////////////////////////////////
+//  Universal Data Access Components
+//  Copyright ?1998-2011 Devart. All right reserved.
+//  SQL Server provider package for Delphi 16
+//////////////////////////////////////////////////
+
+package msprovider160;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Universal Data Access Components'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+{$DEFINE UNIDACPRO}
+
+requires
+  rtl,
+  dac160,
+  unidac160;
+
+contains
+  OLEDBAccessUni in '..\UniProviders\SQLServer\OLEDBAccessUni.pas',
+  OLEDBCUni in '..\UniProviders\SQLServer\OLEDBCUni.pas',
+  MSParserUni in '..\UniProviders\SQLServer\MSParserUni.pas',
+  MSConstsUni in '..\UniProviders\SQLServer\MSConstsUni.pas',
+  OLEDBIntfUni in '..\UniProviders\SQLServer\OLEDBIntfUni.pas',
+  CRThreadUni in '..\UniProviders\SQLServer\CRThreadUni.pas',
+  MSUDTUni in '..\UniProviders\SQLServer\MSUDTUni.pas',
+  MSConnectionPoolUni in '..\UniProviders\SQLServer\MSConnectionPoolUni.pas',
+  MSServicesUni in '..\UniProviders\SQLServer\MSServicesUni.pas',
+  MSScriptProcessorUni in '..\UniProviders\SQLServer\MSScriptProcessorUni.pas',
+  SQLServerUniProvider in '..\UniProviders\SQLServer\SQLServerUniProvider.pas';
+
+end.

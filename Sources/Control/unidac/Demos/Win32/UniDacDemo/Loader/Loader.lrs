@@ -1,0 +1,58 @@
+LazarusResources.Add('TLoaderFrame','FORMDATA',[
+  'TPF0'#241#12'TLoaderFrame'#11'LoaderFrame'#6'Height'#3#14#1#5'Width'#3'f'#2#5
+  +'Align'#7#8'alClient'#12'ClientHeight'#3#14#1#11'ClientWidth'#3'f'#2#8'TabOr'
+  +'der'#2#0#10'DesignLeft'#3#154#0#9'DesignTop'#3#203#0#0#242#2#0#7'TDBGrid'#6
+  +'DBGrid'#6'Height'#3#208#0#3'Top'#2'>'#5'Width'#3'f'#2#5'Align'#7#8'alClient'
+  +#10'DataSource'#7#10'DataSource'#10'FixedColor'#7#9'clBtnFace'#13'FixedHotCo'
+  +'lor'#7#9'cl3DLight'#7'Options'#11#9'dgEditing'#8'dgTitles'#11'dgIndicator'
+  +#14'dgColumnResize'#12'dgColumnMove'#10'dgColLines'#10'dgRowLines'#6'dgTabs'
+  +#21'dgAlwaysShowSelection'#15'dgConfirmDelete'#14'dgCancelOnExit'#0#12'Optio'
+  +'nsExtra'#11#14'dgeAutoColumns'#17'dgeCheckboxColumn'#0#11'ParentColor'#8#8
+  +'TabOrder'#2#1#16'TitleFont.Height'#2#245#14'TitleFont.Name'#6#13'MS Sans Se'
+  +'rif'#0#0#242#2#1#6'TPanel'#7'ToolBar'#6'Height'#2'>'#5'Width'#3'f'#2#5'Alig'
+  +'n'#7#5'alTop'#10'BevelOuter'#7#6'bvNone'#12'ClientHeight'#2'>'#11'ClientWid'
+  +'th'#3'f'#2#5'Color'#7#6'clBlue'#11'ParentColor'#8#8'TabOrder'#2#0#0#12'TSpe'
+  +'edButton'#6'btOpen'#4'Left'#2#1#6'Height'#2#24#3'Top'#2#1#5'Width'#2'U'#7'C'
+  +'aption'#6#4'Open'#5'Color'#7#9'clBtnFace'#4'Flat'#9#9'NumGlyphs'#2#0#11'Tra'
+  +'nsparent'#8#7'OnClick'#7#11'btOpenClick'#0#0#12'TSpeedButton'#7'btClose'#4
+  +'Left'#2'W'#6'Height'#2#24#3'Top'#2#1#5'Width'#2'U'#7'Caption'#6#5'Close'#5
+  +'Color'#7#9'clBtnFace'#4'Flat'#9#9'NumGlyphs'#2#0#11'Transparent'#8#7'OnClic'
+  +'k'#7#12'btCloseClick'#0#0#12'TSpeedButton'#6'btLoad'#4'Left'#3#173#0#6'Heig'
+  +'ht'#2#24#3'Top'#2#1#5'Width'#2'U'#7'Caption'#6#4'Load'#5'Color'#7#9'clBtnFa'
+  +'ce'#4'Flat'#9#9'NumGlyphs'#2#0#11'Transparent'#8#7'OnClick'#7#11'btLoadClic'
+  +'k'#0#0#12'TSpeedButton'#11'btDeleteAll'#4'Left'#3#3#1#6'Height'#2#24#3'Top'
+  +#2#1#5'Width'#2'U'#7'Caption'#6#10'Delete All'#5'Color'#7#9'clBtnFace'#4'Fla'
+  +'t'#9#9'NumGlyphs'#2#0#11'Transparent'#8#7'OnClick'#7#16'btDeleteAllClick'#0
+  +#0#12'TDBNavigator'#11'DBNavigator'#4'Left'#3'Y'#1#6'Height'#2#24#3'Top'#2#1
+  +#5'Width'#3#240#0#10'BevelOuter'#7#6'bvNone'#12'ClientHeight'#2#24#11'Client'
+  +'Width'#3#240#0#5'Color'#7#9'clBtnFace'#10'DataSource'#7#10'DataSource'#4'Fl'
+  +'at'#9#11'ParentColor'#8#8'TabOrder'#2#0#0#0#6'TPanel'#6'Panel1'#4'Left'#2#1
+  +#6'Height'#2'#'#3'Top'#2#26#5'Width'#3'H'#2#10'BevelOuter'#7#6'bvNone'#12'Cl'
+  +'ientHeight'#2'#'#11'ClientWidth'#3'H'#2#11'ParentColor'#8#8'TabOrder'#2#1#0
+  +#6'TLabel'#6'Label1'#4'Left'#2#6#6'Height'#2#13#3'Top'#2#14#5'Width'#2'1'#7
+  +'Caption'#6#9'Load rows'#11'ParentColor'#8#0#0#11'TRadioGroup'#7'rgEvent'#4
+  +'Left'#3#169#0#6'Height'#2#30#3'Top'#2#2#5'Width'#3#231#0#8'AutoFill'#9#28'C'
+  +'hildSizing.LeftRightSpacing'#2#6#28'ChildSizing.TopBottomSpacing'#2#6#29'Ch'
+  +'ildSizing.EnlargeHorizontal'#7#24'crsHomogenousChildResize'#27'ChildSizing.'
+  +'EnlargeVertical'#7#24'crsHomogenousChildResize'#28'ChildSizing.ShrinkHorizo'
+  +'ntal'#7#14'crsScaleChilds'#26'ChildSizing.ShrinkVertical'#7#14'crsScaleChil'
+  +'ds'#18'ChildSizing.Layout'#7#29'cclLeftToRightThenTopToBottom'#27'ChildSizi'
+  +'ng.ControlsPerLine'#2#2#12'ClientHeight'#2#12#11'ClientWidth'#3#227#0#7'Col'
+  +'umns'#2#2#13'Items.Strings'#1#6#13'GetColumnData'#6#7'PutData'#0#7'OnClick'
+  +#7#12'rgEventClick'#8'TabOrder'#2#0#0#0#5'TEdit'#6'edRows'#4'Left'#2'B'#6'He'
+  +'ight'#2#21#3'Top'#2#10#5'Width'#2'W'#8'TabOrder'#2#1#4'Text'#6#4'1000'#0#0#0
+  +#6'TPanel'#6'Panel2'#4'Left'#3'J'#2#6'Height'#2'>'#5'Width'#3#196#4#7'Anchor'
+  +'s'#11#5'akTop'#6'akLeft'#7'akRight'#0#10'BevelOuter'#7#6'bvNone'#11'ParentC'
+  +'olor'#8#8'TabOrder'#2#2#0#0#0#242#2#2#11'TDatasource'#10'DataSource'#7'Data'
+  +'Set'#7#5'Query'#4'left'#2'8'#3'top'#2'm'#0#0#242#2#3#9'TUniQuery'#5'Query'
+  +#10'Connection'#7#24'UniDACForm.UniConnection'#11'SQL.Strings'#1#6#27'SELECT'
+  +' * FROM unidac_loaded'#0#5'Debug'#9#11'BeforeFetch'#7#16'QueryBeforeFetch'
+  +#10'AfterFetch'#7#15'QueryAfterFetch'#9'AfterOpen'#7#14'QueryAfterOpen'#11'B'
+  +'eforeClose'#7#16'QueryBeforeClose'#12'AfterRefresh'#7#14'QueryAfterOpen'#4
+  +'left'#2#24#3'top'#2'm'#0#0#242#2#4#10'TUniLoader'#9'UniLoader'#10'Connectio'
+  +'n'#7#24'UniDACForm.UniConnection'#9'TableName'#6#13'unidac_loaded'#7'Column'
+  +'s'#14#1#4'Name'#6#4'intg'#9'FieldType'#7#9'ftInteger'#0#1#4'Name'#6#3'dbl'#9
+  +'FieldType'#7#7'ftFloat'#0#1#4'Name'#6#3'str'#4'Size'#2'2'#0#1#4'Name'#6#3'd'
+  +'at'#9'FieldType'#7#10'ftDateTime'#0#0#9'OnPutData'#7#7'PutData'#15'OnGetCol'
+  +'umnData'#7#13'GetColumnData'#4'left'#2#24#3'top'#3#142#0#0#0#0
+]);

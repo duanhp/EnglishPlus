@@ -1,0 +1,53 @@
+
+//////////////////////////////////////////////////
+//  Universal Data Access Components
+//  Copyright © 1998-2011 Devart. All right reserved.
+//  ODAC Provider Package for Delphi 6
+//////////////////////////////////////////////////
+
+package oraprovider60;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Universal Data Access Components'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+{$DEFINE UNIDACPRO}
+
+requires
+  dac60,
+  unidac60;
+
+contains
+  OraParserUni in '..\UniProviders\Oracle\OraParserUni.pas',
+  OraClassesUni in '..\UniProviders\Oracle\OraClassesUni.pas',
+  OraConnectionPoolUni in '..\UniProviders\Oracle\OraConnectionPoolUni.pas',
+  OraObjectsUni in '..\UniProviders\Oracle\OraObjectsUni.pas',
+  OraConstsUni in '..\UniProviders\Oracle\OraConstsUni.pas',
+  OraCallUni in '..\UniProviders\Oracle\OraCallUni.pas',
+  OraErrorUni in '..\UniProviders\Oracle\OraErrorUni.pas',
+  OraServicesUni in '..\UniProviders\Oracle\OraServicesUni.pas',
+  OraScriptProcessorUni in '..\UniProviders\Oracle\OraScriptProcessorUni.pas',
+  OracleUniProvider in '..\UniProviders\Oracle\OracleUniProvider.pas';
+
+end.

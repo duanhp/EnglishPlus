@@ -1,0 +1,12 @@
+LazarusResources.Add('TDAParamValueEditor','FORMDATA',[
+  'TPF0'#241#19'TDAParamValueEditor'#18'DAParamValueEditor'#4'Left'#3#154#0#6'H'
+  +'eight'#3'L'#1#3'Top'#3#203#0#5'Width'#3#1#2#18'HorzScrollBar.Page'#3#0#2#18
+  +'VertScrollBar.Page'#3'K'#1#11'BorderStyle'#7#13'bsSizeToolWin'#7'Caption'#6
+  +#18'Param.Value Editor'#12'ClientHeight'#3'L'#1#11'ClientWidth'#3#1#2#21'Con'
+  +'straints.MinHeight'#3'L'#1#20'Constraints.MinWidth'#3#1#2#0#241#6'TPanel'#8
+  +'BtnPanel'#3'Top'#3'#'#1#5'Width'#3#1#2#11'ClientWidth'#3#1#2#8'TabOrder'#2#1
+  +#0#241#6'TImage'#8'imCorner'#4'Left'#3#245#1#0#0#241#7'TBitBtn'#4'btOk'#4'Le'
+  +'ft'#3']'#1#0#0#241#7'TBitBtn'#8'btCancel'#4'Left'#3#174#1#0#0#0#5'TMemo'#4
+  +'Memo'#6'Height'#3'#'#1#5'Width'#3#1#2#5'Align'#7#8'alClient'#8'OnChange'#7
+  +#10'MemoChange'#8'TabOrder'#2#0#0#0#0
+]);

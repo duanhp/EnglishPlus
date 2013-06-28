@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value=".\pgprovider60.bpl"/>
+    <OBJFILES value="pgprovider60.obj PostgreSQLUniProvider.obj PgCallUni.obj PgClassesUni.obj 
+      PgConnectionPoolUni.obj PgConstsUni.obj PgCryptUni.obj PgErrorUni.obj 
+      PgObjectsUni.obj PgParserUni.obj PgScriptProcessorUni.obj 
+      PgServicesUni.obj PgSQLNetUni.obj PgSQLProtocolUni.obj"/>
+    <RESFILES value="pgprovider60.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES)"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value="dbrtl.lib rtl.lib"/>
+    <PACKAGES value="dbrtl.bpi rtl.bpi dac60.bpi unidac60.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;..;..\..\Uni;..\..;..\..\..;..\UniProviders\PostgreSQL"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="UNIDACPRO"/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="pgprovider60.cpp"/>
+    <INCLUDEPATH value="..;..\..\Uni;..\..;..\..\..;..\..\..\..\..\Common\Source;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="..;..\..\Uni;..\..;..\..\..;..\..\..\..\..\Common\Source\CBuilder6;..\..\..\..\..\Common\Source;..\..\..\..\..\UniDac\Source\CBuilder6;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\projects\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I.. -I..\..\Uni -I..\.. -I..\..\.. -I..\..\..\..\..\Common\Source 
+      -I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp -DUNIDACPRO -boa"/>
+    <CFLAG1 value="-O2 -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -a8 -b- -k- -vi -c -tWM"/>
+    <PFLAGS value="-E. -N2. -N0. -$Y- -$L- -$D- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-l. -I. -D&quot;Universal Data Access Components&quot; -aa -Tpp -Gpr -x -Gn -Gl -Gi"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0pkg32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="pgprovider60.res" FORMNAME="" UNITNAME="pgprovider60.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="pgprovider60.cpp" FORMNAME="" UNITNAME="pgprovider60" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\..\..\..\..\UniDac\Source\CBuilder6\rtl.bpi" FORMNAME="" UNITNAME="rtl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\..\..\..\..\Common\Source\CBuilder6\dac60.bpi" FORMNAME="" UNITNAME="dac60" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\..\..\..\..\UniDac\Source\CBuilder6\unidac60.bpi" FORMNAME="" UNITNAME="unidac60" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\PostgreSQLUniProvider.pas" FORMNAME="" UNITNAME="PostgreSQLUniProvider" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\UniProviders\PostgreSQL\dbrtl.bpi" FORMNAME="" UNITNAME="dbrtl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\UniProviders\PostgreSQL\PgCallUni.pas" FORMNAME="" UNITNAME="PgCallUni" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\UniProviders\PostgreSQL\PgClassesUni.pas" FORMNAME="" UNITNAME="PgClassesUni" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\UniProviders\PostgreSQL\PgConnectionPoolUni.pas" FORMNAME="" UNITNAME="PgConnectionPoolUni" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\UniProviders\PostgreSQL\PgConstsUni.pas" FORMNAME="" UNITNAME="PgConstsUni" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\UniProviders\PostgreSQL\PgCryptUni.pas" FORMNAME="" UNITNAME="PgCryptUni" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\UniProviders\PostgreSQL\PgErrorUni.pas" FORMNAME="" UNITNAME="PgErrorUni" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\UniProviders\PostgreSQL\PgObjectsUni.pas" FORMNAME="" UNITNAME="PgObjectsUni" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\UniProviders\PostgreSQL\PgParserUni.pas" FORMNAME="" UNITNAME="PgParserUni" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\UniProviders\PostgreSQL\PgScriptProcessorUni.pas" FORMNAME="" UNITNAME="PgScriptProcessorUni" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\UniProviders\PostgreSQL\PgServicesUni.pas" FORMNAME="" UNITNAME="PgServicesUni" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\UniProviders\PostgreSQL\PgSQLNetUni.pas" FORMNAME="" UNITNAME="PgSQLNetUni" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\UniProviders\PostgreSQL\PgSQLProtocolUni.pas" FORMNAME="" UNITNAME="PgSQLProtocolUni" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=4
+MinorVer=0
+Release=1
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+
+[Version Info Keys]
+CompanyName=Devart
+FileDescription=
+FileVersion=4.0.1.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=4.0.1.0
+Comments=
+  </IDEOPTIONS>
+</PROJECT>

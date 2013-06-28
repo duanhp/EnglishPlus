@@ -1,0 +1,304 @@
+<!doctype html public "-//w3c//dtd html 4.0 Transitional//en">
+<html>
+<head>
+  <title>Universal Data Access Components</title>
+  <meta http-equiv="Content-Type" content="text/html">
+<style>
+body {
+  overflow: hidden; 
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  background: #ffffff; 
+  color: #000000;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 70%;
+  width: 100%;
+  }
+p
+	{
+	margin: .5em 0em .5em 0em;
+	}
+ol, ul
+	{
+	margin-top: .5em; 
+	}
+li
+	{
+	margin-bottom: .5em;
+	}
+ul p, ol p, dl p
+	{
+	margin-left: 0em;
+	}
+blockquote.dxOverload
+	{
+	margin: .5em 1.5em .5em 1.5em;
+	}
+h1, h2, h3, h4
+	{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin-bottom: .4em; 
+	margin-top: 1em;
+	font-weight: bold;
+	}
+h1
+	{
+	font-size: 120%;
+	margin-top: 0em;
+	}
+h2
+	{
+	font-size: 130%;
+	}
+h3
+	{
+	font-size: 115%;
+	}
+h4
+	{
+	font-size: 100%;
+	}
+.dxH1, .dxH2, .dxH3, .dxH4
+	{
+	margin-left: -18px;	
+	}
+A
+  {
+  color: #0000FF;
+  }
+A:link
+  {
+  color: #0000FF;
+  }
+A:active
+  {
+  color: #000080;
+  }
+A:visited
+  {
+  color: #800080;
+  }
+A:hover
+  {
+  color: #FF0000;
+  }
+pre
+  {
+  font-family: Courier New;
+  font-size: 9pt;
+  color: #000060;
+  margin-top: 0px;
+  }
+code, p.example, p.sourcecode, table.sourcecode, tr.sourcecode, td.sourcecode
+  {
+  font-family: Courier New;
+  font-size: 9pt;
+  color: #000060;
+  }
+div#pagetop {
+  margin: 0px;
+  padding: 0px;
+  background-color: #99ccff;   
+  height: 44;
+  width: 100%;
+  border-bottom: 1px solid #999999;
+  }
+div#pagebody {
+  margin: 0px 0px 0px 0px;
+  padding: 5px 10px 0px 22px;
+  height: 90%;
+  width: 100%;
+  overflow: auto;
+  background-color: #FFFFFF;
+  vertical-align: top;
+  }
+table#BannerTable
+  {
+  width: 100%;
+  height: 100%;
+  border-collapse:collapse;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  }
+table#BannerTable td
+  {
+  padding-left: 8px;
+  padding-right: 8px;
+  }
+tr#BannerTopRow
+  {
+  font-style: italic;
+  font-size: 70%;
+  }
+tr#BannerTopRow td
+  {
+  padding-top: 4px;
+  }
+tr#Banner2ndRow
+  {
+  font-weight: bold;
+  font-size: 80%;
+  }
+tr#Banner2ndRow td
+  {
+  padding-bottom: 4px;
+  }
+table.filtereditemlisttable, table.xmldoctable
+	{
+	width: 95%; 
+	margin-top: .6em;
+	margin-bottom: .3em;
+	border-width: 1px 1px 0px 0px;
+	border-style: solid;
+	border-color: #999999;
+	background-color: #999999; 
+	font-size: 100%;
+  border-collapse:collapse;
+	}
+table.filtereditemlisttable th, table.filtereditemlisttable td, table.xmldoctable th, table.xmldoctable td
+	{ 
+	border-width: 0px 0px 1px 1px;
+	border-style: solid;
+	border-color: #999999;
+	padding: 4px 6px;
+	text-align: left;
+	vertical-align: top;
+	}
+table.filtereditemlisttable th, table.xmldoctable th
+	{ 
+	background: #cccccc; 
+	vertical-align: bottom;
+	}
+table.filtereditemlisttable td, table.xmldoctable td
+	{
+	background-color: #ffffff;
+	vertical-align: top;
+	}
+</style>
+
+<script>
+
+var Engine;
+var enOpera = 'Opera';
+var enIE = 'IE';
+var enGecko = 'Gecko';
+
+function TestEngine()
+{
+  if (document.all) {
+    if (window.opera) {
+      Engine = enOpera;
+    }
+    else {
+      Engine = enIE;
+    }
+  }
+  else {
+    Engine = enGecko;
+  }
+}
+
+
+function AdjustContentSize()
+{
+  var cDiv = document.getElementById("pagebody");
+  if ((Engine == enGecko)||(Engine == enOpera))//amend padding
+    {
+      var w = document.body.clientWidth;
+      cDiv.style.width = w - 32;
+    }
+  var h = document.body.clientHeight;
+  var diff = 44;
+  if ((Engine == enGecko)||(Engine == enOpera)) diff = diff + 6;
+  cDiv.style.height = h - diff;
+}
+
+
+function Startup()
+{
+  //add startup code here
+}
+</script>
+
+</head>
+
+
+<body onresize="AdjustContentSize()" onload="Startup()">
+
+<div id="pagetop">
+  <table id="BannerTable">
+    <tr id="BannerTopRow">
+      <td>Universal Data Access Components</td>
+      <td align="right"><a href="mailto:unidac@devart.com">unidac@devart.com</a></td>
+    </tr>
+    <tr id="Banner2ndRow">
+      <td>Readme</td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+</div>
+
+<div id="pagebody">
+<!-- begin content -->
+
+<h4 class="dxH4">Product Description</h4>
+
+<p>
+Universal Data Access Components (UniDAC) is a library of components that provides direct access to most popular database servers from Delphi, Delphi for .NET and, C++Builder. UniDAC can work with such servers as Oracle, Microsoft SQL Server, MySQL, Interbase, Firebird. The UniDAC library is designed to help programmers develop faster and cleaner cross-database applications. UniDAC is a complete replacement for such standard universal technology as dbExpress. UniDAC is a handy in use and efficient data access solution bringing into play many features specific to each server.
+</p>
+
+<h4 class="dxH4">Requirements</h4>
+
+<p>
+UniDAC is a product joining functionality of such data access solutions as <a href="http://devart.com/odac/">ODAC</a>, <a href="http://devart.com/sdac/">SDAC</a>, <a href="http://devart.com/mydac/">MyDAC</a>, and <a href="http://devart.com/ibdac/">IBDAC</a>. Requirements of UniDAC depend only on used providers. Detailed requirements for each provider can be found in the Requirements topic in the UniDAC Help documentation.
+</p>
+
+<h4 class="dxH4">Installation</h4>
+
+<p>
+Compiled versions of UniDAC are installed automatically by the UniDAC Installer for all supported IDEs. Versions of UniDAC with Source Code must be installed manually. For more information, see the Installation topic of the UniDAC Help documentation.
+</p>
+
+<p>
+It is important to know that UniDAC, ODAC, SDAC, MyDAC, and IBDAC use
+the common base packages, so product compatibility is provided for the current build only.
+In the other words, if you upgrade one of the installed providers, it
+may conflict with older builds of other products. In order to continue using
+the products simultaneously, you should upgrade all of them at the same time.
+</p>
+
+<h4 class="dxH4">Documentation and informational resources</h4>
+
+<p>
+
+UniDAC comes with full documentation, which includes a detailed reference for all the UniDAC components and classes and set of articles 
+that highlight UniDAC advanced functionality.
+The UniDAC documentation is integrated into your IDE at install time.  
+It can be invoked from the UniDAC menu added to the Menu Bar, or by pressing F1 in an object inspector or on a selected code segment. 
+<!-- You can also download the documentation in <b>chm</b> 
+format from  <a href="http://devart.com/unidac/download.html" target="_blank">our site</a>. -->
+</p>
+
+<p>
+If you have a question regarding UniDAC, <!--look at the list of 
+<a href="FAQ.html">Frequently Asked Questions</a> or -->visit the UniDAC forum online at
+<a href="http://devart.com/forums/viewforum.php?f=28" target="_blank">http://devart.com/forums/viewforum.php?f=28</a>.
+</p>
+
+<p>
+If your problem is not covered in the documentation or forum, refer to the Getting Support topic in UniDAC help 
+for information on how to contact the UniDAC support team.
+</p>
+
+<!-- end content -->
+
+<p>&nbsp;</p><p>&nbsp;</p><hr size=1> 
+<p>&copy; 1997-2011 Devart. All rights reserved.</p>
+
+</div>
+
+<script>
+TestEngine();
+AdjustContentSize();
+</script>
+</body>
+</html>

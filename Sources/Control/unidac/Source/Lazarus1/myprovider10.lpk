@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Package Version="3">
+    <Name Value="myprovider10"/>
+    <CompilerOptions>
+      <Version Value="5"/>
+      <SearchPaths>
+        <IncludeFiles Value="../;../../lib/$(TargetOS)/;../../../;../../../../../Common/Source/"/>
+        <OtherUnitFiles Value="../;../../lib/$(TargetOS)/;../../../;../../../../../Common/Source/;../../;../UniProviders/MySQL/"/>
+        <UnitOutputDirectory Value="../../Lib/Lazarus1/$(TargetOS)/"/>
+        <ObjectPath Value="../;../../lib/$(TargetOS)/"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <IncludeAssertionCode Value="True"/>
+          <DelphiCompat Value="True"/>
+        </SyntaxOptions>
+      </Parsing>
+      <CodeGeneration>
+        <Checks>
+          <IOChecks Value="True"/>
+        </Checks>
+        <Optimizations>
+          <OptimizationLevel Value="2"/>
+        </Optimizations>
+      </CodeGeneration>
+      <Linking>
+        <Debugging>
+          <UseLineInfoUnit Value="False"/>
+        </Debugging>
+      </Linking>
+      <Other>
+        <CustomOptions Value="-dUNIDACPRO"/>
+        <CompilerPath Value="$(CompPath)"/>
+      </Other>
+    </CompilerOptions>
+    <Description Value="UniDAC Provider for MySQL"/>
+    <Version Major="4" Minor="0" Release="1" Build="0"/>
+    <Files Count="18">
+      <Item1>
+        <Filename Value="../UniProviders/MySQLUniProvider.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="MySQLUniProvider"/>
+      </Item1>
+      <Item2>
+        <Filename Value="../UniProviders/MySQL/MyClassesUni.pas"/>
+        <UnitName Value="MyClassesUni"/>
+      </Item2>
+      <Item3>
+        <Filename Value="../UniProviders/MySQL/MyConnectionPoolUni.pas"/>
+        <UnitName Value="MyConnectionPoolUni"/>
+      </Item3>
+      <Item4>
+        <Filename Value="../UniProviders/MySQL/MyConstsUni.pas"/>
+        <UnitName Value="MyConstsUni"/>
+      </Item4>
+      <Item5>
+        <Filename Value="../UniProviders/MySQL/MyParserUni.pas"/>
+        <UnitName Value="MyParserUni"/>
+      </Item5>
+      <Item6>
+        <Filename Value="../UniProviders/MySQL/MyScriptProcessorUni.pas"/>
+        <UnitName Value="MyScriptProcessorUni"/>
+      </Item6>
+      <Item7>
+        <Filename Value="../UniProviders/MySQL/MyServicesUni.pas"/>
+        <UnitName Value="MyServicesUni"/>
+      </Item7>
+      <Item8>
+        <Filename Value="../UniProviders/MySQL/MySqlApiDirectUni.pas"/>
+        <UnitName Value="MySqlApiDirectUni"/>
+      </Item8>
+      <Item9>
+        <Filename Value="../UniProviders/MySQL/MySqlApiUni.pas"/>
+        <UnitName Value="MySqlApiUni"/>
+      </Item9>
+      <Item10>
+        <Filename Value="../UniProviders/MySQL/MySqlBindUni.pas"/>
+        <UnitName Value="MySqlBindUni"/>
+      </Item10>
+      <Item11>
+        <Filename Value="../UniProviders/MySQL/MySqlErrorsUni.pas"/>
+        <UnitName Value="MySqlErrorsUni"/>
+      </Item11>
+      <Item12>
+        <Filename Value="../UniProviders/MySQL/MySqlNetUni.pas"/>
+        <UnitName Value="MySqlNetUni"/>
+      </Item12>
+      <Item13>
+        <Filename Value="../UniProviders/MySQL/MySqlResultSetUni.pas"/>
+        <UnitName Value="MySqlResultSetUni"/>
+      </Item13>
+      <Item14>
+        <Filename Value="../UniProviders/MySQL/MySqlSessionUni.pas"/>
+        <UnitName Value="MySqlSessionUni"/>
+      </Item14>
+      <Item15>
+        <Filename Value="../UniProviders/MySQL/MySqlStmtUni.pas"/>
+        <UnitName Value="MySqlStmtUni"/>
+      </Item15>
+      <Item16>
+        <Filename Value="../UniProviders/MySQL/MySqlTypeUni.pas"/>
+        <UnitName Value="MySqlTypeUni"/>
+      </Item16>
+      <Item17>
+        <Filename Value="../UniProviders/MySQL/MySqlVioPipeUni.pas"/>
+        <UnitName Value="MySqlVioPipeUni"/>
+      </Item17>
+      <Item18>
+        <Filename Value="../UniProviders/MySQL/MyCallUni.pas"/>
+        <UnitName Value="MyCallUni"/>
+      </Item18>
+    </Files>
+    <Type Value="RunAndDesignTime"/>
+    <RequiredPkgs Count="4">
+      <Item1>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="dac10"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="unidac10"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="LCL"/>
+      </Item4>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

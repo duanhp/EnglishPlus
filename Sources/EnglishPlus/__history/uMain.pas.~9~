@@ -1,0 +1,28 @@
+unit uMain;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, Vcl.ExtCtrls, Vcl.OleCtrls, SHDocVw, Vcl.StdCtrls, Vcl.Buttons;
+
+type
+  TFmMain = class(TForm)
+    PlCaption: TPanel;
+    PlContent: TPanel;
+    PLSearch: TPanel;
+    WBWdContent: TWebBrowser;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FmMain: TFmMain;
+
+implementation
+
+{$R *.dfm}
+
+end.

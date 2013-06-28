@@ -1,0 +1,45 @@
+package adsprovider160;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$DEFINE UNIDACPRO}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'UniDAC Advantage Provider'}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  dac160,
+  unidac160,
+  odbcprovider160;
+
+contains
+  AdvantageUniProvider in '..\UniProviders\Advantage\AdvantageUniProvider.pas',
+  ADSClassesUni in '..\UniProviders\Advantage\ADSClassesUni.pas',
+  ADSConnectionPoolUni in '..\UniProviders\Advantage\ADSConnectionPoolUni.pas',
+  ADSServicesUni in '..\UniProviders\Advantage\ADSServicesUni.pas';
+
+end.
+

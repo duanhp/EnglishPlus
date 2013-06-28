@@ -1,0 +1,103 @@
+package Devart.UniDac.SQLServer;
+
+{$ALIGN 0}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Universal Data Access Components'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+{$DEFINE UNIDACPRO}
+
+requires
+  Borland.Delphi,
+  Borland.Vcl,
+  Borland.VclDbRtl,
+  Borland.VclRtl,
+  Devart.Dac,
+  Devart.UniDac;
+
+contains
+  Devart.Sdac.OLEDBAccessUni in '..\UniProviders\SQLServer\Net\Devart.Sdac.OLEDBAccessUni.pas',
+  Devart.Sdac.OLEDBCUni in '..\UniProviders\SQLServer\Net\Devart.Sdac.OLEDBCUni.pas',
+  Devart.Sdac.MSParserUni in '..\UniProviders\SQLServer\Net\Devart.Sdac.MSParserUni.pas',
+  Devart.Sdac.MSConstsUni in '..\UniProviders\SQLServer\Net\Devart.Sdac.MSConstsUni.pas',
+  Devart.Sdac.OLEDBIntfUni in '..\UniProviders\SQLServer\Net\Devart.Sdac.OLEDBIntfUni.pas',
+  Devart.Sdac.CRThreadUni in '..\UniProviders\SQLServer\Net\Devart.Sdac.CRThreadUni.pas',
+  Devart.Sdac.MSConnectionPoolUni in '..\UniProviders\SQLServer\Net\Devart.Sdac.MSConnectionPoolUni.pas',
+  Devart.Sdac.MSServicesUni in '..\UniProviders\SQLServer\Net\Devart.Sdac.MSServicesUni.pas',
+  Devart.Sdac.MSScriptProcessorUni in '..\UniProviders\SQLServer\Net\Devart.Sdac.MSScriptProcessorUni.pas',
+  Devart.UniDac.SQLServer.SQLServerUniProvider in '..\UniProviders\SQLServer\Net\Devart.UniDac.SQLServer.SQLServerUniProvider.pas';
+
+[assembly: AssemblyTitle('Universal Data Access Components')]
+[assembly: AssemblyDescription('Universal Data Access Components')]
+[assembly: AssemblyConfiguration('')]
+[assembly: AssemblyCompany('Devart')]
+[assembly: AssemblyProduct('Universal Data Access Components')]
+[assembly: AssemblyCopyright('')]
+[assembly: AssemblyTrademark('')]
+[assembly: AssemblyCulture('')]
+
+//[assembly: CLSCompliant(true)]
+
+
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion('4.0.1.4000')]
+
+//
+// In order to sign your assembly you must specify a key to use. Refer to the
+// Microsoft .NET Framework documentation for more information on assembly signing.
+//
+// Use the attributes below to control which key is used for signing.
+//
+// Notes:
+//   (*) If no key is specified, the assembly is not signed.
+//   (*) KeyName refers to a key that has been installed in the Crypto Service
+//       Provider (CSP) on your machine. KeyFile refers to a file which contains
+//       a key.
+//   (*) If the KeyFile and the KeyName values are both specified, the
+//       following processing occurs:
+//       (1) If the KeyName can be found in the CSP, that key is used.
+//       (2) If the KeyName does not exist and the KeyFile does exist, the key
+//           in the KeyFile is installed into the CSP and used.
+//   (*) In order to create a KeyFile, you can use the sn.exe (Strong Name) utility.
+//       When specifying the KeyFile, the location of the KeyFile should be
+//       relative to the project output directory which is
+//       %Project Directory%\obj\<configuration>. For example, if your KeyFile is
+//       located in the project directory, you would specify the AssemblyKeyFile
+//       attribute as [assembly: AssemblyKeyFile("..\\..\\mykey.snk")]
+//   (*) Delay Signing is an advanced option - see the Microsoft .NET Framework
+//       documentation for more information on this.
+//
+[assembly: AssemblyDelaySign(false)]
+[assembly: AssemblyKeyFile('Devart.snk')]
+[assembly: AssemblyKeyName('')]
+
+end.

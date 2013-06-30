@@ -4,30 +4,40 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
 
 type
-  TSearchWordEevet=procedure(AWord:string) of object;
- //
+  TSearchWordinfoPro=procedure(const AWord:string) of object;
   TFmSearchBar = class(TForm)
-    EdSearchText: TEdit;
+    BtnPre: TButton;
+    BtnNext: TButton;
+    EdSearchEdit: TEdit;
     BtnGo: TButton;
-    Button1: TButton;
-    Button2: TButton;
-    procedure FormCreate(Sender: TObject);
-    procedure FormDestroy(Sender: TObject);
-    procedure EdSearchTextKeyUp(Sender: TObject; var Key: Word;
+    Image1: TImage;
+    Image2: TImage;
+    Image3: TImage;
+    Image4: TImage;
+    Image5: TImage;
+    Image6: TImage;
+    Image7: TImage;
+    Image8: TImage;
+    Image9: TImage;
+    Image10: TImage;
+    Image11: TImage;
+    procedure EdSearchEditKeyDown(Sender: TObject; var Key: Word;
       Shift: TShiftState);
+    procedure FormResize(Sender: TObject);
     procedure BtnGoClick(Sender: TObject);
+    procedure EdSearchEditKeyPress(Sender: TObject; var Key: Char);
   private
+    FOnSearchWordInfo: TSearchWordinfoPro;
     { Private declarations }
-    FHisResult:TStringList;
-    FCurrPos:Integer;
-    FOnSearchWord: TSearchWordEevet;
-    procedure SelectWord(SelWord:string);
+    procedure SelWordCallBack(const AWord:string);
+    procedure SearchWord(const Value:string);
+    procedure AdjustWordListFormPos();
   public
     { Public declarations }
-    property OnSearchWord:TSearchWordEevet  read FOnSearchWord write FOnSearchWord;
+    property OnSearchWordInfo: TSearchWordinfoPro read FOnSearchWordInfo write FOnSearchWordInfo;
   end;
 
 var
@@ -35,50 +45,70 @@ var
 
 implementation
 
-{$R *.dfm}
-
 uses
   uSearchList;
 
-procedure TFmSearchBar.BtnGoClick(Sender: TObject);
-begin
-  //..
-  if Assigned(FOnSearchWord) then
-    FOnSearchWord(Self.EdSearchText.Text);
-end;
+{$R *.dfm}
 
-procedure TFmSearchBar.EdSearchTextKeyUp(Sender: TObject; var Key: Word;
-  Shift: TShiftState);
+{ TFmSearchBar }
+
+procedure TFmSearchBar.AdjustWordListFormPos;
 var
-  AObj:TFmSearchList;
   P:TPoint;
 begin
-  AObj:=GetSearchListobj();
-  AObj.SearchWord(Trim(EdSearchText.Text));
-  P.X:=EdSearchText.Left;
-  p.Y:=EdSearchText.Top;
-  p:=Self.ClientToScreen(p);
-  AObj.Left:=p.X;
-  AObj.Top:=p.Y+EdSearchText.Height;
-  AObj.Width:=EdSearchText.Width;
-  AObj.Show;
-  EdSearchText.SetFocus;
+  if Assigned(FmSearchList) then
+  begin
+    P.X:=EdSearchEdit.Left;
+    p.Y:=EdSearchEdit.Top;
+    p:=self.ClientToScreen(p);
+    FmSearchList.Left:=p.X;
+    FmSearchList.Top:=p.Y+EdSearchEdit.Height+4;
+    FmSearchList.Width:=EdSearchEdit.Width+20;
+  end;
 end;
 
-procedure TFmSearchBar.FormCreate(Sender: TObject);
+procedure TFmSearchBar.BtnGoClick(Sender: TObject);
 begin
-  FHisResult:=TStringList.Create;
+  if Assigned(FOnSearchWordInfo) and (Trim(EdSearchEdit.Text)<>'') then
+     FOnSearchWordInfo(Trim(EdSearchEdit.Text));
 end;
 
-procedure TFmSearchBar.FormDestroy(Sender: TObject);
+procedure TFmSearchBar.EdSearchEditKeyDown(Sender: TObject; var Key: Word;
+  Shift: TShiftState);
 begin
-  FHisResult.Free;
+  if Trim(EdSearchEdit.Text)<>'' then
+    SearchWord(EdSearchEdit.Text);
 end;
 
-procedure TFmSearchBar.SelectWord(SelWord: string);
+procedure TFmSearchBar.EdSearchEditKeyPress(Sender: TObject; var Key: Char);
 begin
-  //..
-  Self.EdSearchText.Text:=SelWord;
+  if Key=#13 then
+  begin
+    if Assigned(FmSearchList) then
+      FmSearchList.Close;
+  end;
+end;
+
+procedure TFmSearchBar.FormResize(Sender: TObject);
+begin
+  AdjustWordListFormPos();
+end;
+
+procedure TFmSearchBar.SearchWord(const Value: string);
+begin
+  if Assigned(FmSearchList)=False then
+     FmSearchList:=TFmSearchList.Create(nil);
+  FmSearchList.OnSelWordEvent:=SelWordCallBack;
+  FmSearchList.SearchList(Value);
+  AdjustWordListFormPos();
+  if FmSearchList.Showing=False then
+    FmSearchList.Show;
+  EdSearchEdit.SetFocus;
+end;
+
+procedure TFmSearchBar.SelWordCallBack(const AWord: string);
+begin
+  EdSearchEdit.Text:=AWord;
 end;
 
 end.

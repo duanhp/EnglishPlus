@@ -7,53 +7,48 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
 
 type
-  TSelWordEvent=procedure(SelWord:string) of object;
   //..
+  TSelWordEvent=procedure(const AWord:string) of object;
+  //
   TFmSearchList = class(TForm)
-    LBList: TListBox;
-    procedure LBListDblClick(Sender: TObject);
+    LbWordList: TListBox;
+    procedure LbWordListDblClick(Sender: TObject);
   private
-    FSelWordEvent: TSelWordEvent;
+    FOnSelWordEvent: TSelWordEvent;
     { Private declarations }
   public
     { Public declarations }
-    procedure SearchWord(const sWord:string);
-    property OnSelWordEvent:TSelWordEvent  read FSelWordEvent write FSelWordEvent;
+    procedure SearchList(const AValue:string);
+    property OnSelWordEvent:TSelWordEvent  read FOnSelWordEvent write FOnSelWordEvent;
   end;
 
 var
   FmSearchList: TFmSearchList;
 
-function GetSearchListobj(): TFmSearchList;
-
 implementation
 
 {$R *.dfm}
 
-function GetSearchListobj(): TFmSearchList;
-begin
-  if Assigned(FmSearchList)=False then
-    FmSearchList:=TFmSearchList.Create(nil);
-  Result:=FmSearchList;
-end;
-
-{ TFmSearchList }
-
-procedure TFmSearchList.LBListDblClick(Sender: TObject);
-begin
-  if (Assigned(FSelWordEvent)) and (LBList.ItemIndex>0) then
-     FSelWordEvent(LBList.Items[LBList.ItemIndex]);
-end;
-
-procedure TFmSearchList.SearchWord(const sWord: string);
+procedure TFmSearchList.LbWordListDblClick(Sender: TObject);
 begin
   //..
+  if LbWordList.ItemIndex>=0 then
+  begin
+    if Assigned(FOnSelWordEvent) then
+      FOnSelWordEvent(LbWordList.Items[LbWordList.ItemIndex]);
+  end;
+  Close;
+end;
+
+procedure TFmSearchList.SearchList(const AValue: string);
+begin
+
 end;
 
 initialization
 
 finalization
   if Assigned(FmSearchList) then
-    FmSearchList.Free;
+     FmSearchList.Free;
 
 end.

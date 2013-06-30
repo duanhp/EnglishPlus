@@ -1,4 +1,0 @@
-LazarusResources.Add('TCRFrame','FORMDATA',[
-  'TPF0'#241#8'TCRFrame'#7'CRFrame'#6'Height'#3#229#0#5'Width'#3#225#1#18'HorzS'
-  +'crollBar.Page'#3#224#1#18'VertScrollBar.Page'#3#228#0#0#0
-]);

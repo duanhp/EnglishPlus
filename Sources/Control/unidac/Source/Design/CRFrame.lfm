@@ -1,6 +1,0 @@
-inherited CRFrame: TCRFrame
-  Height = 229
-  Width = 481
-  HorzScrollBar.Page = 480
-  VertScrollBar.Page = 228
-end

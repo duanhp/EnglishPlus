@@ -1,2 +1,0 @@
-{$I ..\UniDacGui.inc}
-

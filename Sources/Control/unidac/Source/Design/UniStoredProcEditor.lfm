@@ -1,9 +1,0 @@
-inherited UniStoredProcEditorForm: TUniStoredProcEditorForm
-  Caption = 'UniStoredProcEditorForm'
-  inherited PageControl: TPageControl
-    object shOptions: TTabSheet
-      Caption = '&Options'
-      ImageIndex = 6
-    end
-  end
-end

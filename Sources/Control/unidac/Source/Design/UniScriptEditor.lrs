@@ -1,5 +1,0 @@
-LazarusResources.Add('TUniScriptEditorForm','FORMDATA',[
-  'TPF0'#241#20'TUniScriptEditorForm'#19'UniScriptEditorForm'#7'Caption'#6#19'U'
-  +'niScriptEditorForm'#0#241#12'TPageControl'#11'PageControl'#0#9'TTabSheet'#9
-  +'shOptions'#7'Caption'#6#8'&Options'#10'ImageIndex'#2#2#0#0#0#0
-]);

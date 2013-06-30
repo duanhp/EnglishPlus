@@ -2,12 +2,15 @@ program EnglishPlus;
 
 uses
   Forms,
-  uMain in 'uMain.pas' {Form1};
+  uMain in 'uMain.pas' {FmMain},
+  uSearchBar in 'uSearchBar.pas' {FmSearchBar},
+  uSearchList in 'uSearchList.pas' {FmSearchList};
 
 {$R *.res}
 
 begin
   Application.Initialize;
-  Application.CreateForm(TForm1, Form1);
+  Application.Title := 'Englist+';
+  Application.CreateForm(TFmMain, FmMain);
   Application.Run;
 end.

@@ -1,5 +1,0 @@
-LazarusResources.Add('TDAEditorForm','FORMDATA',[
-  'TPF0'#241#13'TDAEditorForm'#12'DAEditorForm'#4'Left'#3#154#0#3'Top'#3#203#0#7
-  +'Caption'#6#12'DAEditorForm'#0#241#6'TPanel'#8'BtnPanel'#0#241#6'TImage'#8'i'
-  +'mCorner'#0#0#241#7'TBitBtn'#4'btOk'#0#0#241#7'TBitBtn'#8'btCancel'#0#0#0#0
-]);

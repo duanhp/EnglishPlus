@@ -1,9 +1,0 @@
-LazarusResources.Add('TUniTableSQLFrame','FORMDATA',[
-  'TPF0'#241#17'TUniTableSQLFrame'#16'UniTableSQLFrame'#5'Width'#3#187#1#6'Heig'
-  +'ht'#3#14#1#0#241#9'TComboBox'#11'cbTableName'#5'Width'#3')'#1#0#0#241#5'TEd'
-  +'it'#13'edOrderFields'#5'Width'#3')'#1#0#0#241#5'TEdit'#8'edFilter'#5'Width'
-  +#3')'#1#0#0#241#5'TMemo'#5'meSQL'#5'Width'#3#176#1#6'Height'#3#176#0#0#0#9'T'
-  +'CheckBox'#11'cbAllTables'#4'Left'#3#149#1#3'Top'#2#16#5'Width'#2')'#6'Heigh'
-  +'t'#2#17#7'Anchors'#11#5'akTop'#7'akRight'#0#7'Caption'#6#3'All'#8'TabOrder'
-  +#2#4#7'OnClick'#7#16'cbAllTablesClick'#0#0#0
-]);

@@ -1,7 +1,0 @@
-REGEDIT4
-
-[HKEY_CURRENT_USER\Software\Borland\BDS\3.0\Known Assemblies]
-"[INSTALLDIR]Bin\\Devart.Vcl.dll"="Devart.Vcl"
-
-[HKEY_CURRENT_USER\Software\Borland\BDS\3.0\AssemblyFolders\Devart.Vcl]
-@="[INSTALLDIR]Bin"

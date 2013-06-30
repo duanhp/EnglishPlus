@@ -1,6 +1,0 @@
-LazarusResources.Add('TUniSQLOptionsFrame','FORMDATA',[
-  'TPF0'#241#19'TUniSQLOptionsFrame'#18'UniSQLOptionsFrame'#5'Width'#3#229#1#0#6
-  +'TPanel'#9'pnOptions'#4'Left'#2#8#3'Top'#2#8#5'Width'#3#209#1#6'Height'#3#209
-  +#0#7'Anchors'#11#6'akLeft'#5'akTop'#7'akRight'#8'akBottom'#0#10'BevelOuter'#7
-  +#6'bvNone'#8'TabOrder'#2#0#0#0#0
-]);

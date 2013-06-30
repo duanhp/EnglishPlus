@@ -1,8 +1,0 @@
-inherited UniTableEditorForm: TUniTableEditorForm
-  inherited PageControl: TPageControl
-    object shOptions: TTabSheet
-      Caption = '&Options'
-      ImageIndex = 1
-    end
-  end
-end

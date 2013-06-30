@@ -1,9 +1,0 @@
-LazarusResources.Add('TDAUpdateSQLEditorForm','FORMDATA',[
-  'TPF0'#241#22'TDAUpdateSQLEditorForm'#21'DAUpdateSQLEditorForm'#4'Left'#2#22#3
-  +'Top'#2#29#7'Caption'#6#21'DAUpdateSQLEditorForm'#0#241#6'TPanel'#8'BtnPanel'
-  +#0#241#6'TImage'#8'imCorner'#0#0#241#7'TBitBtn'#4'btOk'#0#0#241#7'TBitBtn'#8
-  +'btCancel'#0#0#0#241#12'TPageControl'#11'PageControl'#10'ActivePage'#7#9'shE'
-  +'ditSQL'#8'TabIndex'#2#0#0#9'TTabSheet'#9'shEditSQL'#7'Caption'#6#12'&Update'
-  +' SQLs'#0#0#9'TTabSheet'#11'shGenerator'#7'Caption'#6#14'SQL &Generator'#10
-  +'ImageIndex'#2#1#0#0#0#0
-]);

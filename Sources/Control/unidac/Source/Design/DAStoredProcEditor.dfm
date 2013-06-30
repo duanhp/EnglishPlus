@@ -1,2 +1,0 @@
-inherited DAStoredProcEditorForm: TDAStoredProcEditorForm
-end

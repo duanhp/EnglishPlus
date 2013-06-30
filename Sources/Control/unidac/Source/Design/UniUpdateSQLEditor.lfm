@@ -1,8 +1,0 @@
-inherited UniUpdateSQLEditorForm: TUniUpdateSQLEditorForm
-  Height = 384
-  Caption = 'UniUpdateSQLEditorForm'
-  Constraints.MinHeight = 384
-  inherited BtnPanel: TPanel
-    Top = 316
-  end
-end

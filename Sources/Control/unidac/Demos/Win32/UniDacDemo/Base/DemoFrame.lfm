@@ -1,6 +1,0 @@
-inherited DemoFrame: TDemoFrame
-  Height = 228
-  Width = 308
-  HorzScrollBar.Page = 307
-  VertScrollBar.Page = 227
-end

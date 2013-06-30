@@ -1,7 +1,0 @@
-inherited CategoryFrame: TCategoryFrame
-  Height = 304
-  Width = 451
-  HorzScrollBar.Page = 450
-  VertScrollBar.Page = 303
-  Align = alClient
-end
